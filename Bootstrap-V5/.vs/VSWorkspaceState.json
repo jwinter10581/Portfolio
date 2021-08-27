@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\assets",
+    "\\assets\\css",
+    "\\node_modules\\bootstrap",
+    "\\node_modules\\bootstrap\\scss",
+    "\\scss",
+    "\\scss\\components",
+    "\\scss\\sections"
+  ],
+  "SelectedNode": "\\assets\\css\\style.css",
+  "PreviewInSolutionExplorer": false
+}
