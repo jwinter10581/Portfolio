@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Vending Machine</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- External CSS -->
+    <link href="home.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="headerContainer">
+                <h1>Vending Machine</h1>
+                <hr />
+                <ul class="list-group" id="errorMessages"></ul>
+            </div>
+        </header>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-7">
+                <form id="itemGrid">
+                    <!--Items are inserted here-->
+                </form>
+            </div><!-- End of Item Grid -->
+
+            <div class="col-md-4" id="machineFunctions">
+                <div class="money">
+                    <h3>Total $ In</h3>
+                    <form>
+                        <input readonly
+                               type="number"
+                               id="moneyInput"
+                               name="moneyInput"
+                               min="0"
+                               value="0.00" />
+                    </form>
+                    <div class="addMoneyRow">
+                        <input type="hidden" id="editContactId">
+                        <button type="button"
+                                id="addDollarButton"
+                                class="btn btn-info"
+                                onclick="addMoney(1)">
+                            Add Dollar
+                        </button>
+                        <input type="hidden" id="editContactId">
+                        <button type="button"
+                                id="addQuarterButton"
+                                class="btn btn-info"
+                                onclick="addMoney(.25)">
+                            Add Quarter
+                        </button>
+                    </div>
+                    <div class="addMoneyRow">
+                        <button type="button"
+                                id="addDimeButton"
+                                class="btn btn-info"
+                                onclick="addMoney(.10)">
+                            Add Dime
+                        </button>
+                        <button type="button"
+                                id="addNickelButton"
+                                class="btn btn-info"
+                                onclick="addMoney(.05)">
+                            Add Nickel
+                        </button>
+                    </div>
+                    <hr />
+                </div> <!-- End of Money -->
+
+                <div class="business">
+                    <h3>Messages</h3>
+                    <form>
+                        <input readonly
+                               type="text"
+                               id="messageBox"
+                               name="messageBox"/>
+                    </form>
+                    <form>
+                        <div class="form-group" id="itemRow">
+                            <label for="itemInput">Item:</label>
+                            <input readonly
+                                   type="number"
+                                   id="itemInput"
+                                   name="itemInput"/>
+                            <input type="hidden"
+                                   id="itemInputId"
+                                   name="itemInputId"/>
+                        </div>
+                    </form>
+                    <button type="button"
+                            id="makePurchaseButton"
+                            class="btn btn-success"
+                            onclick="makePurchase()">
+                        Make Purchase
+                    </button>
+                    <hr />
+                </div> <!-- End of Business -->
+
+                <div class="change">
+                    <h3>Change</h3>
+                    <form>
+                        <input readonly
+                               type="text"
+                               id="changeOutput"
+                               name="changeOutput" />
+                    </form>
+                    <button type="button"
+                            id="changeReturnButton"
+                            class="btn btn-warning"
+                            onclick="returnChange()">
+                        Change Return
+                    </button>
+                </div> <!-- End of Change -->
+            </div> <!-- End of Machine Functions -->
+        </div>
+
+        <!--jQuery first, then Popper.js, then Bootstrap JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <!--custom js files-->
+        <script src="js/home.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+﻿@model GuildCars.Models.Queries.VehicleDetailItem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="container">
+    <div class="col-sm-12">
+        <h2>Vehicle Details</h2>
+    </div>
+</div>
+<div class="container" id="vehicleDetailsContainer">
+    <div class="col-sm-12">
+        <h4 id="detailVehicleTitle">@Model.Year @Model.MakeName @Model.ModelName</h4>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div id="detailVehiclePictureContainer">
+                <img src="@Url.Content("~/Images/Vehicle/" + Model.ImageFilePath)" id="detailVehiclePicture" />
+            </div>
+        </div>
+
+        <div class="col-sm-9">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><strong>Body Style:</strong></td>
+                        <td>@Model.BodyStyleType</td>
+                        <td><strong>Interior:</strong></td>
+                        <td>@Model.InteriorName</td>
+                        <td><strong>Sale Price:</strong></td>
+                        <td>$@Model.SalePrice.ToString("N0")</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Trans:</strong></td>
+                        <td>@Model.TransmissionType</td>
+                        <td><strong>Mileage:</strong></td>
+                        <td>
+                            @if (@Model.Mileage < 1000)
+                            {
+                                <text>New</text>
+                            }
+                            else
+                            {
+                                <text>@Model.Mileage.ToString("N0")</text>
+                            }
+                        </td>
+                        <td><strong>MSRP:</strong></td>
+                        <td>$@Model.MSRP.ToString("N0")</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Color:</strong></td>
+                        <td>@Model.ColorName</td>
+                        <td><strong>VIN #:</strong></td>
+                        <td>@Model.VINNumber</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="descriptionContainer"><strong id="descriptionTitle">Description:</strong></td>
+                        <td colspan="5">
+                            @Model.Description
+
+                            <br /><br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum aliquam mi quis finibus. Sed lacinia nulla in facilisis congue. In enim lacus, blandit ac pellentesque id, cursus non turpis. Sed condimentum condimentum ligula id imperdiet. Etiam efficitur nisl sed volutpat fringilla. Ut eu purus commodo nisi fermentum facilisis porttitor et lorem. Ut ut finibus neque, eget dapibus quam. Etiam gravida porttitor aliquam. In diam leo, faucibus et luctus posuere, fermentum in nibh. Aenean ac quam quis enim maximus porttitor nec eget dui. Curabitur maximus elementum sem ac semper.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2">
+                            @if (Model.SoldStatus == true)
+                            {
+                                <button type="button" class="btn btn-secondary">Unavailable - Sold</button>
+                            }
+                            else
+                            {
+                                <a href=@Url.Action("Contact", "Home", new { VINNumber = @Model.VINNumber }) class="btn btn-warning" id="btnContact">Contact Us</a>
+                            }
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

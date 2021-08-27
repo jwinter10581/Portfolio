@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="col-sm-6">
+    <h2>Reports</h2>
+    <p>
+        <ul>@Html.ActionLink("Inventory Report", "Inventory", "Reports", routeValues: null, htmlAttributes: new { id = "inventoryLink" })</ul>
+        <ul>@Html.ActionLink("Sales Report", "Sales", "Reports", routeValues: null, htmlAttributes: new { id = "salesLink" })</ul>
+    </p>
+</div>

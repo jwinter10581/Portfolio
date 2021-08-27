@@ -1,0 +1,74 @@
+﻿@model GuildCars.UI.Models.ModelAddViewModel
+
+@{
+    ViewBag.Title = "Models";
+}
+
+<div class="container">
+    <h2>Models</h2>
+    <div class="container" id="blackBorders">
+        <div class="col-sm-12">
+            @using (Html.BeginForm("Models", "Admin", FormMethod.Post, new { @class = "row align-items-center", id = "formAddModel" }))
+            {
+                @Html.ValidationSummary()
+
+                <div class="row col-sm-5" id="modelsRow">
+                    <label id="modelsLabel">New Model</label>
+                    @Html.TextBoxFor(m => m.NewModel.ModelName, htmlAttributes: new { @class = "form-control", value = "" })
+                </div>
+                <div class="row col-sm-5" id="makesRow">
+                    <label id="makesLabel">Make</label>
+                    @Html.DropDownListFor(m => m.NewModel.MakeName, Model.Makes, new { @class = "form-control" })
+                </div>
+                <div class="col-sm-1">
+                    <button class="btn btn-primary" id="modelsButton">Save</button>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-sm-6">
+            <div class="container">
+                <table class="table table-striped" id="blackBorders">
+                    <thead>
+                        <tr>
+                            <td><strong>Make</strong></td>
+                            <td><strong>Model</strong></td>
+                            <td><strong>Date Added</strong></td>
+                            <td><strong>User</strong></td>
+                        </tr>
+                    </thead>
+                    <tbody id="makeContainer">
+                        @foreach (var tableModel in Model.Models.ToList())
+                        {
+                            <tr>
+                                <td>@tableModel.MakeName</td>
+                                <td>@tableModel.ModelName</td>
+                                <td>@tableModel.DateAdded.ToString("MM/dd/yyyy")</td>
+                                <td>@tableModel.EmployeeEmail</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#formAddModel").validate({
+                rules: {
+                    'Model.ModelName': {
+                        required: true
+                    }
+                },
+                messages: {
+                    'Model.ModelName': "Please enter a model name"
+                }
+            });
+        });
+    </script>
+}

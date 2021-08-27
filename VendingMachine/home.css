@@ -1,0 +1,103 @@
+.headerContainer {
+    margin: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+hr {
+    background: black;
+}
+
+/* Item Grid Table Data Formatting*/
+.btn-primary {
+    height: 150px;
+    width: 150px;
+    padding: 5px 0px 0px 5px;
+    margin: 25px;
+    text-align: left;
+    display: inline-grid;
+    font-size: 14px;
+    line-height: 24px;
+    border-style: outset;
+    border-width: 3px;
+}
+
+#line1 {
+    margin-bottom: 0px;
+}
+
+#line2 {
+    text-align: center;
+}
+
+/* Money and money button formatting */
+#moneyInput {
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.addMoneyRow{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.btn-info {
+    width: 120px;
+    height: 25px;
+    margin: 10px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px;
+}
+
+/* Message and make purchase button formatting */
+#messageBox {
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#itemRow {
+    width: 100%;
+    margin: 20px 0px 15px 0px;
+    margin-left: 10%;
+    font-size: 24px;
+}
+
+#itemInput {
+    width: 50%;
+    margin-left: 0%;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-success {
+    width: 60%;
+    margin-left: 20%;
+    font-size: 20px;
+    padding: 0px;
+}
+
+/* Change and change return button formatting */
+#changeOutput {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.btn-warning {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 30%;
+    font-size: 14px;
+    padding: 0px;
+}

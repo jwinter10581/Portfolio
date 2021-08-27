@@ -1,0 +1,59 @@
+﻿@using System.Web.Optimization;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - Guild Cars</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<body>
+    <header>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </header>
+    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="~/Images/Site/CarIcon.png" width="30" /></a>
+            <div class="navbar-collapse collapse w-100" id="navbarSupportedContent">
+                <ul class="nav navbar-nav w-100 justify-content-start">
+                    <li class="nav-item p-2">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li class="nav-item p-2">@Html.ActionLink("New Inventory", "New", "Inventory")</li>
+                    <li class="nav-item p-2">@Html.ActionLink("Used Inventory", "Used", "Inventory")</li>
+                    <li class="nav-item p-2">@Html.ActionLink("Specials", "Specials", "Home")</li>
+                    <li class="nav-item p-2 ">@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    @Html.Partial("_LoginPartial")
+                </ul>
+                <ul class="nav navbar-nav ms-auto w-50 justify-content-end">
+                    @using Microsoft.AspNet.Identity
+                    @if (Request.IsAuthenticated)
+                    {
+                        <li class="nav-item p-2 ">@Html.ActionLink("My Account", "ChangePassword", "Account")</li>
+                        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <li class="nav-item p-2 "><a href="javascript:document.getElementById('logoutForm').submit()">Log Off</a></li>
+                        }
+                    }
+                    else
+                    {
+                        <li class="nav-item p-2 ">@Html.ActionLink("Login", "Login", "Account")</li>
+                    }
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Guild Cars</p>
+        </footer>
+    </div>
+</body>
+</html>
