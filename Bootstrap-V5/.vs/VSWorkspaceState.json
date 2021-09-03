@@ -3,12 +3,11 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\node_modules\\bootstrap",
-    "\\node_modules\\bootstrap\\scss",
+    "\\images",
     "\\scss",
     "\\scss\\components",
     "\\scss\\sections"
   ],
-  "SelectedNode": "\\assets\\css\\style.css",
+  "SelectedNode": "\\scss\\components\\_animations.scss",
   "PreviewInSolutionExplorer": false
 }
