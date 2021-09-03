@@ -7,6 +7,8 @@
     <title>Learning Bootstrap v5 with SASS</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css" />
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -77,9 +79,9 @@
                 <!--START THE CONTENT FOR THE VIDEO-->
                 <div class="col-md-6 intros text-end">
                     <div class="video-box">
-                        <img src="images/illustrations/Coding _Monochromatic.png" alt="video illustration" class="img-fluid" />
-                        <!--<a href="#" class="position-absolute top-50 start-50 translate-middle">-->
-                        <a href="#">
+                        <img src="images/illustrations/CodingMonochromatic.png" alt="video illustration" class="img-fluid" />
+                        <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+                            <!--<a href="#" class="glightbox">-->
                             <span>
                                 <i class="fas fa-play-circle"></i>
                             </span>
@@ -87,18 +89,70 @@
                             <span class="border-animation border-animation--border-2"></span>
                         </a>
                     </div>
-                </div>
+                </div>l
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L30,80C60,64,120,32,180,21.3C240,11,300,21,360,64C420,107,480,181,540,181.3C600,181,660,107,720,112C780,117,840,203,900,213.3C960,224,1020,160,1080,133.3C1140,107,1200,117,1260,138.7C1320,160,1380,192,1410,208L1440,224L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
     </section>
 
+    <!--START THE COMPANIES SECTION-->
+    <section id="companies" class="companies">
+        <div class="container">
+            <div class="row text-center">
+                <h4 class="fw-bold lead mb-3">Trusted by Companies Like</h4>
+                <div class="heading-line mb-5"></div>
+            </div>
+        </div>
+        <!--START THE COMPANIES CONTENT -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-sm-4">
+                    <div class="companies__logo-box shadow-sm">
+                        <img src="images/companies/company-1.png" alt="Company 1 Logo" title="Company 1 Logo" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="companies__logo-box shadow-sm">
+                        <img src="images/companies/company-2.png" alt="Company 2 Logo" title="Company 2 Logo" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="companies__logo-box shadow-sm">
+                        <img src="images/companies/company-3.png" alt="Company 3 Logo" title="Company 3 Logo" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="companies__logo-box shadow-sm">
+                        <img src="images/companies/company-4.png" alt="Company 4 Logo" title="Company 4 Logo" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="companies__logo-box shadow-sm">
+                        <img src="images/companies/company-5.png" alt="Company 5 Logo" title="Company 5 Logo" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="companies__logo-box shadow-sm">
+                        <img src="images/companies/company-6.png" alt="Company 6 Logo" title="Company 6 Logo" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
-
-
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({
+            'href': 'https://www.youtube.com/watch?v=iJKCj8uAHz8',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoPlayVideos': 'true',
+        });
+    </script>
     <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>
