@@ -1,7 +1,7 @@
 @import '../custom';
 @import '../components/mixins';
 
-.btn-rounded{
+.btn-rounded {
     @include media-breakpoint-down(sm) {
         display: none;
     }
@@ -36,6 +36,21 @@
 
         span {
             background-color: rgba($black, 0.6);
+        }
+    }
+}
+
+.btn-alternate {
+    span {
+        background-color: $secondary !important;
+    }
+
+    &:hover {
+        @include gradient;
+        color: $white;
+
+        span {
+            background-color: rgba($black, 0.6) !important;
         }
     }
 }
