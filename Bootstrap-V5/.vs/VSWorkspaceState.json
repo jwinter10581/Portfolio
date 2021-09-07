@@ -2,12 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css",
     "\\images",
     "\\scss",
     "\\scss\\components",
     "\\scss\\sections"
   ],
-  "SelectedNode": "\\scss\\components\\_animations.scss",
+  "SelectedNode": "\\scss\\components\\_typography.scss",
   "PreviewInSolutionExplorer": false
 }
