@@ -3,10 +3,10 @@
     "",
     "\\assets",
     "\\images",
+    "\\images\\illustrations",
     "\\scss",
     "\\scss\\components",
     "\\scss\\sections"
   ],
-  "SelectedNode": "\\scss\\components\\_typography.scss",
   "PreviewInSolutionExplorer": false
 }
