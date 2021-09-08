@@ -1,4 +1,4 @@
-This repository features a collection of projects from my resume. Here are a few notes about each:
+This repository features a collection of projects that I have completed. Here are a few notes about each:
 
 Bootstrap-V5\
 This website focuses on HTML/CSS and was constructed using Bootstrap for styling and SASS and my CSS preprocessor.  It takes the form of a fake company webpage, and shows off some in-depth styling techniques.
