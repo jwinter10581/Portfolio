@@ -1,15 +1,16 @@
 This repository features a collection of projects from my resume. Here are a few notes about each:
 
-Guild Cars\
-My capstone project for the .NET/C# development course that I took through The Software Guild.
-It features many technologies including ASP.NET, MVC, SQL, HTML Razor, JavaScript, and JQuery.
-
 Bootstrap-V5\
 This website focuses on HTML/CSS and was constructed using Bootstrap for styling and SASS and my CSS preprocessor.  It takes the form of a fake company webpage, and shows off some in-depth styling techniques.
 
 Flooring Mastery\
 A CRUD application that features dependency injection utilizing interfaces.  It is capable of
 swapping between in-memory and a SQL server database.
+
+Guild Cars\
+My capstone project for the .NET/C# development course that I took through The Software Guild.
+It features many technologies including ASP.NET, MVC, SQL, HTML Razor, JavaScript, and JQuery.
+
 
 Student Information System\
 A student repository that was completed after receiving partial code of the initial project.  
