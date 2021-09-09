@@ -1,0 +1,39 @@
+﻿@model IEnumerable<GuildCars.Models.Tables.Employee>
+
+@{
+    ViewBag.Title = "Users";
+}
+
+<div class="container">
+    <h2>Users</h2>
+    <p>@Html.ActionLink("Add a new User", "AddUser", "Admin", routeValues: null, htmlAttributes: new { id = "addUserLink" })</p>
+
+    <div class="col-sm-12">
+        @if (Model != null)
+        {
+            <table class="table table-striped" id="blackBorders">
+                <thead>
+                    <tr>
+                        <td><strong>Last Name</strong></td>
+                        <td><strong>First Name</strong></td>
+                        <td><strong>Email</strong></td>
+                        <td><strong>Role</strong></td>
+                        <td><strong></strong></td>
+                    </tr>
+                </thead>
+                <tbody id="userContainer">
+                    @foreach (var employee in Model)
+                    {
+                    <tr>
+                        <td>@employee.EmployeeLastName</td>
+                        <td>@employee.EmployeeFirstName</td>
+                        <td>@employee.EmployeeEmail</td>
+                        <td>@employee.RoleName</td>
+                        <td><a href=@Url.Action("EditUser", "Admin", new { id = employee.EmployeeId }) id="editUserLink">edit</a></td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>

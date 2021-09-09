@@ -1,0 +1,6 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.ConsoleUtilities.BLL\SG.ConsoleUtilities.BLL\bin\Debug\SG.ConsoleUtilities.BLL.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.ConsoleUtilities.BLL\SG.ConsoleUtilities.BLL\bin\Debug\SG.ConsoleUtilities.BLL.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.ConsoleUtilities.BLL\SG.ConsoleUtilities.BLL\obj\Debug\SG.ConsoleUtilities.BLL.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.ConsoleUtilities.BLL\SG.ConsoleUtilities.BLL\obj\Debug\SG.ConsoleUtilities.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.ConsoleUtilities.BLL\SG.ConsoleUtilities.BLL\obj\Debug\SG.ConsoleUtilities.BLL.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.ConsoleUtilities.BLL\SG.ConsoleUtilities.BLL\obj\Debug\SG.ConsoleUtilities.BLL.pdb

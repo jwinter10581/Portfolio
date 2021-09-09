@@ -1,0 +1,12 @@
+C:\Users\Jonathan\source\repos\SpaceRustlers\bin\Debug\netcoreapp3.1\SpaceRustlers.exe
+C:\Users\Jonathan\source\repos\SpaceRustlers\bin\Debug\netcoreapp3.1\SpaceRustlers.deps.json
+C:\Users\Jonathan\source\repos\SpaceRustlers\bin\Debug\netcoreapp3.1\SpaceRustlers.runtimeconfig.json
+C:\Users\Jonathan\source\repos\SpaceRustlers\bin\Debug\netcoreapp3.1\SpaceRustlers.runtimeconfig.dev.json
+C:\Users\Jonathan\source\repos\SpaceRustlers\bin\Debug\netcoreapp3.1\SpaceRustlers.dll
+C:\Users\Jonathan\source\repos\SpaceRustlers\bin\Debug\netcoreapp3.1\SpaceRustlers.pdb
+C:\Users\Jonathan\source\repos\SpaceRustlers\obj\Debug\netcoreapp3.1\SpaceRustlers.AssemblyInfoInputs.cache
+C:\Users\Jonathan\source\repos\SpaceRustlers\obj\Debug\netcoreapp3.1\SpaceRustlers.AssemblyInfo.cs
+C:\Users\Jonathan\source\repos\SpaceRustlers\obj\Debug\netcoreapp3.1\SpaceRustlers.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\SpaceRustlers\obj\Debug\netcoreapp3.1\SpaceRustlers.dll
+C:\Users\Jonathan\source\repos\SpaceRustlers\obj\Debug\netcoreapp3.1\SpaceRustlers.pdb
+C:\Users\Jonathan\source\repos\SpaceRustlers\obj\Debug\netcoreapp3.1\SpaceRustlers.genruntimeconfig.cache

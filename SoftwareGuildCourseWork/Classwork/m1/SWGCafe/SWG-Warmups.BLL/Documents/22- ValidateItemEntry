@@ -1,0 +1,6 @@
+﻿22 - Validate Item Entry
+
+As a back-up to our touch screen system, the barista’s can enter a code to reference the specific items we have to offer. 
+This code is always a single letter followed by up to 2 numbers.
+
+Given a string, return if this code is a valid item entry code. (ex A5, C10, Z99)

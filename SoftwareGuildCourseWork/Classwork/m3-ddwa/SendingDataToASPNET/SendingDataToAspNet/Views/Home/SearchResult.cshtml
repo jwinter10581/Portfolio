@@ -1,0 +1,32 @@
+﻿@model SendingDataToAspNet.Models.ProductSearch
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SearchResult</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-xs-12">
+                <p>
+                    The values the server received are 
+                    category: @Model.Category and 
+                    subcategory: @Model.Subcategory
+                </p>              
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/jquery-2.2.3.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+</body>
+</html>
+

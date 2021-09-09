@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\bin\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.exe
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\bin\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.deps.json
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\bin\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\bin\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\bin\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.dll
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\bin\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.pdb
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\obj\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\obj\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\obj\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\obj\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.dll
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\obj\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.pdb
+C:\Users\Jonathan\Documents\GitHub\LlamaxWhalesAndDodosOhMy\obj\Debug\netcoreapp3.1\LlamaxWhalesAndDodosOhMy.genruntimeconfig.cache

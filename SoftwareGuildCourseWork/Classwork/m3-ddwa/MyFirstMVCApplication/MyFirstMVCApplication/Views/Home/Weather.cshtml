@@ -1,0 +1,53 @@
+﻿@model MyFirstMVCApplication.Models.CurrentWeather
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Weather</title>
+    </head>
+    <body>
+        <div> 
+            <h1>Current Weather</h1>
+            <table>
+                <tr>
+                    <td><strong>Date</strong></td>
+                    <td>@Model.Date.ToShortDateString()</td>
+                </tr>
+                <tr>
+                    <td><strong>High</strong></td>
+                    <td>@Model.High</td>
+                </tr>
+                <tr>
+                    <td><strong>Low</strong></td>
+                    <td>@Model.Low</td>
+                </tr>
+                <tr>
+                    <td><strong>Description</strong></td>
+                    <td>
+                        @if (Model.Description == "Sunny")
+                        {
+                            <img src="@Href("~/Images/sunny.png")" />
+                            ;
+                        }
+                        else if (Model.Description == "Cloudy")
+                        {
+                            <img src="@Href("~/Images/partly_cloudy.png")" />
+                            ;
+                        }
+                        else
+                        {
+                            <span>;@Model.Description</span>
+                            ;
+                        }
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

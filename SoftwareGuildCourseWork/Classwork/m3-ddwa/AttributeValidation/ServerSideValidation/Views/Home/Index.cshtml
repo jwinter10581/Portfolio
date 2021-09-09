@@ -1,0 +1,29 @@
+﻿
+    @model ServerSideValidation.Models.AppointmentRequest
+
+    @{
+        ViewBag.Title = "Index";
+    }
+
+    <h2>Book an Appointment</h2>
+
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            <label>Name: </label>
+            @Html.TextBoxFor(m => m.ClientName, new { @class = "form-control" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.ClientName)</span>
+        </div>
+            <div class="form-group">
+                <label>Date: </label>
+                @Html.TextBoxFor(m => m.Date, new { @class = "form-control", type = "Date" })
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Date)</span>
+            </div>
+            <div class="checkbox">
+                <label>@Html.CheckBoxFor(m => m.TermsAccepted) I accept the terms and conditions</label><br />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.TermsAccepted)</span>
+            </div>
+            <button type="submit" class="btn btn-primary">Make Appointment</button>
+    }
+

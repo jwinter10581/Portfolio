@@ -1,0 +1,8 @@
+﻿3 - Checking For Typos
+
+So sales are booming and everyone is having a fun morning guessing if they are going to get the discount or not. 
+However, some of our baristas are so excited to get the sale complete they are typing in names incorrectly which 
+is leading to people feeling like they are getting cheated. We decided that the most common mistake was people typing 
+in the same first letter or last letter twice. 
+
+Given a person’s first name, return the name removing any instances of duplicate first letters or last letters from the name.

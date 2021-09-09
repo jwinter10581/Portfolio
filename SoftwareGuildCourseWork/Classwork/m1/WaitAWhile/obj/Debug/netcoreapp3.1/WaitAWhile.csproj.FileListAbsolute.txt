@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\bin\Debug\netcoreapp3.1\WaitAWhile.exe
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\bin\Debug\netcoreapp3.1\WaitAWhile.deps.json
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\bin\Debug\netcoreapp3.1\WaitAWhile.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\bin\Debug\netcoreapp3.1\WaitAWhile.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\bin\Debug\netcoreapp3.1\WaitAWhile.dll
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\bin\Debug\netcoreapp3.1\WaitAWhile.pdb
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\obj\Debug\netcoreapp3.1\WaitAWhile.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\obj\Debug\netcoreapp3.1\WaitAWhile.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\obj\Debug\netcoreapp3.1\WaitAWhile.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\obj\Debug\netcoreapp3.1\WaitAWhile.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\obj\Debug\netcoreapp3.1\WaitAWhile.dll
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\obj\Debug\netcoreapp3.1\WaitAWhile.pdb
+C:\Users\Jonathan\Documents\GitHub\WaitAWhile\obj\Debug\netcoreapp3.1\WaitAWhile.genruntimeconfig.cache

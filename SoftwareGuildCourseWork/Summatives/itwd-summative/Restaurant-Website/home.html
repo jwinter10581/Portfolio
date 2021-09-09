@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<!--
+	Name: Jonathan Winter
+	Date Created: 12/21/20
+	Most Recent Revision: 2/3/21
+-->
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Home Page</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+			integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+			crossorigin="anonymous"> <!-- Bootstrap -->
+			
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Icon Styles-->
+		
+		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" /> <!-- External CSS -->
+					
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+		crossorigin="anonymous"></script> <!-- Bootstrap -->	
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+		crossorigin="anonymous"></script> <!-- jQuery script -->
+		
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+		crossorigin="anonymous"></script> <!-- Bootstrap script -->
+		
+		<style>
+		
+			article {
+				margin-top: 10px;
+			}
+			
+			.left {
+				text-align:left;
+				max-width:400px;
+				margin:auto;
+			}
+			
+			p {
+				padding-top:20px;
+				padding-bottom:40px;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<header class="jumbotron" style="background-color:#678D58";>
+			<h1>Winter's Coffee & Patisserie</h1>
+			<h2 style="color:red"><noscript>Please consider enabling JavaScript.  
+				My website is best viewed with JavaScript enabled.  Thank you!</noscript></h2>
+			<div id="titleCarousel" class="carousel slide" data-ride="carousel">
+				<div class ="carousel-inner">
+					<div class="carousel-item active">
+						<div class="carousel-caption">
+							<h3>We're opening a new location!</h3>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-caption">
+							<h3>Seasonal menu coming soon, new special options for spring!</h3>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-caption">
+							<h3>Drink of the Month is SG Special Brew! YUM!</h3>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#titleCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#titleCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</header>
+		
+		<nav> 
+			<a href="home.html" class="btn"><i class="fa fa-home"></i></button>
+			<a class="btn badge-pill" href="menu.html">Menu</a>
+			<a class="btn badge-pill" href="contact.html">Contact Us</a>
+		</nav>
+		
+		<section>
+			<div class="container">
+				<article id ="description">
+						<div class="col-lg" style="text-align:center;">
+						<a href="https://pixabay.com/photos/macaron-tupli-coffee-wood-table-1209036/" target="_blank"> 
+						<img class="img-fluid" src="images/restaurant-home-cropped.jpg" alt="Coffee, Macarons, and Tulips" width="400" height="150"/> </a>
+						</div>
+						
+						<div class="col-lg">
+						<p class="left">Restaurant Description </br>
+						Our quaint coffee shop and patisserie is located on scenic Forest Grove Run, 
+						which parallels some of the most splendid sights that Ardenweald has to offer.  
+						We are open early in the morning until noon, and have a variety of magnificent 
+						creations for you to try!  Feel free to come by to pick up some of our signature 
+						glowberry macarons, our exquisite sylberry snowcakes, or our crisp and refreshing 
+						wintermelon sparkling water .  We also have a wide variety of artisanal coffee 
+						products that regularly change with the season, so please come check us out today! </p>
+					</div>
+				</article>
+			</div> 
+		</section>
+		
+		<footer class="bottom">
+			<div>902 Forest Grove Run, Ardenweald, Azeroth 61475 </br>
+			651-555-6993</div>
+		</footer>
+	</body>
+	
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"  -->
+		<!-- integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"  -->
+		<!-- crossorigin="anonymous"></script> <!-- Popper script -->
+		
+</html>

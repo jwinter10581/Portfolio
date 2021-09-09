@@ -1,0 +1,96 @@
+﻿@model GuildCars.UI.Models.SpecialAddViewModel
+
+@{
+    ViewBag.Title = "Specials";
+}
+
+<div class="container">
+    <h2>Specials</h2>
+    <div class="container" id="blackBorders">
+        <div class="col-sm-12">
+            @using (Html.BeginForm("Specials", "Admin", FormMethod.Post, new { @class = "row align-items-center", id = "formAddSpecial" }))
+            {
+                @Html.ValidationSummary()
+
+                <div class="row col-sm-12" id="specialsRow">
+                        <label id="specialsLabel">Title</label>
+                        @Html.TextBoxFor(s => s.Special.Title, htmlAttributes: new { @class = "form-control", @id = "specialsInput", placeholder = ""})
+                </div>
+                <div class="row col-sm-12" id="specialsRow">
+                        <label id="specialsLabel">Description</label>
+                        @Html.TextAreaFor(s => s.Special.Description, new { @class = "form-control", @id = "specialsInput", placeholder = "" })
+                </div>
+                <div class="row col-sm-12" id="specialsRow">
+                    <label></label>
+                    <button class="btn btn-primary" id="specialsButton">Save</button>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="row row-cols-md-1 row col-sm-12">
+        @if (Model != null)
+        {
+            foreach (var special in Model.Specials)
+            {
+                <div class="col">
+                    <div class="card" id="specialCard">
+                        <div class="card-horizontal">
+                            <div class="img-square-wrapper">
+                                <img src="~/Images/Site/DollarSign.png" id="specialPicture">
+                            </div>
+                            <div class="card-body col-sm-12">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <h4 class="card-title">@special.Title</h4>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <button class="btn btn-danger" id="deleteButton" style="float: right;" onclick="deleteAlert('@special.SpecialId')">Delete</button>
+                                    </div>
+                                </div>
+                                <p class="card-text">@special.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#formAddSpecial').validate({
+            rules: {
+                'Special.Title': {
+                    required: true
+                },
+                'Special.Description': {
+                    required: true
+                }
+            },
+            messages: {
+                'Special.Title': "Please enter a title",
+                'Special.Description': "Please enter a description",
+            }
+        });
+    });
+
+    function deleteAlert(id) {
+        if (confirm('Are you sure you want to delete this special?')) {
+            deleteVehicle(id)
+        }
+    }
+
+    function deleteVehicle(id) {
+        $.ajax({
+            type: 'DELETE',
+            url: 'https://localhost:44373/api/special/id?id=' + id,
+            success: function (results) {
+                window.location.href = "https://localhost:44373/Admin/Specials";
+            },
+            error: function () {
+                alert('Error performing delete, try again later.')
+            }
+        });
+    }
+</script>

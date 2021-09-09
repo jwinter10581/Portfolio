@@ -1,0 +1,5 @@
+﻿21 - Validate Double in Range
+
+We don’t want someone over-charging like crazy or giving away free things so we want to limit the maximum price of our items.
+        
+Given a string, maximum price, and minimum price, return if it is within range or not.

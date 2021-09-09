@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\bin\Debug\netcoreapp3.1\FruitSalad.exe
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\bin\Debug\netcoreapp3.1\FruitSalad.deps.json
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\bin\Debug\netcoreapp3.1\FruitSalad.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\bin\Debug\netcoreapp3.1\FruitSalad.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\bin\Debug\netcoreapp3.1\FruitSalad.dll
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\bin\Debug\netcoreapp3.1\FruitSalad.pdb
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\obj\Debug\netcoreapp3.1\FruitSalad.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\obj\Debug\netcoreapp3.1\FruitSalad.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\obj\Debug\netcoreapp3.1\FruitSalad.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\obj\Debug\netcoreapp3.1\FruitSalad.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\obj\Debug\netcoreapp3.1\FruitSalad.dll
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\obj\Debug\netcoreapp3.1\FruitSalad.pdb
+C:\Users\Jonathan\Documents\GitHub\FruitSalad\obj\Debug\netcoreapp3.1\FruitSalad.genruntimeconfig.cache

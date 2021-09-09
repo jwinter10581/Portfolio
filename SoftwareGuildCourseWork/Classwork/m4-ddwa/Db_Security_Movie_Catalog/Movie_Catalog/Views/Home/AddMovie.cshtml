@@ -1,0 +1,30 @@
+﻿@model Movie_Catalog.Models.AddMovieViewModel
+
+@{
+    ViewBag.Title = "AddMovie";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Add Movie</h2>
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary()
+            <div class="form-group">
+                <label>Title</label>
+                @Html.TextBoxFor(m=>m.Title, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Genre</label>
+                @Html.DropDownListFor(m => m.SelectedGenreId, Model.Genres, "- SELECT -", new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Rating</label>
+                @Html.DropDownListFor(m => m.SelectedRatingId, Model.Ratings, "- SELECT -", new { @class = "form-control" })
+            </div>
+            @Html.ActionLink("Cancel", "Index", "Home", null, new { @class="btn btn-default"})
+            <button class="btn btn-primary">Save</button>
+        }
+    </div>
+</div>
+

@@ -1,0 +1,9 @@
+﻿15 - Hangman
+
+Our customers have been getting bored while they wait for their coffee, so we have created a few fun little games 
+for them to play while they wait. We will select a random word, and they will guess a letter. 
+If the letter is in the word we return a string with the letters showing and all other letters 
+represented as a ‘-’. (For example if an ‘e’ was selected and the word was coffee, it would return “----ee”). 
+
+Given a target word and given a letter guess by a customer, return a string that shows those letters revealed and 
+the unknown letters as ‘-’ (minus sign)

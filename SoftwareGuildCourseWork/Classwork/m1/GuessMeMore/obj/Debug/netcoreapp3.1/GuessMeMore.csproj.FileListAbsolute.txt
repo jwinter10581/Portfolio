@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\bin\Debug\netcoreapp3.1\GuessMeMore.exe
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\bin\Debug\netcoreapp3.1\GuessMeMore.deps.json
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\bin\Debug\netcoreapp3.1\GuessMeMore.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\bin\Debug\netcoreapp3.1\GuessMeMore.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\bin\Debug\netcoreapp3.1\GuessMeMore.dll
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\bin\Debug\netcoreapp3.1\GuessMeMore.pdb
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\obj\Debug\netcoreapp3.1\GuessMeMore.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\obj\Debug\netcoreapp3.1\GuessMeMore.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\obj\Debug\netcoreapp3.1\GuessMeMore.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\obj\Debug\netcoreapp3.1\GuessMeMore.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\obj\Debug\netcoreapp3.1\GuessMeMore.dll
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\obj\Debug\netcoreapp3.1\GuessMeMore.pdb
+C:\Users\Jonathan\Documents\GitHub\GuessMeMore\obj\Debug\netcoreapp3.1\GuessMeMore.genruntimeconfig.cache

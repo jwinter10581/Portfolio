@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\bin\Debug\netcoreapp3.1\SimpleCombination.exe
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\bin\Debug\netcoreapp3.1\SimpleCombination.deps.json
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\bin\Debug\netcoreapp3.1\SimpleCombination.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\bin\Debug\netcoreapp3.1\SimpleCombination.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\bin\Debug\netcoreapp3.1\SimpleCombination.dll
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\bin\Debug\netcoreapp3.1\SimpleCombination.pdb
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\obj\Debug\netcoreapp3.1\SimpleCombination.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\obj\Debug\netcoreapp3.1\SimpleCombination.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\obj\Debug\netcoreapp3.1\SimpleCombination.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\obj\Debug\netcoreapp3.1\SimpleCombination.dll
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\obj\Debug\netcoreapp3.1\SimpleCombination.pdb
+C:\Users\Jonathan\Documents\GitHub\SimpleCombination\obj\Debug\netcoreapp3.1\SimpleCombination.genruntimeconfig.cache

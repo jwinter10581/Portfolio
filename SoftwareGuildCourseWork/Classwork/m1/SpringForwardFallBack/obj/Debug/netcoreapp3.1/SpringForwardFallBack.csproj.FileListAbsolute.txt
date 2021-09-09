@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\bin\Debug\netcoreapp3.1\SpringForwardFallBack.exe
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\bin\Debug\netcoreapp3.1\SpringForwardFallBack.deps.json
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\bin\Debug\netcoreapp3.1\SpringForwardFallBack.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\bin\Debug\netcoreapp3.1\SpringForwardFallBack.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\bin\Debug\netcoreapp3.1\SpringForwardFallBack.dll
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\bin\Debug\netcoreapp3.1\SpringForwardFallBack.pdb
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\obj\Debug\netcoreapp3.1\SpringForwardFallBack.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\obj\Debug\netcoreapp3.1\SpringForwardFallBack.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\obj\Debug\netcoreapp3.1\SpringForwardFallBack.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\obj\Debug\netcoreapp3.1\SpringForwardFallBack.dll
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\obj\Debug\netcoreapp3.1\SpringForwardFallBack.pdb
+C:\Users\Jonathan\Documents\GitHub\SpringForwardFallBack\obj\Debug\netcoreapp3.1\SpringForwardFallBack.genruntimeconfig.cache

@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="col-sm-6">
+    <h2>Administrative Links</h2>
+    <p>
+        <ul>@Html.ActionLink("Vehicles", "Vehicles", "Admin", routeValues: null, htmlAttributes: new { id = "adminVehiclesLink" })</ul>
+        <ul>@Html.ActionLink("Add Vehicle", "AddVehicle", "Admin", routeValues: null, htmlAttributes: new { id = "adminAddVehicleLink" })</ul>
+        <ul>@Html.ActionLink("Users", "Users", "Admin", routeValues: null, htmlAttributes: new { id = "adminUsersLink" })</ul>
+        <ul>@Html.ActionLink("Add User", "AddUser", "Admin", routeValues: null, htmlAttributes: new { id = "adminAddUserLink" })</ul>
+        <ul>@Html.ActionLink("Makes", "Makes", "Admin", routeValues: null, htmlAttributes: new { id = "adminMakesLink" })</ul>
+        <ul>@Html.ActionLink("Models", "Models", "Admin", routeValues: null, htmlAttributes: new { id = "adminModelsLink" })</ul>
+        <ul>@Html.ActionLink("Specials", "Specials", "Admin", routeValues: null, htmlAttributes: new { id = "adminSpecialsLink" })</ul>
+    </p>
+</div>

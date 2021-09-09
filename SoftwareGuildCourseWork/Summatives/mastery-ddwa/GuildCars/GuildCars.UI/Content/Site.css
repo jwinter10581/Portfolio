@@ -1,0 +1,314 @@
+﻿/* Site formatting */
+body {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.body-content {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.validation-summary-errors {
+    color: red;
+    font-weight: bold;
+}
+
+thead {
+    background-color: lightgrey;
+}
+
+#blackBorders {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+/* Navbar Formatting */
+.navbar-custom {
+    background-color: darkgrey;
+    position: relative;
+    overflow: hidden;
+    width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.nav-item{
+    padding: 0 10px 0 10px !important;
+}
+
+/* Form formatting */
+input,
+select {
+    max-width: 300px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select {
+    height: 34px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    background-position-x: 274px;
+}
+
+input[type=checkbox] {
+    width: unset;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+/* Error formatting */
+.help-block {
+    background: #c51244 !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    box-shadow: 1px 1px 1px #aaaaaa;
+    margin: -10px 0px 20px 45px;
+}
+
+.has-error {
+    margin-bottom: 20px;
+}
+
+/* Slideshow, special, and featured vehicle from Home/Index */
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    background-color: darkgrey;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#specialContent {
+    width: fit-content(stretch);
+    padding: 5px;
+    margin-bottom: 1em;
+}
+
+#featuredVehicleCard {
+    width: 18rem;
+    margin: 10px;
+}
+
+#featuredVehiclePicture {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* card-horizontal, specialCard, specialPicture from Home/Special */
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+#homeCard {
+    text-align: center;
+}
+
+#specialCard {
+    margin: 10px;
+}
+
+#specialPicture {
+    width: 100px;
+    height: auto;
+}
+
+/* contactMap from Home/Contact */
+#contactMap {
+    margin-top: 40px;
+}
+
+#contactContainer {
+    max-width: 90%;
+}
+
+#contactMessage{
+    width: 300px;
+}
+
+/* search from Inventory/New & Inventory/Used */
+#searchButton {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+}
+
+#searchBar {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1.5fr 4fr 4fr;
+}
+
+#quickSearch {
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+#quickSearchLabel{
+    margin-top: 10px;
+}
+
+#priceSearchLabel, #yearSearchLabel {
+    padding-top: 15px;
+}
+
+#minPrice, #maxPrice, #minYear, #maxYear {
+    width: 100px;
+}
+
+#searchVehiclePicture {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/*#priceErrorDiv, yearErrorDiv {
+    margin: 15px 0px 15px -45px;
+}*/
+
+/* detail(s) from Inventory/Details */
+#vehicleDetailsContainer {
+    border: 2px solid black;
+    margin: 10px 0 10px 0;
+}
+
+#detailVehicleTitle {
+    padding-left: 20px;
+}
+
+#detailVehiclePictureContainer {
+    max-width: 100%;
+    height: auto;
+}
+
+#detailVehiclePicture {
+    max-width: 100%;
+    height: auto;
+}
+
+td {
+    padding: 10px 10px 10px 10px;
+    width: 110px;
+}
+
+#descriptionContainer {
+    position: relative;
+}
+
+#descriptionTitle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#btnContact {
+    float: right;
+}
+
+/* #blackBorders td + td from reports/inventory */
+#blackBorders td + td {
+    border-left: 2px solid black;
+}
+
+/* #salesReport from reports/sales */
+#salesReportSearchContainer {
+    border: 2px solid black;
+    margin-left: 0px;
+}
+
+#salesReportSearchBar {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    vertical-align: middle;
+}
+
+#salesReportLabel {
+    position: relative;
+    top: 25%;
+    right: 10%;
+    text-align: right;
+}
+
+#salesReportSearchButton {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+/* row, input, label & button from admin/specials-makes-models */
+#makesRow, #modelsRow {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+
+#specialsRow {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+#specialsInput, #modelsInput {
+    max-width: 50%;
+    width: 50%;
+}
+
+#makesInput {
+    max-width: 90%
+}
+
+#specialsLabel, #makesLabel, #modelsLabel {
+    margin-top: 5px;
+    text-align:right;
+}
+
+#NewModel_MakeName, #NewModel_ModelName {
+    max-width: 300px;
+    width: 300px;
+}
+
+#specialsButton, #makesButton, #modelsButton {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+/* editVehicle buttons from admin/editVehicle */
+
+#editVehicleDeleteButton {
+    margin-top: -65px;
+    margin-left: 10px;
+}
+
+#editVehicleSaveButton {
+    margin-left: 100px;
+}

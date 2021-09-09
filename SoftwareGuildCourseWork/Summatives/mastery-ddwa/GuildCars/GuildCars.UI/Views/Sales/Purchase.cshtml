@@ -1,0 +1,206 @@
+﻿@model GuildCars.UI.Models.PurchaseAddViewModel
+
+@{
+    ViewBag.Title = "Purchase";
+}
+
+<div class="container">
+    <div class="col-sm-12">
+        <h2>Purchase Vehicle</h2>
+    </div>
+    <div class="container" id="vehicleDetailsContainer">
+        <div class="col-sm-12">
+            <h4 id="detailVehicleTitle">@Model.Vehicle.Year @Model.Vehicle.MakeName @Model.Vehicle.ModelName</h4>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div id="detailVehiclePictureContainer">
+                    <img src="@Url.Content("~/Images/Vehicle/" + Model.Vehicle.ImageFilePath)" id="detailVehiclePicture" />
+                </div>
+            </div>
+
+            <div class="col-sm-9">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><strong>Body Style:</strong></td>
+                            <td>@Model.Vehicle.BodyStyleType</td>
+                            <td><strong>Interior:</strong></td>
+                            <td>@Model.Vehicle.InteriorName</td>
+                            <td><strong>Sale Price:</strong></td>
+                            <td>$@Model.Vehicle.SalePrice.ToString("N0")</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Trans:</strong></td>
+                            <td>@Model.Vehicle.TransmissionType</td>
+                            <td><strong>Mileage:</strong></td>
+                            <td>
+                                @if (@Model.Vehicle.Mileage < 1000)
+                                {
+                                    <text>New</text>
+                                }
+                                else
+                                {
+                                    <text>@Model.Vehicle.Mileage.ToString("N0")</text>
+                                }
+                            </td>
+                            <td><strong>MSRP:</strong></td>
+                            <td>$@Model.Vehicle.MSRP.ToString("N0")</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Color:</strong></td>
+                            <td>@Model.Vehicle.ColorName</td>
+                            <td><strong>VIN #:</strong></td>
+                            <td>@Model.Vehicle.VINNumber</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td id="descriptionContainer"><strong id="descriptionTitle">Description:</strong></td>
+                            <td colspan="5">
+                                @Model.Vehicle.Description
+
+                                <br /><br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum aliquam mi quis finibus. Sed lacinia nulla in facilisis congue. In enim lacus, blandit ac pellentesque id, cursus non turpis. Sed condimentum condimentum ligula id imperdiet. Etiam efficitur nisl sed volutpat fringilla. Ut eu purus commodo nisi fermentum facilisis porttitor et lorem. Ut ut finibus neque, eget dapibus quam. Etiam gravida porttitor aliquam. In diam leo, faucibus et luctus posuere, fermentum in nibh. Aenean ac quam quis enim maximus porttitor nec eget dui. Curabitur maximus elementum sem ac semper.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-sm-12">
+        <h2>Sales Information</h2>
+
+        @using (Html.BeginForm("Purchase", "Sales", FormMethod.Post, new { enctype = "multipart/form-data", id = "formAddPurchase" }))
+        {
+            @Html.ValidationSummary()
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <label>Name</label>
+                        @Html.TextBoxFor(c => c.Purchase.Name, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm">
+                        <label>Phone</label>
+                        @Html.TextBoxFor(c => c.Purchase.Phone, new { @class = "form-control", id = "purchasePhone" })
+                    </div>
+                    <div class="col-sm">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label>Email</label>
+                        @Html.TextBoxFor(c => c.Purchase.Email, new { @class = "form-control", id = "purchaseEmail" })
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label>Street 1</label>
+                        @Html.TextBoxFor(c => c.Purchase.Street1, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm">
+                        <label>Street 2</label>
+                        @Html.TextBoxFor(c => c.Purchase.Street2, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label>City</label>
+                        @Html.TextBoxFor(c => c.Purchase.City, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm">
+                        <label>State</label>
+                        @Html.DropDownListFor(c => c.Purchase.StateAbbreviation, Model.States, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label>Zip Code</label>
+                        @Html.TextBoxFor(c => c.Purchase.ZipCode, new { @class = "form-control" })
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-sm">
+                        <label>Purchase Price</label>
+                        @Html.TextBoxFor(c => c.Purchase.PurchasePrice, htmlAttributes: new { @class = "form-control", Value = "" })
+                    </div>
+                    <div class="col-sm">
+                        <label>Purchase Type</label>
+                        @Html.DropDownListFor(c => c.Purchase.PurchaseTypeId, Model.PurchaseTypes, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm">
+                        @Html.HiddenFor(v => v.Vehicle.VINNumber)
+                        @Html.HiddenFor(v => v.Vehicle.SalePrice)
+                        @Html.HiddenFor(v => v.Vehicle.MSRP)
+                    </div>
+                </div>
+                <button class="btn btn-primary">Save</button>
+            </div>
+        }
+    </div>
+</div>
+
+@*https://jqueryvalidation.org/documentation/*@
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#formAddPurchase').validate({
+                rules: {
+                    'Purchase.Name': {
+                        required: true
+                    },
+                    'Purchase.Phone': {
+                        required: '#purchaseEmail:blank',
+                    },
+                    'Purchase.Email': {
+                        required: '#purchasePhone:blank',
+                        email: true
+                    },
+                    'Purchase.Street1': {
+                        required: true
+                    },
+                    'Purchase.City': {
+                        required: true
+                    },
+                    'Purchase.ZipCode': {
+                        required: true,
+                        digits: true,
+                        rangelength: [5, 5]
+                    },
+                    'Purchase.PurchasePrice': {
+                        required: true,
+                        number: true
+                    },
+                },
+                messages: {
+                    'Purchase.Name': "Please enter a name",
+                    'Purchase.Phone': "Please enter a phone number",
+                    'Purchase.Email': {
+                        required: "Please enter an email",
+                        email: "Email must be in the correct format"
+                    },
+                    'Purchase.Street1': "Please enter a street",
+                    'Purchase.City': "Please enter a city",
+                    'Purchase.ZipCode': {
+                        required: "Please enter a zip code",
+                        digits: "Please enter a 5 digit zip code",
+                        rangelength: "Zip code must be 5 digits"
+                    },
+                    'Purchase.PurchasePrice': {
+                        required: "Please enter an purchase price",
+                        number: "Purchase price must be a number"
+                    },
+                }
+            });
+        });
+    </script>
+}

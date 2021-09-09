@@ -1,0 +1,7 @@
+﻿20 - Validate Double
+
+In some cases we want to manually override the price of a product. But once again the user can type in whatever 
+they want in the field.
+
+Given a string, return if it is a double or not.
+(Hint - Look Up Try Parse Methods)

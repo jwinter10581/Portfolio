@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\bin\Debug\netcoreapp3.1\HealthyHearts.exe
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\bin\Debug\netcoreapp3.1\HealthyHearts.deps.json
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\bin\Debug\netcoreapp3.1\HealthyHearts.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\bin\Debug\netcoreapp3.1\HealthyHearts.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\bin\Debug\netcoreapp3.1\HealthyHearts.dll
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\bin\Debug\netcoreapp3.1\HealthyHearts.pdb
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\obj\Debug\netcoreapp3.1\HealthyHearts.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\obj\Debug\netcoreapp3.1\HealthyHearts.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\obj\Debug\netcoreapp3.1\HealthyHearts.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\obj\Debug\netcoreapp3.1\HealthyHearts.dll
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\obj\Debug\netcoreapp3.1\HealthyHearts.pdb
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\obj\Debug\netcoreapp3.1\HealthyHearts.genruntimeconfig.cache
+C:\Users\Jonathan\Documents\GitHub\HealthyHearts\obj\Debug\netcoreapp3.1\HealthyHearts.csprojAssemblyReference.cache

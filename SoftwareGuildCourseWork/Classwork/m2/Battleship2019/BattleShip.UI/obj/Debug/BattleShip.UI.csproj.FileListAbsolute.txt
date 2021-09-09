@@ -1,0 +1,7 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Battleship2019\BattleShip.UI\bin\Debug\BattleShip.UI.exe.config
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Battleship2019\BattleShip.UI\bin\Debug\BattleShip.UI.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Battleship2019\BattleShip.UI\bin\Debug\BattleShip.UI.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Battleship2019\BattleShip.UI\obj\Debug\BattleShip.UI.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Battleship2019\BattleShip.UI\obj\Debug\BattleShip.UI.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Battleship2019\BattleShip.UI\obj\Debug\BattleShip.UI.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Battleship2019\BattleShip.UI\obj\Debug\BattleShip.UI.pdb

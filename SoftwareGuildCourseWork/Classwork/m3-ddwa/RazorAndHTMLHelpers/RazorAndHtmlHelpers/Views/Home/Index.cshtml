@@ -1,0 +1,73 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container"> 
+       <div class="row">
+           <div class="col-xs-12">
+               <p>Razor uses the @@ symbol to switch into "c# mode".  
+                  Once in this mode we can use any c# syntax we like, even declaring 
+                  code blocks or doing in-line code calls.
+               </p>
+               @{ 
+                   string greeting = "hello world!";
+               }
+               <p>@greeting, today's date is @DateTime.Now.ToShortDateString()</p>
+           </div>
+       </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p>
+                    Razor can also be used to branch or loop HTML statements
+                </p>
+                @if(DateTime.Today.DayOfWeek == DayOfWeek.Saturday || 
+                    DateTime.Today.DayOfWeek == DayOfWeek.Sunday)
+                {
+                    <p>It's the weekend!</p>
+                }
+                else
+                {
+                    <p>It's a weekday</p>
+                }
+                <p>Here are the even numbers from 2 to 10</p>
+                <ul>
+                    @for (int i = 2; i <= 10; i += 2)
+                    {
+                        <li>@i</li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p>
+                    Here is the link to the @Html.ActionLink("Add Student View", "AddStudent", "Home")
+                </p>
+            </div>
+        </div>
+
+        @*<div class="row">
+            <div class="col-xs-12">
+                <p>
+                    Here is the link to the <a href="/Home/AddStudent">Add Student View</a>
+                </p>
+            </div>
+        </div>*@
+
+        @Html.ActionLink("Display Text", "Path1", "Home", null, new {@class="myLinkCSS")
+    </div>
+    <script src="~/Scripts/jquery-2.2.3.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

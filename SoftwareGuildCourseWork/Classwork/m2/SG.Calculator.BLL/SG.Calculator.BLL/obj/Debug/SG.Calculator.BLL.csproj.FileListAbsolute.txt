@@ -1,0 +1,5 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.BLL\bin\Debug\SG.Calculator.BLL.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.BLL\bin\Debug\SG.Calculator.BLL.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.BLL\obj\Debug\SG.Calculator.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.BLL\obj\Debug\SG.Calculator.BLL.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.BLL\obj\Debug\SG.Calculator.BLL.pdb

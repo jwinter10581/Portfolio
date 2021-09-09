@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\ARainbow\bin\Debug\netcoreapp3.1\ARainbow.exe
+C:\Users\Jonathan\Documents\GitHub\ARainbow\bin\Debug\netcoreapp3.1\ARainbow.deps.json
+C:\Users\Jonathan\Documents\GitHub\ARainbow\bin\Debug\netcoreapp3.1\ARainbow.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\ARainbow\bin\Debug\netcoreapp3.1\ARainbow.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\ARainbow\bin\Debug\netcoreapp3.1\ARainbow.dll
+C:\Users\Jonathan\Documents\GitHub\ARainbow\bin\Debug\netcoreapp3.1\ARainbow.pdb
+C:\Users\Jonathan\Documents\GitHub\ARainbow\obj\Debug\netcoreapp3.1\ARainbow.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\ARainbow\obj\Debug\netcoreapp3.1\ARainbow.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\ARainbow\obj\Debug\netcoreapp3.1\ARainbow.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\ARainbow\obj\Debug\netcoreapp3.1\ARainbow.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\ARainbow\obj\Debug\netcoreapp3.1\ARainbow.dll
+C:\Users\Jonathan\Documents\GitHub\ARainbow\obj\Debug\netcoreapp3.1\ARainbow.pdb
+C:\Users\Jonathan\Documents\GitHub\ARainbow\obj\Debug\netcoreapp3.1\ARainbow.genruntimeconfig.cache

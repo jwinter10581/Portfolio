@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-md-8">
+        <h1>Temporary Storage</h1>
+        <p>
+            There are four different ways to handle temporary data in ASP .NET MVC.
+        </p>
+        <h3>Cache</h3>
+        <p>
+            Cache is used when you want to share data site-wide for all users.  This is a great 
+            place to put data that changes infrequently that you want to save a round trip to the database for (such 
+            as the list of US states).  Cache is a dictionary style object and uses keys to index its data.
+        </p>
+        <p>
+            Use the @Html.ActionLink("Read Cache", "ReadCache", "Cache") controller action to read some data from the cache.  
+            The action code demonstrates how to store and retrieve data from cache.
+        </p>
+        <h3>Cookies</h3>
+        <p>
+            Cookies are stored on the client in the browser storage.  Any cookies associated with a site are sent as part of 
+            each request.  Cookies are used for things such as authentication tokens that you may want to persist between website
+            visits but are not needed to be stored in a database.  Be aware that by default cookie data is not encrypted and can 
+            be changed by the user.  Cookies can also be deleted so you must always check to see if the cookie is there before 
+            attempting to read from it.
+        </p>
+        <p>
+            Use the @Html.ActionLink("Write Cookie", "WriteCookie", "Cookie") controller action to store data in a cookie then use 
+            the @Html.ActionLink("Read Cookie", "ReadCookie", "Cookie") action to retrieve the data.
+        </p>
+        <h3>Session</h3>
+        <p>
+            Session is stored in the server memory and is specific to a particular user.  Session works by putting a cookie in the 
+            HTTP Response that is used to retrieve session values for that user on subsequent requests.  Although Session is not 
+            scalable and should be used sparingly, it can useful for holding information in between requests about a user.  To keep
+            server memory scalable, session is deleted after a period of inactivity by the user.
+        </p>
+        <p>
+            Use the @Html.ActionLink("Write Session", "WriteSession", "Session") controller action to store data in Session then use
+            the @Html.ActionLink("Read Session", "ReadSession", "Session") action to retrieve the data.
+        </p>
+        <h3>Temp Data</h3>
+        <p>
+            Temp Data is a dictionary object that is available in the controller and views (similiar to ViewBag).  It is useful for 
+            storing data for a single redirect.  It is most often used to send short messages or pieces of information between a redirect 
+            such as when you want to send a confirmation message to a page after a form submission.
+        </p>
+        <p>
+            Use the @Html.ActionLink("Write TempData", "WriteTempData", "TempData") controller action to store data in a TempData key.  It will redirect to the read page that echoes back the information.
+        </p>
+    </div>
+</div>
+
+
+
+

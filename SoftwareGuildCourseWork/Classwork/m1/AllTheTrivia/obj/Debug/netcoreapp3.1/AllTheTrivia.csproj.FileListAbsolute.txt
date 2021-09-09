@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\bin\Debug\netcoreapp3.1\AllTheTrivia.exe
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\bin\Debug\netcoreapp3.1\AllTheTrivia.deps.json
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\bin\Debug\netcoreapp3.1\AllTheTrivia.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\bin\Debug\netcoreapp3.1\AllTheTrivia.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\bin\Debug\netcoreapp3.1\AllTheTrivia.dll
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\bin\Debug\netcoreapp3.1\AllTheTrivia.pdb
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\obj\Debug\netcoreapp3.1\AllTheTrivia.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\obj\Debug\netcoreapp3.1\AllTheTrivia.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\obj\Debug\netcoreapp3.1\AllTheTrivia.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\obj\Debug\netcoreapp3.1\AllTheTrivia.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\obj\Debug\netcoreapp3.1\AllTheTrivia.dll
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\obj\Debug\netcoreapp3.1\AllTheTrivia.pdb
+C:\Users\Jonathan\Documents\GitHub\AllTheTrivia\obj\Debug\netcoreapp3.1\AllTheTrivia.genruntimeconfig.cache

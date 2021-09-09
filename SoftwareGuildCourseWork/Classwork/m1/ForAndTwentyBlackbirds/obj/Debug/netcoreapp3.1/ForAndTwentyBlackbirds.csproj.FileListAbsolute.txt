@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\obj\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\obj\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\obj\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\bin\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.exe
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\bin\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.deps.json
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\bin\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\bin\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\bin\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.dll
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\bin\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.pdb
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\obj\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.dll
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\obj\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.pdb
+C:\Users\Jonathan\Documents\GitHub\ForAndTwentyBlackbirds\obj\Debug\netcoreapp3.1\ForAndTwentyBlackbirds.genruntimeconfig.cache

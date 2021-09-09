@@ -1,0 +1,13 @@
+C:\Users\Jonathan\source\repos\GuessMe\bin\Debug\netcoreapp3.1\GuessMe.exe
+C:\Users\Jonathan\source\repos\GuessMe\bin\Debug\netcoreapp3.1\GuessMe.deps.json
+C:\Users\Jonathan\source\repos\GuessMe\bin\Debug\netcoreapp3.1\GuessMe.runtimeconfig.json
+C:\Users\Jonathan\source\repos\GuessMe\bin\Debug\netcoreapp3.1\GuessMe.runtimeconfig.dev.json
+C:\Users\Jonathan\source\repos\GuessMe\bin\Debug\netcoreapp3.1\GuessMe.dll
+C:\Users\Jonathan\source\repos\GuessMe\bin\Debug\netcoreapp3.1\GuessMe.pdb
+C:\Users\Jonathan\source\repos\GuessMe\obj\Debug\netcoreapp3.1\GuessMe.csprojAssemblyReference.cache
+C:\Users\Jonathan\source\repos\GuessMe\obj\Debug\netcoreapp3.1\GuessMe.AssemblyInfoInputs.cache
+C:\Users\Jonathan\source\repos\GuessMe\obj\Debug\netcoreapp3.1\GuessMe.AssemblyInfo.cs
+C:\Users\Jonathan\source\repos\GuessMe\obj\Debug\netcoreapp3.1\GuessMe.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\GuessMe\obj\Debug\netcoreapp3.1\GuessMe.dll
+C:\Users\Jonathan\source\repos\GuessMe\obj\Debug\netcoreapp3.1\GuessMe.pdb
+C:\Users\Jonathan\source\repos\GuessMe\obj\Debug\netcoreapp3.1\GuessMe.genruntimeconfig.cache

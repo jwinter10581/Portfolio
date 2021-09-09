@@ -1,0 +1,9 @@
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\03-Collections-LINQ-SystemIO-DateTime\Asssessments\LINQ\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m3-summative\LINQExercises\LINQ\bin\Debug\Customers.xml
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m3-summative\LINQExercises\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m3-summative\LINQExercises\LINQ\bin\Debug\LINQ.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m3-summative\LINQExercises\LINQ\bin\Debug\LINQ.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m3-summative\LINQExercises\LINQ\obj\Debug\LINQ.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m3-summative\LINQExercises\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m3-summative\LINQExercises\LINQ\obj\Debug\LINQ.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m3-summative\LINQExercises\LINQ\obj\Debug\LINQ.pdb

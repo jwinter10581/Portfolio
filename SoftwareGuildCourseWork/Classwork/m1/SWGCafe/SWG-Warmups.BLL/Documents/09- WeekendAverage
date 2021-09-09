@@ -1,0 +1,5 @@
+﻿9 - Weekend Average
+
+Our managers now want a weekend report giving us the average of both Saturday and Sunday’s surveys.
+        
+Given two arrays of integers, return the average rating of the two days.

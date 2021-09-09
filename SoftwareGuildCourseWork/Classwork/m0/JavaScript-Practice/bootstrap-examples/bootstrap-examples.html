@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+		<title>Bootstrap Sample Page</title>
+        
+        <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+<style>
+    nav {
+        border-top: thin #5b7d87 solid;
+        border-bottom: thin #5b7d87 solid;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }    
+    
+    nav .btn {
+        background-color: #5b7d87;
+        color: #fef9ff; 
+    }
+    
+    nav .btn:hover {
+        font-weight: bold;
+    }    
+
+</style>
+	</head>
+	<body>
+        <div class="container"> <!-- All page content should be inside this .container div -->
+            <header class="jumbotron">
+                <h1>Marci Kitzmiller</h1>
+                <h2 class="font-italic">Web Developer Extraordinaire</h2>
+                <h3 class="text-right mt-5">Solving Web Dev problems every day!</h3>
+            </header>
+            
+            <nav>
+                <a class="btn badge-pill" href="">Contact Me</a>
+                <a class="btn badge-pill" href="">Projects</a>
+            </nav>
+
+            
+            <div class="row">
+                <div class="col-lg-3 col-md">
+                    <!-- div for picture -->
+                    <img src="images/smile-2072907_640.jpg" alt="Photo of  Marci Kitzmiller" class="img-fluid" />
+                </div>
+                
+                <div class="col-lg-9 col-md">
+                    <!-- div for text -->
+                    <p>Pellentesque finibus vehicula scelerisque. Morbi eget quam aliquet, vehicula felis vitae, semper odio. Curabitur turpis lectus, ultricies vel nisi vulputate, porta congue sapien. Proin facilisis ipsum at lorem scelerisque tincidunt.</p>
+                    <p>Proin convallis orci at venenatis euismod. In rhoncus ligula non nibh pellentesque rutrum. Nunc vel mauris diam.</p>
+                </div>
+            </div> <!-- End of .row div -->
+        
+			<div class="accordion" id="accordionExample"> 
+				<div class="card">
+					<div class="card-header" id="portfolio01">
+						<h5 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								My First Portfolio Piece
+							</button>
+						</h5>
+					</div> <!--End of .card-header div-->
+					
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							<p><a href="" target="_blank">Name of Website</a></p>
+							<figure><img src="images/website-1778529_640.png" alt="Screenshot of home page" /></figure>
+						</div> <!--End of .card-body div-->
+					</div>
+				</div> <!--End of .card div-->
+			</div> <!--End of .accordion div-->
+        </div> <!-- End of .container div -->
+        
+        <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>

@@ -1,0 +1,5 @@
+﻿17 - Validate String Length
+
+Here at Software Guild Cafe, our labels for our cups are only so long so we want to limit the length of the names entered.
+        
+Given a name, and a maximum length the name can be (minimum 1), return if the name meets our requirements or not.

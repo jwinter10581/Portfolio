@@ -1,0 +1,16 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.exe.config
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.Controller.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.UI.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.Data.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.Controller.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.UI.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.Data.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\bin\Debug\ContactList.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\obj\Debug\ContactList.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\obj\Debug\ContactList.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\obj\Debug\ContactList.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\obj\Debug\ContactList.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList\obj\Debug\ContactList.pdb

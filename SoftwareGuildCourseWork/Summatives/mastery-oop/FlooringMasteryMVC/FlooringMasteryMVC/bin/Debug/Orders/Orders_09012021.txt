@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,"Jonathan,.,.,.",OH,6.25,Tile,150.789,3.50,4.15,527.76150,625.77435,72.095990625,1225.631840625
+
+2,"Jon",OH,6.25,Carpet,200.555,2.25,2.10,451.24875,421.16550,54.525890625,926.940140625

@@ -1,0 +1,17 @@
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\bin\Debug\MVC-SIS_Models.dll
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\bin\Debug\MVC-SIS_Models.pdb
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.csproj.CoreCompileInputs.cache
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.dll
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.pdb
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\bin\Debug\MVC-SIS_Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\bin\Debug\MVC-SIS_Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.pdb
+D:\Coding\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\bin\Debug\MVC-SIS_Models.dll
+D:\Coding\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\bin\Debug\MVC-SIS_Models.pdb
+D:\Coding\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.csprojAssemblyReference.cache
+D:\Coding\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.csproj.CoreCompileInputs.cache
+D:\Coding\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.dll
+D:\Coding\Summatives\m8-summative\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.pdb

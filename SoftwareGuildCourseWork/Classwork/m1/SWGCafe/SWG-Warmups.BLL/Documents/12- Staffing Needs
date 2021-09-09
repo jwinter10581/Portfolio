@@ -1,0 +1,7 @@
+﻿12 - Staffing Needs
+
+Our normal staffing needs for the day are 6 people. During the winter time, we need 2 additional people to help 
+the additional traffic. During the weekends we need an additional 3 people on top of that to meet our customer’s 
+needs and go for that “10”.
+
+Given if it is the winter and if it is the weekend, return the number of staff we need.

@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\bin\Debug\netcoreapp3.1\MethodToTheMadness.exe
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\bin\Debug\netcoreapp3.1\MethodToTheMadness.deps.json
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\bin\Debug\netcoreapp3.1\MethodToTheMadness.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\bin\Debug\netcoreapp3.1\MethodToTheMadness.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\bin\Debug\netcoreapp3.1\MethodToTheMadness.dll
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\bin\Debug\netcoreapp3.1\MethodToTheMadness.pdb
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\obj\Debug\netcoreapp3.1\MethodToTheMadness.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\obj\Debug\netcoreapp3.1\MethodToTheMadness.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\obj\Debug\netcoreapp3.1\MethodToTheMadness.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\obj\Debug\netcoreapp3.1\MethodToTheMadness.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\obj\Debug\netcoreapp3.1\MethodToTheMadness.dll
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\obj\Debug\netcoreapp3.1\MethodToTheMadness.pdb
+C:\Users\Jonathan\Documents\GitHub\MethodToTheMadness\obj\Debug\netcoreapp3.1\MethodToTheMadness.genruntimeconfig.cache

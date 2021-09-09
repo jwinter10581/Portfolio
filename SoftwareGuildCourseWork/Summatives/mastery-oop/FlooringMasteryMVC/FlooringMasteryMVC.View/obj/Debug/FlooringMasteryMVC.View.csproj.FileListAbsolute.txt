@@ -1,0 +1,9 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.View\bin\Debug\FlooringMasteryMVC.View.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.View\bin\Debug\FlooringMasteryMVC.View.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.View\bin\Debug\FlooringMasteryMVC.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.View\bin\Debug\FlooringMasteryMVC.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.View\obj\Debug\FlooringMasteryMVC.View.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.View\obj\Debug\FlooringMasteryMVC.View.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.View\obj\Debug\FlooringMasteryMVC.View.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.View\obj\Debug\FlooringMasteryMVC.View.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.View\obj\Debug\FlooringMasteryMVC.View.pdb

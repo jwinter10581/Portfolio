@@ -1,0 +1,11 @@
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\03-Collections-LINQ-SystemIO-DateTime\Asssessments\DateTime\DateTimeLab\bin\Debug\DateTimeLab.dll
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\03-Collections-LINQ-SystemIO-DateTime\Asssessments\DateTime\DateTimeLab\bin\Debug\DateTimeLab.pdb
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\03-Collections-LINQ-SystemIO-DateTime\Asssessments\DateTime\DateTimeLab\obj\Debug\DateTimeLab.csprojResolveAssemblyReference.cache
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\03-Collections-LINQ-SystemIO-DateTime\Asssessments\DateTime\DateTimeLab\obj\Debug\DateTimeLab.dll
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\03-Collections-LINQ-SystemIO-DateTime\Asssessments\DateTime\DateTimeLab\obj\Debug\DateTimeLab.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m3\DateTime\DateTimeLab\bin\Debug\DateTimeLab.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m3\DateTime\DateTimeLab\bin\Debug\DateTimeLab.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m3\DateTime\DateTimeLab\obj\Debug\DateTimeLab.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m3\DateTime\DateTimeLab\obj\Debug\DateTimeLab.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m3\DateTime\DateTimeLab\obj\Debug\DateTimeLab.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m3\DateTime\DateTimeLab\obj\Debug\DateTimeLab.pdb

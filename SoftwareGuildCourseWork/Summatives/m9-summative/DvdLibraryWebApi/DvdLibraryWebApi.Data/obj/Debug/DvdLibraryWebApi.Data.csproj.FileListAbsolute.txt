@@ -1,0 +1,15 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\obj\Debug\DvdLibraryWebApi.Data.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\obj\Debug\DvdLibraryWebApi.Data.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\bin\Debug\DvdLibraryWebApi.Data.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\bin\Debug\DvdLibraryWebApi.Data.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\bin\Debug\DvdLibraryWebApi.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\bin\Debug\DvdLibraryWebApi.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\obj\Debug\DvdLibraryWebApi.Data.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\obj\Debug\DvdLibraryWebApi.Data.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\obj\Debug\DvdLibraryWebApi.Data.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\bin\Debug\System.Web.Http.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Data\bin\Debug\System.Web.Http.xml

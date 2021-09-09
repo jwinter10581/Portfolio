@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Testy McTesterson,TS,10.25,Punchcard,100.00,2.50,5.00,250.00,500.00,75.00,825.00

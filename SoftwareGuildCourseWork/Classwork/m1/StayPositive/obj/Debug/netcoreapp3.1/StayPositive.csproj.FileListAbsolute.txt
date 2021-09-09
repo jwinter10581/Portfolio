@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\StayPositive\obj\Debug\netcoreapp3.1\StayPositive.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\StayPositive\obj\Debug\netcoreapp3.1\StayPositive.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\StayPositive\obj\Debug\netcoreapp3.1\StayPositive.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\StayPositive\bin\Debug\netcoreapp3.1\StayPositive.exe
+C:\Users\Jonathan\Documents\GitHub\StayPositive\bin\Debug\netcoreapp3.1\StayPositive.deps.json
+C:\Users\Jonathan\Documents\GitHub\StayPositive\bin\Debug\netcoreapp3.1\StayPositive.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\StayPositive\bin\Debug\netcoreapp3.1\StayPositive.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\StayPositive\bin\Debug\netcoreapp3.1\StayPositive.dll
+C:\Users\Jonathan\Documents\GitHub\StayPositive\bin\Debug\netcoreapp3.1\StayPositive.pdb
+C:\Users\Jonathan\Documents\GitHub\StayPositive\obj\Debug\netcoreapp3.1\StayPositive.dll
+C:\Users\Jonathan\Documents\GitHub\StayPositive\obj\Debug\netcoreapp3.1\StayPositive.pdb
+C:\Users\Jonathan\Documents\GitHub\StayPositive\obj\Debug\netcoreapp3.1\StayPositive.genruntimeconfig.cache
+C:\Users\Jonathan\Documents\GitHub\StayPositive\obj\Debug\netcoreapp3.1\StayPositive.csprojAssemblyReference.cache

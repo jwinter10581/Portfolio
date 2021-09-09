@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\bin\Debug\netcoreapp3.1\MaybeItLovesMe.exe
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\bin\Debug\netcoreapp3.1\MaybeItLovesMe.deps.json
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\bin\Debug\netcoreapp3.1\MaybeItLovesMe.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\bin\Debug\netcoreapp3.1\MaybeItLovesMe.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\bin\Debug\netcoreapp3.1\MaybeItLovesMe.dll
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\bin\Debug\netcoreapp3.1\MaybeItLovesMe.pdb
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\obj\Debug\netcoreapp3.1\MaybeItLovesMe.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\obj\Debug\netcoreapp3.1\MaybeItLovesMe.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\obj\Debug\netcoreapp3.1\MaybeItLovesMe.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\obj\Debug\netcoreapp3.1\MaybeItLovesMe.dll
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\obj\Debug\netcoreapp3.1\MaybeItLovesMe.pdb
+C:\Users\Jonathan\Documents\GitHub\MaybeItLovesMe\obj\Debug\netcoreapp3.1\MaybeItLovesMe.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+hr{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.createAndSearchRow{
+    margin: 10px 0px 10px 0px;
+}
+
+th, td{
+    text-align:center;
+}
+
+.col-sm-4 {
+    margin: 10px 0px 10px 0px;
+}

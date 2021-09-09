@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\bin\Debug\netcoreapp3.1\DontForgetToStoreIt.exe
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\bin\Debug\netcoreapp3.1\DontForgetToStoreIt.deps.json
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\bin\Debug\netcoreapp3.1\DontForgetToStoreIt.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\bin\Debug\netcoreapp3.1\DontForgetToStoreIt.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\bin\Debug\netcoreapp3.1\DontForgetToStoreIt.dll
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\bin\Debug\netcoreapp3.1\DontForgetToStoreIt.pdb
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\obj\Debug\netcoreapp3.1\DontForgetToStoreIt.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\obj\Debug\netcoreapp3.1\DontForgetToStoreIt.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\obj\Debug\netcoreapp3.1\DontForgetToStoreIt.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\obj\Debug\netcoreapp3.1\DontForgetToStoreIt.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\obj\Debug\netcoreapp3.1\DontForgetToStoreIt.dll
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\obj\Debug\netcoreapp3.1\DontForgetToStoreIt.pdb
+C:\Users\Jonathan\Documents\GitHub\DontForgetToStoreIt\obj\Debug\netcoreapp3.1\DontForgetToStoreIt.genruntimeconfig.cache

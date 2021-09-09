@@ -1,0 +1,93 @@
+﻿@model GuildCars.UI.Models.EmployeeAddViewModel
+
+@{
+    ViewBag.Title = "AddUser";
+}
+
+<div class="container">
+    <div class="col-sm-12">
+        <h2>Add User</h2>
+
+        @using (Html.BeginForm("AddUser", "Admin", FormMethod.Post, new { enctype = "multipart/form-data", id = "formAddUser" }))
+        {
+            @Html.ValidationSummary()
+            @Html.AntiForgeryToken()
+            <div class="container">
+
+                <div class="row col-sm-10">
+                    <div class="col-sm-6">
+                        <label>First Name</label>
+                        @Html.TextBoxFor(f => f.Employee.EmployeeFirstName, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Last Name</label>
+                        @Html.TextBoxFor(l => l.Employee.EmployeeLastName, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="row col-sm-10">
+                    <div class="col-sm-6">
+                        <label>Email</label>
+                        @Html.TextBoxFor(e => e.Employee.EmployeeEmail, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Role</label>
+                        @Html.DropDownListFor(r => r.Employee.RoleName, Model.Roles, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="row col-sm-10">
+                    <div class="col-sm-6">
+                        <label>Password</label>
+                        @Html.PasswordFor(p => p.Employee.Password, htmlAttributes: new { @class = "form-control", id = "password" })
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Confirm Password</label>
+                        @Html.PasswordFor(p => p.ConfirmPassword, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                </div>
+                <button class="btn btn-primary">Save</button>
+            </div>
+        }
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#formAddUser').validate({
+                rules: {
+                    'Employee.EmployeeFirstName': {
+                        required: true
+                    },
+                    'Employee.EmployeeLastName': {
+                        required: true
+                    },
+                    'Employee.EmployeeEmail': {
+                        required: true,
+                        email: true
+                    },
+                    'Employee.Password': {
+                        required: true
+                    },
+                    'ConfirmPassword': {
+                        required: true,
+                        equalTo: "#password"
+                    },
+                },
+                messages: {
+                    'Employee.EmployeeFirstName': "Please enter the user's first name",
+                    'Employee.EmployeeLastName': "Please enter the user's last name",
+                    'Employee.EmployeeEmail': {
+                        required: "Please enter the user's email",
+                        email: "Please enter a valid email address"
+                    },
+                    'Employee.Password': "Please enter a password",
+                    'ConfirmPassword': {
+                        required: "Please enter a password",
+                        equalTo: "Confirm password must match password"
+                    },
+                }
+            });
+        });
+    </script>
+}

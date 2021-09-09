@@ -1,0 +1,5 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.Models\bin\Debug\FlooringMasteryMVC.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.Models\bin\Debug\FlooringMasteryMVC.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.Models\obj\Debug\FlooringMasteryMVC.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.Models\obj\Debug\FlooringMasteryMVC.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.Models\obj\Debug\FlooringMasteryMVC.Models.pdb

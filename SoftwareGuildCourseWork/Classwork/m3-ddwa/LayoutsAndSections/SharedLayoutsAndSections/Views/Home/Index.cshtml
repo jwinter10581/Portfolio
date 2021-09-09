@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+    <h2>This is the index view</h2>
+    <p>We can have lots of content in here!</p>
+
+    @section Meta {
+        <meta name="description" content="This is the description of the Index View" />
+    }
+
+    @section Scripts {
+        <script>
+            $(document).ready(function () {
+                alert('hello index!');
+            });
+        </script>
+    }

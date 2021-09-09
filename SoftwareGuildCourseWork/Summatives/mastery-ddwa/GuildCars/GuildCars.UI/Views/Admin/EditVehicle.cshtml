@@ -1,0 +1,267 @@
+﻿@model GuildCars.UI.Models.VehicleEditViewModel
+
+@{
+    ViewBag.Title = "EditVehicle";
+}
+
+<div class="container">
+    <div class="col-sm-12">
+        <h2>Edit Vehicle</h2>
+
+        @using (Html.BeginForm("EditVehicle", "Admin", FormMethod.Post, new { enctype = "multipart/form-data", id = "formEditVehicle" }))
+        {
+            @Html.ValidationSummary()
+            @Html.HiddenFor(v => v.OldVIN)
+            <div class="container">
+
+                <div class="row col-sm-10">
+                    <div class="col-sm-6">
+                        <label>Make</label>
+                        @Html.DropDownListFor(model => model.Vehicle.MakeName, Model.Makes, "Please Select Make", htmlAttributes: new { @class = "makeDropDown form-control" })
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Model</label>
+                        <select class="modelDropDown form-control" id="Models" name="Vehicle.ModelName" disabled>
+                            <option value="" selected disabled hidden>Please Select Make</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row col-sm-10">
+                    <div class="col-sm-6">
+                        <label>Type</label>
+                        @Html.DropDownListFor(ty => ty.Vehicle.VehicleTypeName, Model.VehicleTypes, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Body Style</label>
+                        @Html.DropDownListFor(b => b.Vehicle.BodyStyleType, Model.BodyStyles, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="row col-sm-10">
+                    <div class="col-sm-6">
+                        <label>Year</label>
+                        @Html.TextBoxFor(y => y.Vehicle.Year, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Transmission</label>
+                        @Html.DropDownListFor(tr => tr.Vehicle.TransmissionType, Model.Transmissions, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="row col-sm-10">
+                    <div class="col-sm-6">
+                        <label>Color</label>
+                        @Html.DropDownListFor(c => c.Vehicle.ColorName, Model.Colors, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Interior</label>
+                        @Html.DropDownListFor(i => i.Vehicle.InteriorName, Model.Interiors, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="row col-sm-10">
+                    <div class="col-sm-6">
+                        <label>Mileage</label>
+                        @Html.TextBoxFor(mi => mi.Vehicle.Mileage, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-6">
+                        <label>VIN #</label>
+                        @Html.TextBoxFor(v => v.Vehicle.VINNumber, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="row col-sm-10">
+                    <div class="col-sm-6">
+                        <label>MSRP</label>
+                        @Html.TextBoxFor(ms => ms.Vehicle.MSRP, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Sale Price</label>
+                        @Html.TextBoxFor(s => s.Vehicle.SalePrice, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="row col-sm-10">
+                    <div class="col-sm-9">
+                        <label>Description</label>
+                        @Html.TextAreaFor(d => d.Vehicle.Description, htmlAttributes: new { @class = "form-control", cols = "60" })
+                    </div>
+                </div>
+                <div class="row col-sm-10">
+                    <div class="col-sm-6">
+                        <div id="detailVehiclePictureContainer">
+                            <img src="@Url.Content("~/Images/Vehicle/" + Model.Vehicle.ImageFilePath)" id="detailVehiclePicture" />
+                        </div>
+                        <label>Replace Picture</label>
+                        <input id="Vehicle.ImageUpload" name="ImageUpload" type="file" class="form-control" />
+                    </div>
+                </div>
+                <div class="row col-sm-10">
+                    <div>
+                        @Html.CheckBoxFor(f => f.Vehicle.FeaturedStatus)
+                        <label>Feature this Vehicle</label>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" id="editVehicleSaveButton">Save</button>
+            </div>
+        }
+        <button class="btn btn-danger" id="editVehicleDeleteButton" onclick="deleteAlert('@Model.Vehicle.VINNumber')">Delete</button>
+    </div>
+</div>
+
+@*@Ajax.ActionLink("Delete", "DeleteVehicle", "Admin", new { id = Model.Vehicle.VINNumber.ToString() }, new AjaxOptions { HttpMethod = "DELETE" }, htmlAttributes: new { @class = "btn btn-danger", id = "formDeleteVehicle", onclick = "return confirm('Are you sure you wish to delete this vehicle?');" })*@
+@*@Html.ActionLink("Delete", "DeleteVehicle", "Admin", new { id = Model.Vehicle.VINNumber }, htmlAttributes: new { @class = "btn btn-danger", id = "formDeleteVehicle", onclick = "return confirm('Are you sure you wish to delete this vehicle?');" })*@
+
+@*https://jqueryvalidation.org/documentation/*@
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#formEditVehicle').validate({
+                rules: {
+                    'Vehicle.MakeName': {
+                        required: true
+                    },
+                    'Vehicle.ModelName': {
+                        required: true,
+                    },
+                    'Vehicle.Year': {
+                        required: true,
+                        digits: true,
+                        range: [2000, 2022]
+                    },
+                    'Vehicle.Mileage': {
+                        required: true,
+                        digits: true
+                    },
+                    'Vehicle.VINNumber': {
+                        required: true,
+                        rangelength: [17, 17]
+                    },
+                    'Vehicle.MSRP': {
+                        required: true,
+                        number: true,
+                        min: 1
+                    },
+                    'Vehicle.SalePrice': {
+                        required: true,
+                        number: true,
+                        min: 1
+                    },
+                    'Vehicle.Description': {
+                        required: true
+                    },
+                },
+                messages: {
+                    'Vehicle.MakeName': {
+                        required: "Please select make",
+                    },
+                    'Vehicle.ModelName': {
+                        required: "Please select model",
+                    },
+                    'Vehicle.Year': {
+                        required: "Please enter a number",
+                        digits: "Please enter a year between 2000 & 2022",
+                        range: "Please enter a year between 2000 & 2022"
+                    },
+                    'Vehicle.Mileage': {
+                        required: "Please enter a number",
+                        digits: "Please enter a number",
+                    },
+                    'Vehicle.VINNumber': {
+                        required: "Please enter a 17 character VIN",
+                        rangelength: "Please enter a 17 character VIN"
+                    },
+                    'Vehicle.MSRP': {
+                        required: "Please enter a number",
+                        number: "Please enter a number",
+                        min: "Please enter an amount greater than 1"
+                    },
+                    'Vehicle.SalePrice': {
+                        required: "Please enter a number",
+                        number: "Please enter a number",
+                        min: "Please enter an amount greater than 1"
+                    },
+                    'Vehicle.Description': {
+                        required: "Please enter a description",
+                    }
+                }
+            });
+        });
+    </script>
+    <script>
+        // Set model to initial value when page is loaded
+        $(document).ready(function () {
+            $.ajax({
+                type: 'GET',
+                url: 'https://localhost:44373/api/inventory/models?makeName=' + $(".makeDropDown").val(),
+                success: function (results) {
+                    $('.modelDropDown').empty();
+                    $('.modelDropDown').prop("disabled", true);
+                    $('.modelDropDown').removeAttr("disabled");
+
+                    $.each(results, function (index, modelListing) {
+                        var html = '<option value=' + modelListing.value + '>' + modelListing.text + '</option>'
+                        $('.modelDropDown').append(html.toString());
+                    });
+
+                    $('.modelDropDown').val("@Model.Vehicle.ModelName");
+                },
+                error: function () {
+                    alert('Error retreiving models, try again later.')
+                }
+            });
+        });
+        // Get new models when make is changed
+        $(document).ready(function () {
+            $(".makeDropDown").on('change', function (e) {
+                var optionSelected = $("option:selected", this);
+                var valueSelected = this.value;
+
+                if (valueSelected == 0) {
+                    $('.modelDropDown').empty();
+                    $('.modelDropDown').attr("disabled", true);
+                    alert('Please Select Make.')
+                }
+                else {
+                    $.ajax({
+                        type: 'GET',
+                        url: 'https://localhost:44373/api/inventory/models?makeName=' + valueSelected,
+                        success: function (results) {
+                            $('.modelDropDown').empty();
+                            $('.modelDropDown').prop("disabled", true);
+                            $('.modelDropDown').removeAttr("disabled");
+
+                            $.each(results, function (index, modelListing) {
+                                var html = '<option value=' + modelListing.value + '>' + modelListing.text + '</option>'
+                                $('.modelDropDown').append(html.toString());
+                            });
+                        },
+                        error: function () {
+                            alert('Error retreiving models, try again later.')
+                        }
+                    });
+                }
+            });
+        });
+
+        function deleteAlert(id) {
+            if (confirm('Are you sure you want to delete this vehicle?')) {
+                deleteVehicle(id)
+            }
+        }
+
+        function deleteVehicle(id) {
+            $.ajax({
+                type: 'DELETE',
+                url: 'https://localhost:44373/api/inventory/id?id=' + id,
+                success: function (results) {
+                    window.location.href = "https://localhost:44373/Admin/Vehicles";
+                },
+                error: function () {
+                    alert('Error performing delete, try again later.')
+                }      
+            });
+        }
+    </script>
+    <script>
+
+
+    </script>
+}

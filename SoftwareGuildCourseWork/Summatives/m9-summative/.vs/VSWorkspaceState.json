@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DvdLibraryREST",
+    "\\DvdLibraryREST\\css",
+    "\\DvdLibraryREST\\js",
+    "\\DvdLibraryWebApi",
+    "\\DvdLibraryWebApi\\DvdLibraryWebApi",
+    "\\DvdLibraryWebApi\\DvdLibraryWebApi.Tests",
+    "\\DvdLibraryWebApi\\DvdLibraryWebApi.UI",
+    "\\DvdLibraryWebApi\\DvdLibraryWebApi.UI\\Controllers"
+  ],
+  "SelectedNode": "\\DvdLibraryWebApi\\DvdLibraryWebApi.UI\\Controllers\\DvdController.cs",
+  "PreviewInSolutionExplorer": false
+}

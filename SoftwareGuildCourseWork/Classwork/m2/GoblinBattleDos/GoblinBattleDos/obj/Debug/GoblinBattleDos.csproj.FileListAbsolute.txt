@@ -1,0 +1,7 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GoblinBattleDos\GoblinBattleDos\bin\Debug\GoblinBattleDos.exe.config
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GoblinBattleDos\GoblinBattleDos\bin\Debug\GoblinBattleDos.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GoblinBattleDos\GoblinBattleDos\bin\Debug\GoblinBattleDos.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GoblinBattleDos\GoblinBattleDos\obj\Debug\GoblinBattleDos.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GoblinBattleDos\GoblinBattleDos\obj\Debug\GoblinBattleDos.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GoblinBattleDos\GoblinBattleDos\obj\Debug\GoblinBattleDos.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GoblinBattleDos\GoblinBattleDos\obj\Debug\GoblinBattleDos.pdb

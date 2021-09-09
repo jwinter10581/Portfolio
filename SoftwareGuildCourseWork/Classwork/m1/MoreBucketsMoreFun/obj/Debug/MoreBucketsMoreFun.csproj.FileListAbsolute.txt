@@ -1,0 +1,7 @@
+C:\Users\Jonathan\source\repos\MoreBucketsMoreFun\bin\Debug\MoreBucketsMoreFun.exe.config
+C:\Users\Jonathan\source\repos\MoreBucketsMoreFun\bin\Debug\MoreBucketsMoreFun.exe
+C:\Users\Jonathan\source\repos\MoreBucketsMoreFun\bin\Debug\MoreBucketsMoreFun.pdb
+C:\Users\Jonathan\source\repos\MoreBucketsMoreFun\obj\Debug\MoreBucketsMoreFun.csprojAssemblyReference.cache
+C:\Users\Jonathan\source\repos\MoreBucketsMoreFun\obj\Debug\MoreBucketsMoreFun.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\MoreBucketsMoreFun\obj\Debug\MoreBucketsMoreFun.exe
+C:\Users\Jonathan\source\repos\MoreBucketsMoreFun\obj\Debug\MoreBucketsMoreFun.pdb

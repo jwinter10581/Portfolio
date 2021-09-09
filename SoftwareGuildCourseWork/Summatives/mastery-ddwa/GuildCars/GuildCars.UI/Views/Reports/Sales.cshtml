@@ -1,0 +1,93 @@
+﻿@model IEnumerable<SelectListItem>
+@{
+    ViewBag.Title = "Sales";
+}
+
+<div class="container">
+    <div class="col-sm-12">
+        <h3>Sales Report</h3>
+        <br />
+    </div>
+    <div class="container col-sm-9" id="salesReportSearchContainer">
+        <div class="col-sm-12">
+            <div class="row">
+                <h4>Filters</h4>
+            </div>
+            <div class="row d-inline-flex" id="salesReportSearch">
+                <div class="col-sm-4" id="salesReportSearchBar">
+                    <label id="salesReportLabel">User</label>
+                    @Html.DropDownList("employee", new SelectList(Model, "Value", "Text"), "Any", htmlAttributes: new { @class = "form-control", @id = "employeeDropdown" })
+                </div>
+                <div class="col-sm-4" id="salesReportSearchBar">
+                    <label id="salesReportLabel">From Date</label>
+                    <input type="date" class="form-control" id="fromDate" min="2000-01-01" max="@DateTime.Today">
+                </div>
+                <div class="col-sm-4" id="salesReportSearchBar">
+                    <label id="salesReportLabel">To Date</label>
+                    <input type="date" class="form-control" id="toDate" min="2000-01-01" max="@DateTime.Today">
+                </div>
+            </div>
+            <div class="row col-sm-4">
+                <button class="btn btn-primary" onclick="search()" id="salesReportSearchButton">Search</button>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="col-sm-6">
+            <h6>Search Results</h6>
+            <div class="container">
+                <table class="table table-striped" id="blackBorders">
+                    <thead>
+                        <tr>
+                            <td><strong>User</strong></td>
+                            <td><strong>Total Sales</strong></td>
+                            <td><strong>Total Vehicles</strong></td>
+                        </tr>
+                    </thead>
+                    <tbody id="employeeSalesContainer">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#searchUserForm").submit(function (e) {
+                search();
+                return false;
+            });
+        });
+
+        function search() {
+            var params;
+
+            params = 'employeeId=' + $('#employeeDropdown').val() + '&fromDate=' + $('#fromDate').val() + '&toDate=' + $('#toDate').val();
+
+            $.ajax({
+                type: 'GET',
+                url: 'https://localhost:44373/api/purchase/sales?' + params,
+                success: function (results) {
+                    $('#employeeSalesContainer').empty();
+
+                    $.each(results, function (index, employee) {
+                        var html ='<tr>' +
+                            '<td>' + employee.employeeName + '</td>' +
+                            '<td>$' + new Intl.NumberFormat().format(employee.totalSales) + '</td>' +
+                            '<td>' + new Intl.NumberFormat().format(employee.totalVehicles) + '</td>' +
+                            '</tr>'
+                        $('#employeeSalesContainer').append(html.toString());
+                    });
+                },
+                error: function () {
+                    alert('Error performing search, try again later.')
+                }
+            });
+        }
+    </script>
+}
+

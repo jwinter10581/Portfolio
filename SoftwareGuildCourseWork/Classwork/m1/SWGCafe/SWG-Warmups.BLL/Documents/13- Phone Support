@@ -1,0 +1,7 @@
+﻿13 - Phone Support
+
+If the store is closed, we do not answer the phone. If it is the morning time, we do not answer the phone because we are so busy. 
+However, if we recognize the number on the caller ID as the District Manager we pick it up as quick as possible regardless 
+of what time it is.
+
+Given if the store is open, if it is the morning, and if it is the District Manager - determine if we should answer the phone or not.

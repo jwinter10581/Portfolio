@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\obj\Debug\netcoreapp3.1\MiniMadLibs.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\obj\Debug\netcoreapp3.1\MiniMadLibs.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\obj\Debug\netcoreapp3.1\MiniMadLibs.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\bin\Debug\netcoreapp3.1\MiniMadLibs.exe
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\bin\Debug\netcoreapp3.1\MiniMadLibs.deps.json
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\bin\Debug\netcoreapp3.1\MiniMadLibs.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\bin\Debug\netcoreapp3.1\MiniMadLibs.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\bin\Debug\netcoreapp3.1\MiniMadLibs.dll
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\bin\Debug\netcoreapp3.1\MiniMadLibs.pdb
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\obj\Debug\netcoreapp3.1\MiniMadLibs.dll
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\obj\Debug\netcoreapp3.1\MiniMadLibs.pdb
+C:\Users\Jonathan\Documents\GitHub\MiniMadLibs\obj\Debug\netcoreapp3.1\MiniMadLibs.genruntimeconfig.cache

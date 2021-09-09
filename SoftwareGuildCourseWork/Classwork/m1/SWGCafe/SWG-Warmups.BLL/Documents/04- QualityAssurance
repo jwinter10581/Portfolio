@@ -1,0 +1,7 @@
+﻿4 - Quality Assurance
+
+So our typo plan worked, but barrista’s found out a bunch of Aaron, Bill, and Analee actually come into the shop. 
+As such, we decided “a” is safe as a first letter and “l & e” is safe as a last letter. 
+
+Given a person’s first name, return the name removing any instances of duplicate first letters (unless the letter is 'a') or 
+last letters (unless the letter is 'l' or 'e') from the name.

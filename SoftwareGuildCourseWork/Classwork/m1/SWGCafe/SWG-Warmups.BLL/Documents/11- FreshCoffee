@@ -1,0 +1,6 @@
+﻿11 - Fresh Coffee
+
+One of the things a few of our customers commented on was the coffee did not taste fresh all the time. 
+We decided our coffee should still taste fresh 2 hours after brew, so every even numbered hour we should change it.
+        
+Given an hour, return a boolean on if we need to change the coffee or not.

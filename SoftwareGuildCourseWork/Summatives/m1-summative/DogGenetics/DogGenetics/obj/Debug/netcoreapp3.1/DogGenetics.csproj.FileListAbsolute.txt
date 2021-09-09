@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\bin\Debug\netcoreapp3.1\DogGenetics.exe
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\bin\Debug\netcoreapp3.1\DogGenetics.deps.json
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\bin\Debug\netcoreapp3.1\DogGenetics.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\bin\Debug\netcoreapp3.1\DogGenetics.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\bin\Debug\netcoreapp3.1\DogGenetics.dll
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\bin\Debug\netcoreapp3.1\DogGenetics.pdb
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\obj\Debug\netcoreapp3.1\DogGenetics.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\obj\Debug\netcoreapp3.1\DogGenetics.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\obj\Debug\netcoreapp3.1\DogGenetics.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\obj\Debug\netcoreapp3.1\DogGenetics.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\obj\Debug\netcoreapp3.1\DogGenetics.dll
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\obj\Debug\netcoreapp3.1\DogGenetics.pdb
+C:\Users\Jonathan\Documents\GitHub\DogGenetics\obj\Debug\netcoreapp3.1\DogGenetics.genruntimeconfig.cache

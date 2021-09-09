@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\bin\Debug\netcoreapp3.1\TriviaNight.exe
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\bin\Debug\netcoreapp3.1\TriviaNight.deps.json
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\bin\Debug\netcoreapp3.1\TriviaNight.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\bin\Debug\netcoreapp3.1\TriviaNight.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\bin\Debug\netcoreapp3.1\TriviaNight.dll
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\bin\Debug\netcoreapp3.1\TriviaNight.pdb
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\obj\Debug\netcoreapp3.1\TriviaNight.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\obj\Debug\netcoreapp3.1\TriviaNight.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\obj\Debug\netcoreapp3.1\TriviaNight.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\obj\Debug\netcoreapp3.1\TriviaNight.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\obj\Debug\netcoreapp3.1\TriviaNight.dll
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\obj\Debug\netcoreapp3.1\TriviaNight.pdb
+C:\Users\Jonathan\Documents\GitHub\TriviaNight\obj\Debug\netcoreapp3.1\TriviaNight.genruntimeconfig.cache

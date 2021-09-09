@@ -1,0 +1,68 @@
+﻿@model GuildCars.UI.Models.MakeAddViewModel
+
+@{
+    ViewBag.Title = "Makes";
+}
+
+<div class="container">
+    <h2>Makes</h2>
+    <div class="container" id="blackBorders">
+        <div class="col-sm-12">
+            @using (Html.BeginForm("Makes", "Admin", FormMethod.Post, new { @class = "row align-items-center", id = "formAddMake" }))
+            {
+                @Html.ValidationSummary()
+
+                <div class="row col-sm-6" id="makesRow">
+                    <label id="makeLabel">New Make</label>
+                    @Html.TextBoxFor(m => m.NewMake.MakeName, htmlAttributes: new { @class = "form-control", @id = "makesInput", placeholder = "" })
+                </div>
+                <div class="row col-sm-6" id="makesRow">                    
+                    <button class="btn btn-primary" id="makesButton">Save</button>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-sm-6">
+            <div class="container">
+                <table class="table table-striped" id="blackBorders">
+                    <thead>
+                        <tr>
+                            <td><strong>Make</strong></td>
+                            <td><strong>Date Added</strong></td>
+                            <td><strong>User</strong></td>
+                        </tr>
+                    </thead>
+                    <tbody id="makeContainer">
+                        @foreach (var make in Model.Makes.ToList())
+                        {
+                            <tr>
+                                <td>@make.MakeName</td>
+                                <td>@make.DateAdded.ToString("MM/dd/yyyy")</td>
+                                <td>@make.EmployeeEmail</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#formAddMake").validate({
+                rules: {
+                    'Make.MakeName': {
+                        required: true
+                    }
+                },
+                messages: {
+                    'Make.MakeName': "Please enter a make name"
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,12 @@
+C:\Users\Jonathan\source\repos\YourLifeInMovies\bin\Debug\netcoreapp3.1\YourLifeInMovies.exe
+C:\Users\Jonathan\source\repos\YourLifeInMovies\bin\Debug\netcoreapp3.1\YourLifeInMovies.deps.json
+C:\Users\Jonathan\source\repos\YourLifeInMovies\bin\Debug\netcoreapp3.1\YourLifeInMovies.runtimeconfig.json
+C:\Users\Jonathan\source\repos\YourLifeInMovies\bin\Debug\netcoreapp3.1\YourLifeInMovies.runtimeconfig.dev.json
+C:\Users\Jonathan\source\repos\YourLifeInMovies\bin\Debug\netcoreapp3.1\YourLifeInMovies.dll
+C:\Users\Jonathan\source\repos\YourLifeInMovies\bin\Debug\netcoreapp3.1\YourLifeInMovies.pdb
+C:\Users\Jonathan\source\repos\YourLifeInMovies\obj\Debug\netcoreapp3.1\YourLifeInMovies.AssemblyInfoInputs.cache
+C:\Users\Jonathan\source\repos\YourLifeInMovies\obj\Debug\netcoreapp3.1\YourLifeInMovies.AssemblyInfo.cs
+C:\Users\Jonathan\source\repos\YourLifeInMovies\obj\Debug\netcoreapp3.1\YourLifeInMovies.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\YourLifeInMovies\obj\Debug\netcoreapp3.1\YourLifeInMovies.dll
+C:\Users\Jonathan\source\repos\YourLifeInMovies\obj\Debug\netcoreapp3.1\YourLifeInMovies.pdb
+C:\Users\Jonathan\source\repos\YourLifeInMovies\obj\Debug\netcoreapp3.1\YourLifeInMovies.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\bin\Debug\BreadManager.Controller.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\bin\Debug\BreadManager.Controller.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\bin\Debug\BreadManager.Data.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\bin\Debug\BreadManager.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\bin\Debug\BreadManager.View.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\bin\Debug\BreadManager.Data.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\bin\Debug\BreadManager.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\bin\Debug\BreadManager.View.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\obj\Debug\BreadManager.Controller.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\obj\Debug\BreadManager.Controller.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\obj\Debug\BreadManager.Controller.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\obj\Debug\BreadManager.Controller.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Controller\obj\Debug\BreadManager.Controller.pdb

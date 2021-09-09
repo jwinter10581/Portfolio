@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\bin\Debug\netcoreapp3.1\LuckySevens.exe
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\bin\Debug\netcoreapp3.1\LuckySevens.deps.json
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\bin\Debug\netcoreapp3.1\LuckySevens.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\bin\Debug\netcoreapp3.1\LuckySevens.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\bin\Debug\netcoreapp3.1\LuckySevens.dll
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\bin\Debug\netcoreapp3.1\LuckySevens.pdb
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\obj\Debug\netcoreapp3.1\LuckySevens.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\obj\Debug\netcoreapp3.1\LuckySevens.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\obj\Debug\netcoreapp3.1\LuckySevens.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\obj\Debug\netcoreapp3.1\LuckySevens.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\obj\Debug\netcoreapp3.1\LuckySevens.dll
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\obj\Debug\netcoreapp3.1\LuckySevens.pdb
+C:\Users\Jonathan\Documents\GitHub\LuckySevens\obj\Debug\netcoreapp3.1\LuckySevens.genruntimeconfig.cache

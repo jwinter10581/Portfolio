@@ -1,0 +1,6 @@
+C:\Users\Jonathan\Documents\GitHub\CommentingCode\bin\Debug\CommentingCode.exe.config
+C:\Users\Jonathan\Documents\GitHub\CommentingCode\bin\Debug\CommentingCode.exe
+C:\Users\Jonathan\Documents\GitHub\CommentingCode\bin\Debug\CommentingCode.pdb
+C:\Users\Jonathan\Documents\GitHub\CommentingCode\obj\Debug\CommentingCode.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\CommentingCode\obj\Debug\CommentingCode.exe
+C:\Users\Jonathan\Documents\GitHub\CommentingCode\obj\Debug\CommentingCode.pdb

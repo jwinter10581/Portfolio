@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\obj\Debug\FlooringMasteryMVC.BLL.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\obj\Debug\FlooringMasteryMVC.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\bin\Debug\FlooringMasteryMVC.BLL.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\bin\Debug\FlooringMasteryMVC.BLL.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\bin\Debug\FlooringMasteryMVC.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\bin\Debug\FlooringMasteryMVC.Repository.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\bin\Debug\FlooringMasteryMVC.View.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\bin\Debug\FlooringMasteryMVC.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\bin\Debug\FlooringMasteryMVC.Repository.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\bin\Debug\FlooringMasteryMVC.View.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\obj\Debug\FlooringMasteryMVC.BLL.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\obj\Debug\FlooringMasteryMVC.BLL.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-oop\FlooringMasteryMVC\FlooringMasteryMVC.BLL\obj\Debug\FlooringMasteryMVC.BLL.pdb

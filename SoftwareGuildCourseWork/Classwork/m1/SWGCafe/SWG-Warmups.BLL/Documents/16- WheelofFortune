@@ -1,0 +1,7 @@
+﻿16 - Wheel of Fortune
+
+Hangman was such a hit they want us to add a new spin on it (literally). You will spin a wheel and get a point value. 
+For each letter you find, you get that number of points. If you choose a vowel (‘a’,’e’,’i’,’o’,’u’), you get half as many points 
+for each letter. 
+
+Given a target word, a letter guess by a customer, and a point value. Return the number of points earned.

@@ -1,0 +1,16 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\nunit.engine.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\nunit.engine.api.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\nunit.engine.core.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\GuessingGame.Tests.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\GuessingGame.Tests.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\GuessingGame.BLL.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\GuessingGame.BLL.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\obj\Debug\GuessingGame.Tests.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\obj\Debug\GuessingGame.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\obj\Debug\GuessingGame.Tests.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\obj\Debug\GuessingGame.Tests.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.Tests\obj\Debug\GuessingGame.Tests.pdb

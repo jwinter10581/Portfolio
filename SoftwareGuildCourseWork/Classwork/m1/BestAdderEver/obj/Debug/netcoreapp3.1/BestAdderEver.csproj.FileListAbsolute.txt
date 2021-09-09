@@ -1,0 +1,12 @@
+C:\Users\Jonathan\source\repos\BestAdderEver\bin\Debug\netcoreapp3.1\BestAdderEver.exe
+C:\Users\Jonathan\source\repos\BestAdderEver\bin\Debug\netcoreapp3.1\BestAdderEver.deps.json
+C:\Users\Jonathan\source\repos\BestAdderEver\bin\Debug\netcoreapp3.1\BestAdderEver.runtimeconfig.json
+C:\Users\Jonathan\source\repos\BestAdderEver\bin\Debug\netcoreapp3.1\BestAdderEver.runtimeconfig.dev.json
+C:\Users\Jonathan\source\repos\BestAdderEver\bin\Debug\netcoreapp3.1\BestAdderEver.dll
+C:\Users\Jonathan\source\repos\BestAdderEver\bin\Debug\netcoreapp3.1\BestAdderEver.pdb
+C:\Users\Jonathan\source\repos\BestAdderEver\obj\Debug\netcoreapp3.1\BestAdderEver.AssemblyInfoInputs.cache
+C:\Users\Jonathan\source\repos\BestAdderEver\obj\Debug\netcoreapp3.1\BestAdderEver.AssemblyInfo.cs
+C:\Users\Jonathan\source\repos\BestAdderEver\obj\Debug\netcoreapp3.1\BestAdderEver.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\BestAdderEver\obj\Debug\netcoreapp3.1\BestAdderEver.dll
+C:\Users\Jonathan\source\repos\BestAdderEver\obj\Debug\netcoreapp3.1\BestAdderEver.pdb
+C:\Users\Jonathan\source\repos\BestAdderEver\obj\Debug\netcoreapp3.1\BestAdderEver.genruntimeconfig.cache

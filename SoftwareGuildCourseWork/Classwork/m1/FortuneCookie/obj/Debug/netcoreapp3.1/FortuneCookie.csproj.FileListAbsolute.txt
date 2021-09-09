@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\bin\Debug\netcoreapp3.1\FortuneCookie.exe
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\bin\Debug\netcoreapp3.1\FortuneCookie.deps.json
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\bin\Debug\netcoreapp3.1\FortuneCookie.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\bin\Debug\netcoreapp3.1\FortuneCookie.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\bin\Debug\netcoreapp3.1\FortuneCookie.dll
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\bin\Debug\netcoreapp3.1\FortuneCookie.pdb
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\obj\Debug\netcoreapp3.1\FortuneCookie.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\obj\Debug\netcoreapp3.1\FortuneCookie.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\obj\Debug\netcoreapp3.1\FortuneCookie.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\obj\Debug\netcoreapp3.1\FortuneCookie.dll
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\obj\Debug\netcoreapp3.1\FortuneCookie.pdb
+C:\Users\Jonathan\Documents\GitHub\FortuneCookie\obj\Debug\netcoreapp3.1\FortuneCookie.genruntimeconfig.cache

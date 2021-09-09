@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\LovesMe\bin\Debug\netcoreapp3.1\LovesMe.exe
+C:\Users\Jonathan\Documents\GitHub\LovesMe\bin\Debug\netcoreapp3.1\LovesMe.deps.json
+C:\Users\Jonathan\Documents\GitHub\LovesMe\bin\Debug\netcoreapp3.1\LovesMe.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\LovesMe\bin\Debug\netcoreapp3.1\LovesMe.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\LovesMe\bin\Debug\netcoreapp3.1\LovesMe.dll
+C:\Users\Jonathan\Documents\GitHub\LovesMe\bin\Debug\netcoreapp3.1\LovesMe.pdb
+C:\Users\Jonathan\Documents\GitHub\LovesMe\obj\Debug\netcoreapp3.1\LovesMe.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\LovesMe\obj\Debug\netcoreapp3.1\LovesMe.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\LovesMe\obj\Debug\netcoreapp3.1\LovesMe.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\LovesMe\obj\Debug\netcoreapp3.1\LovesMe.dll
+C:\Users\Jonathan\Documents\GitHub\LovesMe\obj\Debug\netcoreapp3.1\LovesMe.pdb
+C:\Users\Jonathan\Documents\GitHub\LovesMe\obj\Debug\netcoreapp3.1\LovesMe.genruntimeconfig.cache

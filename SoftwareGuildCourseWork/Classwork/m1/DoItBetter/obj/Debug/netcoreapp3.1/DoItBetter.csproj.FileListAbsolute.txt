@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\obj\Debug\netcoreapp3.1\DoItBetter.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\obj\Debug\netcoreapp3.1\DoItBetter.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\obj\Debug\netcoreapp3.1\DoItBetter.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\bin\Debug\netcoreapp3.1\DoItBetter.exe
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\bin\Debug\netcoreapp3.1\DoItBetter.deps.json
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\bin\Debug\netcoreapp3.1\DoItBetter.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\bin\Debug\netcoreapp3.1\DoItBetter.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\bin\Debug\netcoreapp3.1\DoItBetter.dll
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\bin\Debug\netcoreapp3.1\DoItBetter.pdb
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\obj\Debug\netcoreapp3.1\DoItBetter.dll
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\obj\Debug\netcoreapp3.1\DoItBetter.pdb
+C:\Users\Jonathan\Documents\GitHub\DoItBetter\obj\Debug\netcoreapp3.1\DoItBetter.genruntimeconfig.cache

@@ -1,0 +1,32 @@
+﻿@model FileUploadsASPNet.Models.FileUploadViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                @using (Html.BeginForm("Index", "Home", FormMethod.Post,
+            new { enctype="multipart/form-data", id="frmUpload" }))
+                {
+                    <div class="form-group">
+                        <label>Select File:</label>
+                        @Html.TextBoxFor(m => m.UploadedFile, new { type = "file", @class = "form-control" })
+                    </div>
+                    <button class="btn btn-primary">Upload File</button>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

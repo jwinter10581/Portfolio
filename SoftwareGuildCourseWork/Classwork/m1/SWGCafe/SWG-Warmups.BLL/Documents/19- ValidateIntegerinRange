@@ -1,0 +1,6 @@
+﻿19 - Validate Integer in Range
+
+We want to be sure someone doesn’t fat finger a number when entering quantity, so we want to make sure 
+the number fits within our requirements.
+
+Given a string and a maximum quantity (minimum 1), return if the number is within the allotted range.

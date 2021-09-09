@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\bin\Debug\netcoreapp3.1\KnockKnock.exe
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\bin\Debug\netcoreapp3.1\KnockKnock.deps.json
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\bin\Debug\netcoreapp3.1\KnockKnock.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\bin\Debug\netcoreapp3.1\KnockKnock.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\bin\Debug\netcoreapp3.1\KnockKnock.dll
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\bin\Debug\netcoreapp3.1\KnockKnock.pdb
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\obj\Debug\netcoreapp3.1\KnockKnock.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\obj\Debug\netcoreapp3.1\KnockKnock.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\obj\Debug\netcoreapp3.1\KnockKnock.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\obj\Debug\netcoreapp3.1\KnockKnock.dll
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\obj\Debug\netcoreapp3.1\KnockKnock.pdb
+C:\Users\Jonathan\Documents\GitHub\KnockKnock\obj\Debug\netcoreapp3.1\KnockKnock.genruntimeconfig.cache

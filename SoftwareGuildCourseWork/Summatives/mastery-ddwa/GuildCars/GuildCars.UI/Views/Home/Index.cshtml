@@ -1,0 +1,55 @@
+﻿@model GuildCars.UI.Models.HomeIndexViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+<script>
+    $(document).ready(function () {
+        $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function () {
+            $('#slideshow > div:first')
+                .fadeOut(2000)
+                .next()
+                .fadeIn(2000)
+                .end()
+                .appendTo('#slideshow');
+        }, 6000);
+    });
+</script>
+
+@if (Model != null)
+{
+    <div id="slideshow">
+        @foreach (var special in Model.Specials.ToList())
+        {
+            <div id="specialContent">
+                <h2>@special.Title</h2>
+                <p>@special.Description</p>
+                @Html.ActionLink(" ", "Specials", "Home", null, new { @class = "stretched-link" })
+            </div>
+        }
+    </div>
+}
+
+<hr />
+
+<div class="row row-cols-md-4 row col-sm-12">
+
+    @if (Model != null)
+    {
+        foreach (var vehicle in Model.FeaturedVehicles.ToList())
+        {
+            <div class="col">
+                <div class="card" id="featuredVehicleCard">
+                    <img src="@Url.Content("~/Images/Vehicle/" + vehicle.ImageFilePath)" class="card-img-top" id="featuredVehiclePicture">
+                    <div class="card-body" id="homeCard">
+                        <h5 class="card-title">@vehicle.Year @vehicle.MakeName @vehicle.ModelName</h5>
+                        <p class="card-text">@vehicle.SalePrice.ToString("c")</p>
+                        @Html.ActionLink(" ", "Details", "Inventory", new { id = vehicle.VINNumber }, new { @class = "stretched-link" })
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\Factorizer\obj\Debug\netcoreapp3.1\Factorizer.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\Factorizer\obj\Debug\netcoreapp3.1\Factorizer.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\Factorizer\obj\Debug\netcoreapp3.1\Factorizer.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\Factorizer\obj\Debug\netcoreapp3.1\Factorizer.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\Factorizer\bin\Debug\netcoreapp3.1\Factorizer.exe
+C:\Users\Jonathan\Documents\GitHub\Factorizer\bin\Debug\netcoreapp3.1\Factorizer.deps.json
+C:\Users\Jonathan\Documents\GitHub\Factorizer\bin\Debug\netcoreapp3.1\Factorizer.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\Factorizer\bin\Debug\netcoreapp3.1\Factorizer.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\Factorizer\bin\Debug\netcoreapp3.1\Factorizer.dll
+C:\Users\Jonathan\Documents\GitHub\Factorizer\bin\Debug\netcoreapp3.1\Factorizer.pdb
+C:\Users\Jonathan\Documents\GitHub\Factorizer\obj\Debug\netcoreapp3.1\Factorizer.dll
+C:\Users\Jonathan\Documents\GitHub\Factorizer\obj\Debug\netcoreapp3.1\Factorizer.pdb
+C:\Users\Jonathan\Documents\GitHub\Factorizer\obj\Debug\netcoreapp3.1\Factorizer.genruntimeconfig.cache

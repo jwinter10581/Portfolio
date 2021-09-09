@@ -1,0 +1,62 @@
+﻿@model IEnumerable<EmployeeManagement.Models.EmployeeListViewModel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Employees</h1>
+                <p>@Html.ActionLink("Add a new employee","Add","Employees")</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Phone</th>
+                            <th>Department</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var employee in Model)
+                         {
+                            <tr>
+                                <td>@employee.Name</td>
+                                <td>@employee.Phone</td>
+                                <td>@employee.Department</td>
+                                <td>
+                                    @Html.ActionLink("Edit", "Edit", "Employees", new { id = employee.EmployeeId}, null)
+                                </td>
+                                <td>
+                                    @using (Html.BeginForm("Delete", "Employees", new { id = employee.EmployeeId }, FormMethod.Post))
+                                    {
+                                        <button class="btn btn-danger" onclick="return confirm('Are you sure you want to delete @employee.Name?');">Delete</button>
+                                    }
+                                </td>
+                            </tr>
+                         }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

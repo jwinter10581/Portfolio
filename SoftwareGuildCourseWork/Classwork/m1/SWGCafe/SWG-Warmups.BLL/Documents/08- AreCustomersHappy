@@ -1,0 +1,6 @@
+﻿8 - Are Customers Happy
+
+Each day our managers want us to report to them the average score of all completed surveys for a day and let them know 
+if our average customer satisfaction rating is less than 8. 
+
+Given an array of integers, return true if the average satisfaction rating is greater than 8 or return false if it is not.

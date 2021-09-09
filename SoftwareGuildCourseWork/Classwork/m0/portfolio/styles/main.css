@@ -1,0 +1,59 @@
+/* Name: Jonathan Winter */
+/* Date Created: 01/25/21 */
+/* Most Recent Revision: 01/25/21 */
+
+body {
+	background-color: #686963;
+	font-family: arial, helvetica, sans-serif;
+	color: #F1EDEE;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+header, footer {
+	background-color: #3D5467;
+	color: #F1EDEE;
+	height: 100px;
+	text-align: center;
+	padding: 30px 10px 20px 10px;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+nav {
+	border-top: 3px dashed #3D5467;
+	border-bottom: 3px dashed #3D5467;
+	margin-top: 4px;
+}
+
+nav a {
+	background-color: #3D5467;
+	color: #F1EDEE;
+	padding: 8px;
+	border: thin solid #8AA29E;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 20px;
+	width: 100px;
+	float:left;
+}
+
+nav a:visited {
+	color:#DB5461
+}
+
+nav a:hover {
+	background-color: #F1EDEE;
+	color: #3D5467;
+}
+
+nav a:active {
+	font-weight: bold;
+}
+
+.clear-float {
+	clear:both;
+}

@@ -1,0 +1,7 @@
+﻿6 - Funny Name Day
+
+For April Fool’s Day we decide to run a promotion where the label that prints off for the customer’s cup blows 
+up their name by changing it to their first letter, followed by the first two letters, etc. 
+(For example, Alex becomes AAlAleAlex). 
+
+Given a person’s name, expand the string like in the example. (See the unit tests for more examples)

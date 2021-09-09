@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BewareTheKraken", "BewareTheKraken.csproj", "{A8D38CB3-AA38-464A-9D48-90CAC695E55C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D38CB3-AA38-464A-9D48-90CAC695E55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D38CB3-AA38-464A-9D48-90CAC695E55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D38CB3-AA38-464A-9D48-90CAC695E55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D38CB3-AA38-464A-9D48-90CAC695E55C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7319B389-1535-4696-803C-59D5341A8293}
+	EndGlobalSection
+EndGlobal

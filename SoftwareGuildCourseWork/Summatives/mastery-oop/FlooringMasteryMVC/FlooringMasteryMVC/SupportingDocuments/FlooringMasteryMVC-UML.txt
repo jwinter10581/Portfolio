@@ -1,0 +1,192 @@
+@startuml
+title FlooringMasteryMVC Structure
+
+package FlooringMasteryMVC.View 
+{
+    class FlooringView
+    {
+        +ShowMenuAndGetChoice (): int
+        +CreateNewOrder (List<product> products, List<tax> taxes): Order
+        +EditOrder (Order oldOrder, List<product> products, List<tax> taxes): Order
+        +SelectOrder (List<order> orders, string actionName): Order
+        +ConfirmOrder (Order order, string actionName): Order
+        +DisplayOrderInformation (Order order): void
+        +DisplayOrderInformation (List <Order> orders): void
+        +DisplayProductInformation (List<Product> products): void
+        +DisplayTaxInformation (List<Tax> taxes): void
+        +ShowSuccess (string action): void
+        +ShowFailure (string action): void
+        +ShowFailure (string action, string failureMessage): void
+    }
+
+    class FlooringValidation
+    {
+        +ReadArea (string prompt): decimal
+        +ReadArea (string prompt, decimal oldDecimal): decimal
+        +ReadCustomerName (string prompt): string
+        +ReadCustomerName (string prompt, string oldName): string
+        -IsValidCustomerName (string inputName): bool
+        +ReadDate (string prompt): DateTime
+        +ReadInt (string prompt, int min, int max): int
+        +ReadOrderNumber (string prompt, List<int> orderNumbers): int
+        +ReadProduct (string prompt, List<product> products): Product
+        +ReadProduct (string prompt, List<product> products, Product oldProduct): Product
+        +ReadState (string prompt, List<Tax> taxes): Tax
+        +ReadState (string prompt, List<Tax> taxes, Tax oldState): Tax
+        -ReadString (string prompt): string
+        -ReadString (string prompt, string oldString): string
+    }
+
+    class Helpers
+    {
+        +PressAnyKey(): void
+    }
+}
+
+package FlooringMasteryMVC.Controller
+{
+    class FlooringController
+    {
+        +Run(): void
+        +DisplayOrder(): void
+        +AddOrder(): void
+        +EditOrder(): void
+        +RemoveOrder(): void
+    }
+}
+
+package FlooringMasteryMVC.Repository
+{
+    Interface IOrderRepo
+    {
+        AddOrder
+        DeleteOrder
+        CalculateFields
+        RetrieveAllOrdersByDate
+        RetrieveOrderByNumber
+    }
+
+    Class OrderRepositoryMemory
+    {
+        +AddOrder (Order newOrder): Order
+        +DeleteOrder (DateTime date, int number): void
+        +CalculateFields (Order updatedOrder): Order
+        -ReadAllOrders (): void
+        +RetrieveAllOrdersByDate (DateTime date): List <Order>
+        +RetrieveOrderByNumber (DateTime date, int Number)
+    }
+
+    Class OrderRepositoryText
+    {
+        +AddOrder (Order newOrder): Order
+        +DeleteOrder (DateTime date, int number): void
+        +CalculateFields (Order updatedOrder): Order
+        +RetrieveAllOrdersByDate (DateTime date): List <Order>
+        +RetrieveOrderByNumber (DateTime date, int Number)
+        -WriteAllOrdersByDate (List<Order> orders): void
+        -ConvertObjectToString (Order order): string
+        -CreateFileName (DateTime date): string
+        -CheckToSeeIfFileExists (DateTime date): bool
+        -LocateTextFile(DateTime date): string
+        -CreateTextFile(DateTime date): string
+    }
+
+    Class ProductRepository
+    {
+        -ReadAllProducts () : List<Product>
+        +RetrieveProductList (): List<Product>
+        -ReadProductByID (string productType): Product
+    }    
+
+    Class TaxRepository
+    {
+        -ReadAllTaxes() : List<Tax>
+        +RetrieveTaxList(): List<Tax>
+        -ReadTaxByID(string State): Tax
+    }
+}
+
+package FlooringMasteryMVC.BLL
+{
+    Class OrderManager
+    {
+        LookupMultipleOrders (DateTime date): LookupOrdersResponse
+        CreateOrder (Order newOrder): CreateOrderResponse
+        RemoveOrder (Order order): RemoveOrderResponse
+        EditOrder (Order oldOrder, Order newOrder): EditOrderResponse
+        SaveOrder (Order order): void
+        CalculateFields (Order updatedOrder): Order
+        CopyOrderInformation (Order oldOrder, Order newOrder)
+        RetrieveOrderList (Datetime date): List<Order>
+        RetrieveProductList (): List<Product>
+        RetrieveTaxList (): List<Tax>
+    }
+
+    Class OrderManagerFactory
+    {
+        Create (): OrderManager
+    }
+}
+
+package FlooringMastery.Models
+{
+    class Order
+    {
+        +OrderDate: DateTime
+        +OrderNumber: int
+        +CustomerName: string
+        +Area: decimal
+        +Product: Product
+        +State: Tax
+        +MaterialCost: decimal
+        +LaborCost: decimal
+        +TaxCost: decimal
+        +Total: decimal
+    }
+
+    class Product
+    {
+        +ProductType: string
+        +CostPerSquareFoot: decimal
+        +LaborCostPerSquareFoot: decimal
+    }
+
+    class Tax
+    {
+        +StateAbbreviation: string
+        +StateName: string
+        +TaxRate: decimal
+    }
+
+    class Responses
+    {
+        +CreateOrderResponse
+        +EditOrderResponse
+        +LookupOrdersResponse
+        +RemoveOrderResponse
+        +Response
+    }
+}
+
+package FlooringMasteryMVC.Test
+{
+    class FlooringTests
+    {
+        +BLLTests
+        +MemoryRepositoryTests
+        +TextRepositoryTexts
+    }
+}
+
+FlooringView *-down-* FlooringMasteryMVC.Controller
+FlooringView -right-* FlooringValidation
+FlooringController *-down-* OrderManager
+FlooringController *-down-* FlooringMasteryMVC.Repository
+OrderManager -right-* OrderManagerFactory
+IOrderRepo -up-* OrderRepositoryMemory: Implements
+IOrderRepo -up-* OrderRepositoryText: Implements
+Order -up-* IOrderRepo
+Tax -up-* TaxRepository
+Product -up-* ProductRepository
+Responses -up-* OrderManager
+@enduml

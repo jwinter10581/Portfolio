@@ -1,0 +1,81 @@
+﻿@model RazorAndHtmlHelpers.Models.Student
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddStudent</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                <h1>Add Student</h1>
+                @using (Html.BeginForm("AddStudent", "Home", FormMethod.Post))
+                {
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.FirstName)
+                        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", placeholder = "First Name" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.LastName)
+                        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", placeholder = "Last Name" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.GPA)
+                        @Html.TextBoxFor(m => m.GPA, new { @class = "form-control", placeholder = "GPA" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Major)
+                        @Html.DropDownListFor(m => m.Major,
+                               new List<SelectListItem>
+                               {
+                                    new SelectListItem { Text="Business", Value="Business" },
+                                    new SelectListItem { Text="Computer Science", Value="Computer Science" },
+                                    new SelectListItem { Text="English", Value="English" },
+                               },
+                               "- Select Major -",
+                               new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send POST Request</button>
+                }
+
+                @*<form action="/Home/AddStudent" method="post">
+                    <div class="form-group">
+                        <label for="FirstName">FirstName</label>
+                        <input class="form-control" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="" />
+                    </div>
+                    <div class="form-group">
+                        <label for="LastName">LastName</label>
+                        <input class="form-control" id="LastName" name="LastName" placeholder="Last Name" type="text" value="" />
+                    </div>
+                    <div class="form-group">
+                        <label for="GPA">GPA</label>
+                        <input class="form-control" data-val="true" data-val-number="The field GPA must be a number."
+                               id="GPA" name="GPA" placeholder="GPA" type="text" value="" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Major">Major</label>
+                        <select class="form-control" id="Major" name="Major">
+                            <option value="">- Select Major -</option>
+                            <option value="Business">Business</option>
+                            <option value="Computer Science">Computer Science</option>
+                            <option value="English">English</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send POST Request</button>
+                </form>*@
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/jquery-2.2.3.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

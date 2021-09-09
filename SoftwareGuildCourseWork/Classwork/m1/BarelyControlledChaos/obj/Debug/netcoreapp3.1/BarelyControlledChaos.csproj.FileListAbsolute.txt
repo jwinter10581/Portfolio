@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\bin\Debug\netcoreapp3.1\BarelyControlledChaos.exe
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\bin\Debug\netcoreapp3.1\BarelyControlledChaos.deps.json
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\bin\Debug\netcoreapp3.1\BarelyControlledChaos.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\bin\Debug\netcoreapp3.1\BarelyControlledChaos.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\bin\Debug\netcoreapp3.1\BarelyControlledChaos.dll
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\bin\Debug\netcoreapp3.1\BarelyControlledChaos.pdb
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\obj\Debug\netcoreapp3.1\BarelyControlledChaos.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\obj\Debug\netcoreapp3.1\BarelyControlledChaos.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\obj\Debug\netcoreapp3.1\BarelyControlledChaos.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\obj\Debug\netcoreapp3.1\BarelyControlledChaos.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\obj\Debug\netcoreapp3.1\BarelyControlledChaos.dll
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\obj\Debug\netcoreapp3.1\BarelyControlledChaos.pdb
+C:\Users\Jonathan\Documents\GitHub\BarelyControlledChaos\obj\Debug\netcoreapp3.1\BarelyControlledChaos.genruntimeconfig.cache

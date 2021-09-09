@@ -1,0 +1,7 @@
+﻿18 - Validate Integer
+
+Our software allows us to type in any character we want in the quantity field. While we will do a software update 
+in the future to fix this, for now we want to write some code that checks to see if the user typed in a number or not.
+        
+Given a string, return if it is a number or not.
+(Hint - Look Up Try Parse Methods)

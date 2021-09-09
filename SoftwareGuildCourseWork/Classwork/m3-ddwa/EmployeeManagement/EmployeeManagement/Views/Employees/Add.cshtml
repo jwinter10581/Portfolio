@@ -1,0 +1,50 @@
+﻿@model EmployeeManagement.Models.AddEmployeeViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                <h1>Add Employee</h1>
+                @Html.ValidationSummary()
+                @using (@Html.BeginForm("Add", "Employees", FormMethod.Post))
+                {
+                    <div class="form-group">
+                        <label>First Name</label>
+                        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Department</label>
+                        @Html.DropDownListFor(m => m.DepartmentId, Model.Departments, new { @class = "form-control" })
+                    </div>
+                    @Html.ActionLink("Cancel", "List", "Employees", null, new { @class = "btn btn-default" })
+                    <button class="btn btn-primary">Save</button>
+                }
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+</body>
+</html>

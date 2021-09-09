@@ -1,0 +1,53 @@
+<<<<<<< Updated upstream
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogGenetics", "DogGenetics.csproj", "{40122A76-68F2-473C-A3D4-1C0DDFDFA0E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40122A76-68F2-473C-A3D4-1C0DDFDFA0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40122A76-68F2-473C-A3D4-1C0DDFDFA0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40122A76-68F2-473C-A3D4-1C0DDFDFA0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40122A76-68F2-473C-A3D4-1C0DDFDFA0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B70F8736-96E3-4F9B-B76C-94861F853581}
+	EndGlobalSection
+EndGlobal
+=======
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogGenetics", "DogGenetics.csproj", "{40122A76-68F2-473C-A3D4-1C0DDFDFA0E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40122A76-68F2-473C-A3D4-1C0DDFDFA0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40122A76-68F2-473C-A3D4-1C0DDFDFA0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40122A76-68F2-473C-A3D4-1C0DDFDFA0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40122A76-68F2-473C-A3D4-1C0DDFDFA0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B70F8736-96E3-4F9B-B76C-94861F853581}
+	EndGlobalSection
+EndGlobal
+>>>>>>> Stashed changes

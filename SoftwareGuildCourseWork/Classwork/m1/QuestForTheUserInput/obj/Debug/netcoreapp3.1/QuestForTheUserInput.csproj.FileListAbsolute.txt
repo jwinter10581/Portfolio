@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\bin\Debug\netcoreapp3.1\QuestForTheUserInput.exe
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\bin\Debug\netcoreapp3.1\QuestForTheUserInput.deps.json
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\bin\Debug\netcoreapp3.1\QuestForTheUserInput.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\bin\Debug\netcoreapp3.1\QuestForTheUserInput.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\bin\Debug\netcoreapp3.1\QuestForTheUserInput.dll
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\bin\Debug\netcoreapp3.1\QuestForTheUserInput.pdb
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\obj\Debug\netcoreapp3.1\QuestForTheUserInput.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\obj\Debug\netcoreapp3.1\QuestForTheUserInput.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\obj\Debug\netcoreapp3.1\QuestForTheUserInput.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\obj\Debug\netcoreapp3.1\QuestForTheUserInput.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\obj\Debug\netcoreapp3.1\QuestForTheUserInput.dll
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\obj\Debug\netcoreapp3.1\QuestForTheUserInput.pdb
+C:\Users\Jonathan\Documents\GitHub\QuestForTheUserInput\obj\Debug\netcoreapp3.1\QuestForTheUserInput.genruntimeconfig.cache

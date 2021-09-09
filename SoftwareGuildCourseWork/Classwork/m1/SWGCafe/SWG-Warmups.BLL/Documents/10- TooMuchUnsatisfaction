@@ -1,0 +1,6 @@
+﻿10- Too Much Unsatisfaction
+
+We take customer service very seriously. If more than 3 people gave us a score of 3 or less in a given day, 
+we want to address the situation with the team.
+
+Given an array of integers, return true if a score of 3 or less appears more than 3 times, or false if it does not.

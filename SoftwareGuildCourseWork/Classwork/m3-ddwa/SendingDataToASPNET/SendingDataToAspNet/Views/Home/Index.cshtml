@@ -1,0 +1,109 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Sending data to the server</h1>
+            </div>
+            <div class="col-xs-12">
+                <p>Data can be sent to the server in three ways: </p>
+                <ul>
+                    <li>In the URL query string</li>
+                    <li>In the URL path</li>
+                    <li>In the Body of the Request</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Via the query string</h3>
+                <p>
+                    Click the links below to send a GET request to the server with query string values
+                </p>
+                <ul>
+                    <li>Request Object - <a href="/home/querystring1?category=sports&subcategory=basketball">/home/querystring1?category=sports&subcategory=basketball</a></li>
+                    <li>Action Method Parameters - <a href="/home/querystring2?category=sports&subcategory=basketball">/home/querystring2?category=sports&subcategory=basketball</a></li>
+                    <li>Model Object Parameter- <a href="/home/querystring3?category=sports&subcategory=basketball">/home/querystring3?category=sports&subcategory=basketball</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Via the path</h3>
+                <p>
+                    If we modify our RouteConfig.cs file to add another route '{controller}/{action}/{category}/{subcategory}'
+                </p>
+                <ul>
+                    <li>RouteData Object - <a href="/home/path1/sports/basketball">/home/path1/sports/basketball</a></li>
+                    <li>Action Method Parameters - <a href="/home/path2/sports/basketball">/home/path2/sports/basketball</a></li>
+                    <li>Model Object Parameter- <a href="/home/path3/sports/basketball">/home/path3/sports/basketball</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Via the request body in a form element</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <form action="/home/form1" method="post">
+                    <p>Request Object - Form1()</p>
+                    <div class="form-group">
+                        <label>Category</label>
+                        <input type="text" class="form-control" name="category" />
+                    </div>
+                    <div class="form-group">
+                        <label>Subcategory</label>
+                        <input type="text" class="form-control" name="subcategory" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send POST Request</button>
+                </form>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <form action="/home/form2" method="post">
+                    <p>Action Method Parameters - Form2()</p>
+                    <div class="form-group">
+                        <label>Category</label>
+                        <input type="text" class="form-control" name="category" />
+                    </div>
+                    <div class="form-group">
+                        <label>Subcategory</label>
+                        <input type="text" class="form-control" name="subcategory" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send POST Request</button>
+                </form>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <form action="/home/form3" method="post">
+                    <p>Model Object Parameter - Form3()</p>
+                    <div class="form-group">
+                        <label>Category</label>
+                        <input type="text" class="form-control" name="category" />
+                    </div>
+                    <div class="form-group">
+                        <label>Subcategory</label>
+                        <input type="text" class="form-control" name="subcategory" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send POST Request</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/jquery-2.2.3.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

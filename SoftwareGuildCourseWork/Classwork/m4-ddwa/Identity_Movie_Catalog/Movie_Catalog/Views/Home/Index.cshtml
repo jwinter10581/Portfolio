@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Movie_Catalog.Models.MovieListView>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Movie List</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Genre</th>
+                    <th>Rating</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var movie in Model)
+                {
+                <tr>
+                    <td>@movie.Title</td>
+                    <td>@movie.GenreType</td>
+                    <td>@movie.RatingName</td>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
+                    {
+                        <td>@Html.ActionLink("edit", "EditMovie", "Home", new { id = @movie.MovieId }, new { @class = "btn btn-primary" })</td>
+                        <td>
+                            @using (Html.BeginForm("DeleteMovie", "Home", new { id = @movie.MovieId }, FormMethod.Post))
+                            {
+                                <button class="btn btn-danger" onclick="return confirm('Are you sure you want to delete @movie.Title?');">Delete</button>
+                            }
+                        </td>
+                    }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

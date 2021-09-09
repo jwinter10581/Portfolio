@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+
+<!--Components that are still missing:
+        - Display DVD function from table link
+        - Search function
+        - Custom error message for release year "Please enter a 4-digit year"
+        - Custom error message for title "Please enter a title for the DVD"
+        - Custom error message for search "Both Search Category and Search Term are required." -->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>DVD Library</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- External CSS -->
+    <link href="css/styleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+<body>
+    <header>
+        <div class="headerContainer">
+        </div>
+    </header>
+    <div class="container">
+
+        <!-- container for createAndSearchRow -->
+        <div class="form-inline" id="createAndSearchRow">
+            <div class="col-sm-2">
+                <button type="button"
+                        id="createButton"
+                        class="btn btn-primary"
+                        onclick="showCreateDVDForm('')">
+                    Create DVD
+                </button>
+            </div>
+
+            <form class="form-inline col-sm-10">
+                <div class="offset-sm-1 col-sm-1">
+                    <button type="button"
+                            id="searchButton"
+                            class="btn btn-success"
+                            onclick="showSearchDVDForm($('#searchCategory').val, $('#searchTerm').val)">
+                        Search
+                    </button>
+                </div>
+
+                <div class="offset-sm-1 col-sm-2">
+                    <label for="searchCategory"></label>
+                    <select name="searchCategory" id="searchCategory" required>
+                        <option value="none" selected disabled hidden>Search Category</option>
+                        <option value="title">Title</option>
+                        <option value="Year">Release Year</option>
+                        <option value="director">Director Name</option>
+                        <option value="rating">Rating</option>
+                    </select>
+                </div>
+
+                <div class="offset-sm-1 col-sm-5">
+                    <label for="searchTerm" class="control-label"></label>
+                    <input type="text"
+                           class="form-control"
+                           id="searchTerm"
+                           size="40"
+                           placeholder="Search Term"
+                           required />
+                </div>
+            </form>
+        </div> <!--End of createAndSearchRow-->
+        <!-- container for createDVDHeader-->
+        <div id="createDVDHeader" style="display:none;">
+            <h2>Create DVD</h2>
+        </div>
+
+        <!-- container for editDVDHeader-->
+        <div id="editDVDHeader" style="display:none;">
+            <h2>Edit DVD:</h2> <!-- DVD Title after the :-->
+        </div>
+
+        <!-- container for displayDVDHeader-->
+        <div id="displayDVDHeader" style="display:none;">
+            <h2><!-- DVD Title --></h2>
+        </div>
+
+        <hr />
+
+        <ul class="list-group" id="errorMessages"></ul>
+
+        <!-- container for movie table -->
+        <div id="movieTable">
+            <!-- maybe add class="row" here??-->
+            <table id="contactTable" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th width="25%">Title</th>
+                        <th width="25%">Release Date</th>
+                        <th width="15%">Director</th>
+                        <th width="10%">Rating</th>
+                        <th width="25%"></th>
+                    </tr>
+                </thead>
+
+                <tbody id="contentRows"></tbody>
+            </table>
+        </div>
+
+        <!-- container for create DVD -->
+        <div id="createDVD" style="display:none;">
+            <form class="form-horizontal" role="form" id="createDVD">
+                <div class="form-group row">
+                    <label for="createDVDTitle" class="col-sm-2 control-label">
+                        DVD Title:
+                    </label>
+                    <div class="col-sm-5">
+                        <input type="text"
+                               class="form-control"
+                               id="createDVDTitle"
+                               placeholder=""
+                               required />
+                        <!--oninput="this.setCustomValidity('')"
+                        oninvalid="this.setCustomValidity('Please enter a title for the DVD')"-->
+
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="createReleaseYear" class="col-sm-2 control-label">
+                        Release Year:
+                    </label>
+                    <div class="col-sm-5">
+                        <input type="number"
+                               onkeypress="return isNumeric(event)"
+                               oninput="maxLengthCheck(this)"
+                               onsubmit="setCustomValidity('Please enter a 4-digit year')"
+                               min="1850"
+                               max="2050"
+                               class="form-control"
+                               id="createReleaseYear"
+                               placeholder="Enter Release Year"
+                               required />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="createDirector" class="col-sm-2 control-label">
+                        Director:
+                    </label>
+                    <div class="col-sm-5">
+                        <input type="text"
+                               class="form-control"
+                               id="createDirector"
+                               placeholder="Enter Director" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="createRating" class="col-sm-2 control-label">
+                        Rating:
+                    </label>
+                    <div class="col-sm-5">
+                        <select name="createRating" id="createRating" required>
+                            <option value="None" selected disabled hidden>Choose Rating</option>
+                            <option value="G">G</option>
+                            <option value="PG">PG</option>
+                            <option value="PG13">PG13</option>
+                            <option value="R">R</option>
+                            <option value="NC17">NC17</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="createNotes" class="col-sm-2 control-label">
+                        Notes:
+                    </label>
+                    <div class="col-sm-5">
+                        <textarea name="createNotes"
+                                  rows="4"
+                                  cols="50"
+                                  class="form-control"
+                                  id="createNotes"
+                                  placeholder="Enter Note"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-1">
+                        <button type="button"
+                                id="addCancelButton"
+                                class="btn btn-danger"
+                                onclick="hideCreateDVDForm()">
+                            Cancel
+                        </button>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <button type="button"
+                                id="addCreateButton"
+                                class="btn btn-success">
+                            Create DVD
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- container for edit DVD -->
+        <div id="editDVD" style="display:none;">
+            <form class="form-horizontal" role="form" id="editDVD">
+                <div class="form-group row">
+                    <label for="editDVDTitle" class="col-sm-2 control-label">
+                        DVD Title:
+                    </label>
+
+                    <div class="col-sm-5">
+                        <input type="text"
+                               class="form-control"
+                               id="editDVDTitle"
+                               placeholder=""
+                               required />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="editReleaseYear" class="col-sm-2 control-label">
+                        Release Year:
+                    </label>
+                    <div class="col-sm-5">
+                        <input type="text"
+                               onkeypress="return isNumeric(event)"
+                               oninput="maxLengthCheck(this)"
+                               onsubmit="setCustomValidity('Please enter a 4-digit year')"
+                               min="1850"
+                               max="2050"
+                               class="form-control"
+                               id="editReleaseYear"
+                               placeholder="Enter Release Year"
+                               required />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="editDirector" class="col-sm-2 control-label">
+                        Director:
+                    </label>
+                    <div class="col-sm-5">
+                        <input type="text"
+                               class="form-control"
+                               id="editDirector"
+                               placeholder="Enter Director Name" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="editRating" class="col-sm-2 control-label">
+                        Rating:
+                    </label>
+                    <div class="col-sm-5">
+                        <select name="editRating" id="editRating" required>
+                            <option value="G" selected>G</option>
+                            <option value="PG">PG</option>
+                            <option value="PG13">PG13</option>
+                            <option value="R">R</option>
+                            <option value="NC17">NC17</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="editNotes" class="col-sm-2 control-label">
+                        Notes:
+                    </label>
+                    <div class="col-sm-5">
+                        <textarea name="editNotes"
+                                  rows="4"
+                                  cols="50"
+                                  class="form-control"
+                                  id="editNotes"
+                                  placeholder="Enter Note"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-1">
+                        <input type="hidden" id="editDVDId">
+                        <button type="button"
+                                id="editCancelButton"
+                                class="btn btn-danger"
+                                onclick="hideEditDVDForm()">
+                            Cancel
+                        </button>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <button type="button"
+                                id="editSaveButton"
+                                class="btn btn-success">
+                            Save Changes
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- container for display DVD -->
+        <div id="displayDVD" style="display:none;">
+            <form class="form-horizontal" role="form" id="displayDVD">
+                <div class="form-group row">
+                    <label for="editReleaseYear" class="col-sm-2 control-label">
+                        Release Year:
+                    </label>
+
+                    <div class="col-sm-5" id="displayDVDReleaseYear">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="editDirector" class="col-sm-2 control-label">
+                        Director:
+                    </label>
+
+                    <div class="col-sm-5" id="displayDVDDirector">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="editRating" class="col-sm-2 control-label">
+                        Rating:
+                    </label>
+
+                    <div class="col-sm-5" id="displayDVDRating">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="editNotes" class="col-sm-2 control-label">
+                        Notes:
+                    </label>
+
+                    <div class="col-sm-5" id="displayDVDNotes">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-1">
+                        <button type="button"
+                                id="displayBackButton"
+                                class="btn btn-warning"
+                                onclick="hideDisplayDVDForm">
+                            Back
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!--jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!--custom js files-->
+    <script src="js/home.js"></script>
+</body>
+</html>

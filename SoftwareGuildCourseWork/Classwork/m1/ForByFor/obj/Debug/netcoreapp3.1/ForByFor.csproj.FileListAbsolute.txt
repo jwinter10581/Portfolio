@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\ForByFor\bin\Debug\netcoreapp3.1\ForByFor.exe
+C:\Users\Jonathan\Documents\GitHub\ForByFor\bin\Debug\netcoreapp3.1\ForByFor.deps.json
+C:\Users\Jonathan\Documents\GitHub\ForByFor\bin\Debug\netcoreapp3.1\ForByFor.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\ForByFor\bin\Debug\netcoreapp3.1\ForByFor.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\ForByFor\bin\Debug\netcoreapp3.1\ForByFor.dll
+C:\Users\Jonathan\Documents\GitHub\ForByFor\bin\Debug\netcoreapp3.1\ForByFor.pdb
+C:\Users\Jonathan\Documents\GitHub\ForByFor\obj\Debug\netcoreapp3.1\ForByFor.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\ForByFor\obj\Debug\netcoreapp3.1\ForByFor.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\ForByFor\obj\Debug\netcoreapp3.1\ForByFor.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\ForByFor\obj\Debug\netcoreapp3.1\ForByFor.dll
+C:\Users\Jonathan\Documents\GitHub\ForByFor\obj\Debug\netcoreapp3.1\ForByFor.pdb
+C:\Users\Jonathan\Documents\GitHub\ForByFor\obj\Debug\netcoreapp3.1\ForByFor.genruntimeconfig.cache
+C:\Users\Jonathan\Documents\GitHub\ForByFor\obj\Debug\netcoreapp3.1\ForByFor.csprojAssemblyReference.cache

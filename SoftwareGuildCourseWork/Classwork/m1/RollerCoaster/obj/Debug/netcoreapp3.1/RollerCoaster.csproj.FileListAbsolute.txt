@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\bin\Debug\netcoreapp3.1\RollerCoaster.exe
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\bin\Debug\netcoreapp3.1\RollerCoaster.deps.json
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\bin\Debug\netcoreapp3.1\RollerCoaster.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\bin\Debug\netcoreapp3.1\RollerCoaster.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\bin\Debug\netcoreapp3.1\RollerCoaster.dll
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\bin\Debug\netcoreapp3.1\RollerCoaster.pdb
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\obj\Debug\netcoreapp3.1\RollerCoaster.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\obj\Debug\netcoreapp3.1\RollerCoaster.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\obj\Debug\netcoreapp3.1\RollerCoaster.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\obj\Debug\netcoreapp3.1\RollerCoaster.dll
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\obj\Debug\netcoreapp3.1\RollerCoaster.pdb
+C:\Users\Jonathan\Documents\GitHub\RollerCoaster\obj\Debug\netcoreapp3.1\RollerCoaster.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Factorizor.UI\Factorizor.UI\bin\Debug\Factorizor.UI.exe.config
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Factorizor.UI\Factorizor.UI\bin\Debug\Factorizor.UI.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Factorizor.UI\Factorizor.UI\bin\Debug\Factorizor.UI.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Factorizor.UI\Factorizor.UI\bin\Debug\Factorizor.BLL.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Factorizor.UI\Factorizor.UI\bin\Debug\Factorizor.BLL.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Factorizor.UI\Factorizor.UI\obj\Debug\Factorizor.UI.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Factorizor.UI\Factorizor.UI\obj\Debug\Factorizor.UI.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Factorizor.UI\Factorizor.UI\obj\Debug\Factorizor.UI.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Factorizor.UI\Factorizor.UI\obj\Debug\Factorizor.UI.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\Factorizor.UI\Factorizor.UI\obj\Debug\Factorizor.UI.pdb

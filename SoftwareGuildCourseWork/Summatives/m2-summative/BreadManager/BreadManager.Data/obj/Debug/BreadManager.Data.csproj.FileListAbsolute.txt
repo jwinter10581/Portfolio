@@ -1,0 +1,9 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Data\bin\Debug\BreadManager.Data.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Data\bin\Debug\BreadManager.Data.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Data\bin\Debug\BreadManager.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Data\bin\Debug\BreadManager.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Data\obj\Debug\BreadManager.Data.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Data\obj\Debug\BreadManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Data\obj\Debug\BreadManager.Data.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Data\obj\Debug\BreadManager.Data.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m2-summative\BreadManager\BreadManager.Data\obj\Debug\BreadManager.Data.pdb

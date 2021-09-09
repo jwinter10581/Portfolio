@@ -1,0 +1,5 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-ddwa\GuildCars\GuildCars.Models\bin\Debug\GuildCars.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-ddwa\GuildCars\GuildCars.Models\bin\Debug\GuildCars.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-ddwa\GuildCars\GuildCars.Models\obj\Debug\GuildCars.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-ddwa\GuildCars\GuildCars.Models\obj\Debug\GuildCars.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\mastery-ddwa\GuildCars\GuildCars.Models\obj\Debug\GuildCars.Models.pdb

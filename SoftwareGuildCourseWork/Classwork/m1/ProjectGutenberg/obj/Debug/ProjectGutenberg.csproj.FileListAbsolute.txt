@@ -1,0 +1,6 @@
+C:\Users\Jonathan\Documents\GitHub\ProjectGutenberg\bin\Debug\ProjectGutenberg.exe.config
+C:\Users\Jonathan\Documents\GitHub\ProjectGutenberg\bin\Debug\ProjectGutenberg.exe
+C:\Users\Jonathan\Documents\GitHub\ProjectGutenberg\bin\Debug\ProjectGutenberg.pdb
+C:\Users\Jonathan\Documents\GitHub\ProjectGutenberg\obj\Debug\ProjectGutenberg.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\ProjectGutenberg\obj\Debug\ProjectGutenberg.exe
+C:\Users\Jonathan\Documents\GitHub\ProjectGutenberg\obj\Debug\ProjectGutenberg.pdb

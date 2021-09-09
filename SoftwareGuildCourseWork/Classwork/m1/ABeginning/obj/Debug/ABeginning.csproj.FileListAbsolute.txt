@@ -1,0 +1,7 @@
+C:\Users\Jonathan\Documents\GitHub\ABeginning\bin\Debug\ABeginning.exe.config
+C:\Users\Jonathan\Documents\GitHub\ABeginning\bin\Debug\ABeginning.exe
+C:\Users\Jonathan\Documents\GitHub\ABeginning\bin\Debug\ABeginning.pdb
+C:\Users\Jonathan\Documents\GitHub\ABeginning\obj\Debug\ABeginning.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\ABeginning\obj\Debug\ABeginning.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\ABeginning\obj\Debug\ABeginning.exe
+C:\Users\Jonathan\Documents\GitHub\ABeginning\obj\Debug\ABeginning.pdb

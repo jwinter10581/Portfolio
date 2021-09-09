@@ -1,0 +1,11 @@
+﻿2 - Random Letter Discount
+
+Too many people started lying about their names and profit margins started to shrink at the cafe. So marketing decided to 
+try this new random discount so if a “random” place in your name contained the special letter, you’d get that same 50% off 
+your order. 
+
+Given a person’s first name, a letter of the day, the position in their name to check, and a total dollar 
+amount for an order, return a double with the cost of their order. 
+(Note, if for some reason the person’s name is too long, we count the last letter in their name)
+(Hint - a string is a array of char)
+(Hint - a lower case letter and upper case letter are not equal to each other)

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>DVD Library</title>
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- External CSS-->
+    <link rel="stylesheet" href="css/home.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <ul class="list-group" id="errorMessages">
+        </ul>
+    </div>
+
+    <div class="container" id="initialState">
+        <!-- Header Row -->
+        <div class="row createAndSearchRow">
+            <div id="createButtonDiv" class="form-group offset-sm-1 col-sm-2">
+                <button type="button"
+                        id="createToggleButton"
+                        class="btn btn-success"
+                        onclick="showCreateForm()">
+                    Create DVD
+                </button>
+            </div>
+            <div id="searchButtonDiv" class="form-group offset-sm-1 col-sm-1">
+                <button type="button"
+                        id="searchButton"
+                        class="btn btn-info"
+                        onclick="searchDVDs()">
+                    Search
+                </button>
+            </div>
+            <div id="searchDropdownDiv" class="form-group col-sm-2">
+                <select class="form-control col-sm-2" id="searchCategory" required>
+                    <option value="None" selected disabled hidden>Search Category</option>
+                    <option value="title">Title</option>
+                    <option value="year">Release Year</option>
+                    <option value="director">Director Name</option>
+                    <option value="rating">Rating</option>
+                </select>
+            </div>
+            <div id="searchInputDiv" class="form-group col-sm-3">
+                <input type="text"
+                       class="form-control"
+                       id="searchTerm"
+                       placeholder="Search Term"
+                       required />
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="offset-sm-1 col-sm-10" id="dvdTableDiv">
+                <table id="dvdTable" class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th width="25%">Title</th>
+                            <th width="25%">Release Date</th>
+                            <th width="15%">Director</th>
+                            <th width="10%">Rating</th>
+                            <th width="25%"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="contentRows"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Create DVD Container -->
+    <div class="container" id="createDVD" style="display:none;">
+        <h2>Create DVD</h2>
+        <hr />
+
+        <form class="form-horizontal" role="form">
+            <div class="form-group row">
+                <label for="createTitle" class="col-sm-2 control-label">
+                    DVD Title:
+                </label>
+                <div class="col-sm-4">
+                    <input type="text"
+                           class="form-control"
+                           id="createTitle"
+                           placeholder=""
+                           required />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="createReleaseYear" class="col-sm-2 control-label">
+                    Release Year:
+                </label>
+                <div class="col-sm-4">
+                    <input type="text"
+                           class="form-control"
+                           id="createReleaseYear"
+                           placeholder="Enter Release Year"
+                           required />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="createDirector" class="col-sm-2 control-label">
+                    Director:
+                </label>
+                <div class="col-sm-4">
+                    <input type="text"
+                           class="form-control"
+                           id="createDirector"
+                           placeholder="Enter Director" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="createRating" class="col-sm-2 control-label">
+                    Rating:
+                </label>
+                <div class="col-sm-4">
+                    <select class="form-control col-sm-2" id="createRating" required>
+                        <option value="None" selected disabled hidden>Choose Rating</option>
+                        <option value="G">G</option>
+                        <option value="PG">PG</option>
+                        <option value="PG13">PG13</option>
+                        <option value="R">R</option>
+                        <option value="NC17">NC17</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="createNotes" class="col-sm-2 control-label">
+                    Notes:
+                </label>
+                <div class="col-sm-4">
+                    <textarea name="createNotes"
+                              rows="4"
+                              cols="50"
+                              class="form-control"
+                              id="createNotes"
+                              placeholder="Enter Note"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-2">
+                    <button type="button"
+                            id="createCancelButton"
+                            class="btn btn-danger"
+                            onclick="hideCreateForm()">
+                        Cancel
+                    </button>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button"
+                            id="createAddButton"
+                            class="btn btn-success">
+                        Create DVD
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Edit DVD Container -->
+    <div class="container" id="editDVD" style="display:none;">
+        <h2 id="editHeader"></h2>
+        <hr />
+        <form class="form-horizontal" role="form">
+            <div class="form-group row">
+                <label for="editTitle" class="col-sm-2 control-label">
+                    DVD Title:
+                </label>
+                <div class="col-sm-4">
+                    <input type="text"
+                           class="form-control"
+                           id="editTitle"
+                           placeholder=""
+                           required />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="editReleaseYear" class="col-sm-2 control-label">
+                    Release Year:
+                </label>
+                <div class="col-sm-4">
+                    <input type="text"
+                           class="form-control"
+                           id="editReleaseYear"
+                           placeholder="Enter Release Year"
+                           required />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="editDirector" class="col-sm-2 control-label">
+                    Director:
+                </label>
+                <div class="col-sm-4">
+                    <input type="text"
+                           class="form-control"
+                           id="editDirector"
+                           placeholder="Enter Director" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="editRating" class="col-sm-2 control-label">
+                    Rating:
+                </label>
+                <div class="col-sm-4">
+                    <select class="form-control col-sm-2" id="editRating" required>
+                        <option value="None" selected disabled hidden>Choose Rating</option>
+                        <option value="G">G</option>
+                        <option value="PG">PG</option>
+                        <option value="PG13">PG13</option>
+                        <option value="R">R</option>
+                        <option value="NC17">NC17</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="editNotes" class="col-sm-2 control-label">
+                    Notes:
+                </label>
+                <div class="col-sm-4">
+                    <textarea name="editNotes"
+                              rows="4"
+                              cols="50"
+                              class="form-control"
+                              id="editNotes"
+                              placeholder="editNotes"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-2">
+                    <button type="button"
+                            id="editCancelButton"
+                            class="btn btn-danger"
+                            onclick="hideEditForm()">
+                        Cancel
+                    </button>
+                </div>
+                <div class="col-sm-2">
+                    <input type="hidden" id="editId" />
+                    <button type="button"
+                            id="editSaveButton"
+                            class="btn btn-success">
+                        Save Changes
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Display DVD Container -->
+    <div class="container" id="displayDetails" style="display:none;">
+        <h2 id="displayTitle"></h2>
+        <hr />
+        <label for="displayReleaseYear" class="col-sm-2 control-label">
+            Release Year:
+        </label>
+        <label id="displayReleaseYear" class="col-sm-4 control-label">
+        </label> <br /><br />
+
+        <label for="displayDirector" class="col-sm-2 control-label">
+            Director:
+        </label>
+        <label id="displayDirector" class="col-sm-4 control-label">
+        </label> <br /><br />
+
+        <label for="displayRating" class="col-sm-2 control-label">
+            Rating:
+        </label>
+        <label id="displayRating" class="col-sm-4 control-label">
+        </label> <br /><br />
+
+        <label for="displayNotes" class="col-sm-2 control-label">
+            Notes:
+        </label>
+        <label id="displayNotes" class="col-sm-4 control-label">
+        </label> <br /><br />
+
+        <div class="col-sm-2">
+            <button type="button"
+                    id="backButton"
+                    class="btn btn-info"
+                    onclick="hideDetails()">
+                Back
+            </button>
+        </div>
+    </div>
+    <!--jQuery first, then Popper.js, then Bootstrap.js, then custom js-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

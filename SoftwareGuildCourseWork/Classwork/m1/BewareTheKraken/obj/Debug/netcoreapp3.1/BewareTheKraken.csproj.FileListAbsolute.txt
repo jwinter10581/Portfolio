@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\bin\Debug\netcoreapp3.1\BewareTheKraken.exe
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\bin\Debug\netcoreapp3.1\BewareTheKraken.deps.json
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\bin\Debug\netcoreapp3.1\BewareTheKraken.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\bin\Debug\netcoreapp3.1\BewareTheKraken.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\bin\Debug\netcoreapp3.1\BewareTheKraken.dll
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\bin\Debug\netcoreapp3.1\BewareTheKraken.pdb
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\obj\Debug\netcoreapp3.1\BewareTheKraken.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\obj\Debug\netcoreapp3.1\BewareTheKraken.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\obj\Debug\netcoreapp3.1\BewareTheKraken.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\obj\Debug\netcoreapp3.1\BewareTheKraken.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\obj\Debug\netcoreapp3.1\BewareTheKraken.dll
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\obj\Debug\netcoreapp3.1\BewareTheKraken.pdb
+C:\Users\Jonathan\Documents\GitHub\BewareTheKraken\obj\Debug\netcoreapp3.1\BewareTheKraken.genruntimeconfig.cache

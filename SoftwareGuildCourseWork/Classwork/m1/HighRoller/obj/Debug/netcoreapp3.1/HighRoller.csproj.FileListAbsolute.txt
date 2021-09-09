@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\HighRoller\bin\Debug\netcoreapp3.1\HighRoller.exe
+C:\Users\Jonathan\Documents\GitHub\HighRoller\bin\Debug\netcoreapp3.1\HighRoller.deps.json
+C:\Users\Jonathan\Documents\GitHub\HighRoller\bin\Debug\netcoreapp3.1\HighRoller.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\HighRoller\bin\Debug\netcoreapp3.1\HighRoller.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\HighRoller\bin\Debug\netcoreapp3.1\HighRoller.dll
+C:\Users\Jonathan\Documents\GitHub\HighRoller\bin\Debug\netcoreapp3.1\HighRoller.pdb
+C:\Users\Jonathan\Documents\GitHub\HighRoller\obj\Debug\netcoreapp3.1\HighRoller.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\HighRoller\obj\Debug\netcoreapp3.1\HighRoller.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\HighRoller\obj\Debug\netcoreapp3.1\HighRoller.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\HighRoller\obj\Debug\netcoreapp3.1\HighRoller.dll
+C:\Users\Jonathan\Documents\GitHub\HighRoller\obj\Debug\netcoreapp3.1\HighRoller.pdb
+C:\Users\Jonathan\Documents\GitHub\HighRoller\obj\Debug\netcoreapp3.1\HighRoller.genruntimeconfig.cache

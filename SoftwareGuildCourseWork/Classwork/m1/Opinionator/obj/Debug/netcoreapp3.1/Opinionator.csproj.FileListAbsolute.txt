@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\Opinionator\bin\Debug\netcoreapp3.1\Opinionator.exe
+C:\Users\Jonathan\Documents\GitHub\Opinionator\bin\Debug\netcoreapp3.1\Opinionator.deps.json
+C:\Users\Jonathan\Documents\GitHub\Opinionator\bin\Debug\netcoreapp3.1\Opinionator.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\Opinionator\bin\Debug\netcoreapp3.1\Opinionator.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\Opinionator\bin\Debug\netcoreapp3.1\Opinionator.dll
+C:\Users\Jonathan\Documents\GitHub\Opinionator\bin\Debug\netcoreapp3.1\Opinionator.pdb
+C:\Users\Jonathan\Documents\GitHub\Opinionator\obj\Debug\netcoreapp3.1\Opinionator.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\Opinionator\obj\Debug\netcoreapp3.1\Opinionator.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\Opinionator\obj\Debug\netcoreapp3.1\Opinionator.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\Opinionator\obj\Debug\netcoreapp3.1\Opinionator.dll
+C:\Users\Jonathan\Documents\GitHub\Opinionator\obj\Debug\netcoreapp3.1\Opinionator.pdb
+C:\Users\Jonathan\Documents\GitHub\Opinionator\obj\Debug\netcoreapp3.1\Opinionator.genruntimeconfig.cache

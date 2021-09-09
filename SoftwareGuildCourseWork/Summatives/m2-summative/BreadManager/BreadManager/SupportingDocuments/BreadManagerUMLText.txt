@@ -1,0 +1,96 @@
+@startuml
+title BreadManager MVC Structure
+
+package BreadManager.View 
+{
+    class BreadView
+    {
+        +ShowMenuAndGetChoice(): int
+        +GetFreshBreadInformation(): Bread
+        +ViewBread(Bread bread): void
+        +DisplayEligibleBreadTypes(): void
+        +ShowSuccess(string actionName): void
+        +ShowFailure(string actionName): void
+        +WelcomeMessage(): void
+    }
+    class UserInputValidation
+    {
+        +ReadBool(string prompt): bool
+        +ReadString(string prompt): string
+        +ReadInt(string prompt, int min, int max): int
+        +ReadEnum(string prompt, int min, int max): BreadType
+        +ReadEnum(string choice): BreadType // For Unit Test
+    }
+}
+
+package BreadManager.Controller
+{
+    class BreadController
+    {
+        -userInterface: BreadView
+        -repository: BreadRepository
+        -userIV: UserInputValidation
+        +BreadController(): 
+        +Bake(): void
+        -AddBread(): void
+        -ShowAllBread(): void
+        -ObserveBread(): void
+        -ModifyBread(): void
+        -ThrowStaleBread(): void
+        -EligibleBread(): void
+    }
+}
+
+package BreadManager.Data
+{
+    class BreadRepository
+    {
+        -loaves: Bread[]
+        +BreadRepository(): {loves: Bread[10]}
+        +CreateBread(Bread bread): Bread
+        +RetrieveAllLoaves(): Bread[]
+        +RetrieveBreadByID(int breadID): Bread
+        +Delete(int breadID): Void
+        +EditBread(Bread staleBread): Bread
+    }
+}
+
+package BreadManager.Models
+{
+    class Bread
+    {
+        +BreadID: int
+        +BreadType: enum
+        +Origin: string
+        +Leavened: bool
+        +ShelfLife: int
+    }
+    
+    enum BreadType
+    {
+        Unavailable,
+        Baguette,
+        Brioche,
+        Challah,
+        Ciabatta,
+        Cornbread,
+        Pita,
+        Pumpernickel,
+        Rye,
+        Sourdough,
+        White
+    }
+}
+
+package BreadManager.Test
+{
+    class BreadTests
+    {
+        +EnumReturnsBreadType(string choice, BreadType expected): void
+    }
+}
+BreadController *-up- BreadView
+BreadController *-down- BreadRepository
+BreadRepository *-down- Bread
+BreadTests *-up- UserInputValidation
+@enduml

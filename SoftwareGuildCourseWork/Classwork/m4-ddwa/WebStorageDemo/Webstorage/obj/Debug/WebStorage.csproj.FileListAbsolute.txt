@@ -1,0 +1,74 @@
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\WebStorage.dll.config
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\WebStorage.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\WebStorage.pdb
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\Microsoft.Web.Helpers.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\Microsoft.Web.Infrastructure.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\Newtonsoft.Json.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Net.Http.Extensions.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Net.Http.Formatting.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Net.Http.Primitives.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.Helpers.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.Http.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.Http.WebHost.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.Mvc.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.Razor.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.WebPages.Deployment.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.WebPages.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.WebPages.Razor.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\WebMatrix.Data.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\WebMatrix.WebData.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\Newtonsoft.Json.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Net.Http.Extensions.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Net.Http.Formatting.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Net.Http.Primitives.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.Helpers.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.Http.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.Http.WebHost.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.Mvc.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.Razor.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.WebPages.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.WebPages.Deployment.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\System.Web.WebPages.Razor.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\WebMatrix.WebData.xml
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\obj\Debug\WebStorage.csproj.App.config
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\obj\Debug\WebStorage.csprojResolveAssemblyReference.cache
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\obj\Debug\WebStorage.dll
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\obj\Debug\WebStorage.pdb
+D:\Git\Microsoft\Lectures\Web\MVC\10 - Temporary Storage\Webstorage\WebStorage\bin\WebMatrix.Data.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\WebStorage.dll.config
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\WebStorage.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\WebStorage.pdb
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\Microsoft.Web.Helpers.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\Microsoft.Web.Infrastructure.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\Newtonsoft.Json.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Net.Http.Extensions.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Net.Http.Formatting.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Net.Http.Primitives.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.Helpers.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.Http.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.Http.WebHost.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.Mvc.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.Razor.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.WebPages.Deployment.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.WebPages.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.WebPages.Razor.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\WebMatrix.Data.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\WebMatrix.WebData.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\Newtonsoft.Json.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Net.Http.Extensions.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Net.Http.Formatting.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Net.Http.Primitives.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.Helpers.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.Http.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.Http.WebHost.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.Mvc.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.Razor.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.WebPages.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.WebPages.Deployment.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\System.Web.WebPages.Razor.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\WebMatrix.Data.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\bin\WebMatrix.WebData.xml
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\obj\Debug\WebStorage.csproj.App.config
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\obj\Debug\WebStorage.csprojResolveAssemblyReference.cache
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\obj\Debug\WebStorage.dll
+D:\Git\Curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\TemporaryStorage\WebStorage\obj\Debug\WebStorage.pdb

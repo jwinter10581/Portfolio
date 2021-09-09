@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\obj\Debug\netcoreapp3.1\InterestCalculator.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\obj\Debug\netcoreapp3.1\InterestCalculator.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\obj\Debug\netcoreapp3.1\InterestCalculator.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\obj\Debug\netcoreapp3.1\InterestCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\bin\Debug\netcoreapp3.1\InterestCalculator.exe
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\bin\Debug\netcoreapp3.1\InterestCalculator.deps.json
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\bin\Debug\netcoreapp3.1\InterestCalculator.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\bin\Debug\netcoreapp3.1\InterestCalculator.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\bin\Debug\netcoreapp3.1\InterestCalculator.dll
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\bin\Debug\netcoreapp3.1\InterestCalculator.pdb
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\obj\Debug\netcoreapp3.1\InterestCalculator.dll
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\obj\Debug\netcoreapp3.1\InterestCalculator.pdb
+C:\Users\Jonathan\Documents\GitHub\InterestCalculator\obj\Debug\netcoreapp3.1\InterestCalculator.genruntimeconfig.cache

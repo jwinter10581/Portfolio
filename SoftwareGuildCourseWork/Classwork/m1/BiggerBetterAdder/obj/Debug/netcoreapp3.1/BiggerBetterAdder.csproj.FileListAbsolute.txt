@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\bin\Debug\netcoreapp3.1\BiggerBetterAdder.exe
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\bin\Debug\netcoreapp3.1\BiggerBetterAdder.deps.json
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\bin\Debug\netcoreapp3.1\BiggerBetterAdder.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\bin\Debug\netcoreapp3.1\BiggerBetterAdder.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\bin\Debug\netcoreapp3.1\BiggerBetterAdder.dll
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\bin\Debug\netcoreapp3.1\BiggerBetterAdder.pdb
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\obj\Debug\netcoreapp3.1\BiggerBetterAdder.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\obj\Debug\netcoreapp3.1\BiggerBetterAdder.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\obj\Debug\netcoreapp3.1\BiggerBetterAdder.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\obj\Debug\netcoreapp3.1\BiggerBetterAdder.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\obj\Debug\netcoreapp3.1\BiggerBetterAdder.dll
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\obj\Debug\netcoreapp3.1\BiggerBetterAdder.pdb
+C:\Users\Jonathan\Documents\GitHub\BiggerBetterAdder\obj\Debug\netcoreapp3.1\BiggerBetterAdder.genruntimeconfig.cache

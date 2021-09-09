@@ -1,0 +1,8 @@
+﻿1 - Name of the Day
+
+Here at Software Guild Cafe, we are sure to enter the customer's name with 100% accuracy so we can print labels with their name 
+out when their super-cha-latte-espresso with extra whipped cream is ready. Also, each day we randomly give people whose first names 
+start with a specific letter 50% off their order. 
+
+Given a person’s first name, a letter of the day, and a total dollar amount for an order, return a double with the cost of their order. 
+(Hint - If no name is entered, then there is no chance of a discount for the customer.)

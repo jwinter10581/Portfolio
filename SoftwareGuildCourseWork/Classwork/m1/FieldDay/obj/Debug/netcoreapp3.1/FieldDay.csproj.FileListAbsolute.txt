@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\FieldDay\obj\Debug\netcoreapp3.1\FieldDay.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\FieldDay\obj\Debug\netcoreapp3.1\FieldDay.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\FieldDay\obj\Debug\netcoreapp3.1\FieldDay.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\FieldDay\bin\Debug\netcoreapp3.1\FieldDay.exe
+C:\Users\Jonathan\Documents\GitHub\FieldDay\bin\Debug\netcoreapp3.1\FieldDay.deps.json
+C:\Users\Jonathan\Documents\GitHub\FieldDay\bin\Debug\netcoreapp3.1\FieldDay.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\FieldDay\bin\Debug\netcoreapp3.1\FieldDay.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\FieldDay\bin\Debug\netcoreapp3.1\FieldDay.dll
+C:\Users\Jonathan\Documents\GitHub\FieldDay\bin\Debug\netcoreapp3.1\FieldDay.pdb
+C:\Users\Jonathan\Documents\GitHub\FieldDay\obj\Debug\netcoreapp3.1\FieldDay.dll
+C:\Users\Jonathan\Documents\GitHub\FieldDay\obj\Debug\netcoreapp3.1\FieldDay.pdb
+C:\Users\Jonathan\Documents\GitHub\FieldDay\obj\Debug\netcoreapp3.1\FieldDay.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\BirthStones\bin\Debug\netcoreapp3.1\BirthStones.exe
+C:\Users\Jonathan\Documents\GitHub\BirthStones\bin\Debug\netcoreapp3.1\BirthStones.deps.json
+C:\Users\Jonathan\Documents\GitHub\BirthStones\bin\Debug\netcoreapp3.1\BirthStones.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\BirthStones\bin\Debug\netcoreapp3.1\BirthStones.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\BirthStones\bin\Debug\netcoreapp3.1\BirthStones.dll
+C:\Users\Jonathan\Documents\GitHub\BirthStones\bin\Debug\netcoreapp3.1\BirthStones.pdb
+C:\Users\Jonathan\Documents\GitHub\BirthStones\obj\Debug\netcoreapp3.1\BirthStones.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\BirthStones\obj\Debug\netcoreapp3.1\BirthStones.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\BirthStones\obj\Debug\netcoreapp3.1\BirthStones.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\BirthStones\obj\Debug\netcoreapp3.1\BirthStones.dll
+C:\Users\Jonathan\Documents\GitHub\BirthStones\obj\Debug\netcoreapp3.1\BirthStones.pdb
+C:\Users\Jonathan\Documents\GitHub\BirthStones\obj\Debug\netcoreapp3.1\BirthStones.genruntimeconfig.cache

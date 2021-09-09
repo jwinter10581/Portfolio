@@ -1,0 +1,7 @@
+C:\Users\Jonathan\Documents\GitHub\InABucket\bin\Debug\InABucket.exe.config
+C:\Users\Jonathan\Documents\GitHub\InABucket\bin\Debug\InABucket.exe
+C:\Users\Jonathan\Documents\GitHub\InABucket\bin\Debug\InABucket.pdb
+C:\Users\Jonathan\Documents\GitHub\InABucket\obj\Debug\InABucket.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\InABucket\obj\Debug\InABucket.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\InABucket\obj\Debug\InABucket.exe
+C:\Users\Jonathan\Documents\GitHub\InABucket\obj\Debug\InABucket.pdb

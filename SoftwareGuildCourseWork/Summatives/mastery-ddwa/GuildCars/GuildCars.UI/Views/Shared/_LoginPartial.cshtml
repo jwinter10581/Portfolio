@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    if (User.IsInRole("sales"))
+    {
+        <li class="nav-item p-2">@Html.ActionLink("Sales", "Index", "Sales", routeValues: null, htmlAttributes: new { id = "salesLink" })</li>
+    }
+    if (User.IsInRole("admin"))
+    {
+        <li class="nav-item p-2">@Html.ActionLink("Sales", "Index", "Sales", routeValues: null, htmlAttributes: new { id = "salesLink" })</li>
+        <li class="nav-item p-2">@Html.ActionLink("Admin", "Index", "Admin", routeValues: null, htmlAttributes: new { id = "adminLink" })</li>
+        <li class="nav-item p-2">@Html.ActionLink("Reports", "Index", "Reports", routeValues: null, htmlAttributes: new { id = "reportsLink" })</li>
+    }
+}

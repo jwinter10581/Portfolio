@@ -1,0 +1,7 @@
+﻿14 - Cash Only
+
+We installed a new machine that allows our customers to put in dollars and coins to pay for their purchase. 
+However, we have been tasked with making sure that we have been given enough money.
+
+Given a price of a purchase, a number of dollars, number of quarters, number of dimes, number of nickels, 
+and number of pennies, return if we have been given enough money to make the purchase.

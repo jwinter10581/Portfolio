@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\PickyEater\bin\Debug\netcoreapp3.1\PickyEater.exe
+C:\Users\Jonathan\Documents\GitHub\PickyEater\bin\Debug\netcoreapp3.1\PickyEater.deps.json
+C:\Users\Jonathan\Documents\GitHub\PickyEater\bin\Debug\netcoreapp3.1\PickyEater.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\PickyEater\bin\Debug\netcoreapp3.1\PickyEater.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\PickyEater\bin\Debug\netcoreapp3.1\PickyEater.dll
+C:\Users\Jonathan\Documents\GitHub\PickyEater\bin\Debug\netcoreapp3.1\PickyEater.pdb
+C:\Users\Jonathan\Documents\GitHub\PickyEater\obj\Debug\netcoreapp3.1\PickyEater.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\PickyEater\obj\Debug\netcoreapp3.1\PickyEater.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\PickyEater\obj\Debug\netcoreapp3.1\PickyEater.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\PickyEater\obj\Debug\netcoreapp3.1\PickyEater.dll
+C:\Users\Jonathan\Documents\GitHub\PickyEater\obj\Debug\netcoreapp3.1\PickyEater.pdb
+C:\Users\Jonathan\Documents\GitHub\PickyEater\obj\Debug\netcoreapp3.1\PickyEater.genruntimeconfig.cache

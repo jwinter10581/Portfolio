@@ -1,0 +1,12 @@
+C:\Users\Jonathan\source\repos\MenuOfChampions\obj\Debug\netcoreapp3.1\MenuOfChampions.AssemblyInfoInputs.cache
+C:\Users\Jonathan\source\repos\MenuOfChampions\obj\Debug\netcoreapp3.1\MenuOfChampions.AssemblyInfo.cs
+C:\Users\Jonathan\source\repos\MenuOfChampions\obj\Debug\netcoreapp3.1\MenuOfChampions.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\MenuOfChampions\bin\Debug\netcoreapp3.1\MenuOfChampions.exe
+C:\Users\Jonathan\source\repos\MenuOfChampions\bin\Debug\netcoreapp3.1\MenuOfChampions.deps.json
+C:\Users\Jonathan\source\repos\MenuOfChampions\bin\Debug\netcoreapp3.1\MenuOfChampions.runtimeconfig.json
+C:\Users\Jonathan\source\repos\MenuOfChampions\bin\Debug\netcoreapp3.1\MenuOfChampions.runtimeconfig.dev.json
+C:\Users\Jonathan\source\repos\MenuOfChampions\bin\Debug\netcoreapp3.1\MenuOfChampions.dll
+C:\Users\Jonathan\source\repos\MenuOfChampions\bin\Debug\netcoreapp3.1\MenuOfChampions.pdb
+C:\Users\Jonathan\source\repos\MenuOfChampions\obj\Debug\netcoreapp3.1\MenuOfChampions.dll
+C:\Users\Jonathan\source\repos\MenuOfChampions\obj\Debug\netcoreapp3.1\MenuOfChampions.pdb
+C:\Users\Jonathan\source\repos\MenuOfChampions\obj\Debug\netcoreapp3.1\MenuOfChampions.genruntimeconfig.cache

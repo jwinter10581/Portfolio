@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\bin\Debug\netcoreapp3.1\HiddenNuts.exe
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\bin\Debug\netcoreapp3.1\HiddenNuts.deps.json
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\bin\Debug\netcoreapp3.1\HiddenNuts.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\bin\Debug\netcoreapp3.1\HiddenNuts.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\bin\Debug\netcoreapp3.1\HiddenNuts.dll
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\bin\Debug\netcoreapp3.1\HiddenNuts.pdb
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\obj\Debug\netcoreapp3.1\HiddenNuts.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\obj\Debug\netcoreapp3.1\HiddenNuts.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\obj\Debug\netcoreapp3.1\HiddenNuts.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\obj\Debug\netcoreapp3.1\HiddenNuts.dll
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\obj\Debug\netcoreapp3.1\HiddenNuts.pdb
+C:\Users\Jonathan\Documents\GitHub\HiddenNuts\obj\Debug\netcoreapp3.1\HiddenNuts.genruntimeconfig.cache

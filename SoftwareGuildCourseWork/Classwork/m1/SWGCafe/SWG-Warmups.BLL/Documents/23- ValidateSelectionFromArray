@@ -1,0 +1,5 @@
+﻿23 - Validate Selection From Array
+
+Now that we have the entry item validated, we need to be sure its a valid item in our list.
+        
+Given a string selection from user and an array of valid item selections, return if this item is one we offer.

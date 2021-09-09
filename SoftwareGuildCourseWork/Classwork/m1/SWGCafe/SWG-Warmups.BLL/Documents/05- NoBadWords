@@ -1,0 +1,6 @@
+﻿5 - No Bad Words
+
+So some of our barista's liked to start throwing bad words into customer’s names (and say that is what the customer told them 
+their name was). So we need to clean up any “bad” names.
+
+Given a person’s name, remove any instances of the phrase “bad” and return the name. (Note, a person’s name can be less than 3 letters)

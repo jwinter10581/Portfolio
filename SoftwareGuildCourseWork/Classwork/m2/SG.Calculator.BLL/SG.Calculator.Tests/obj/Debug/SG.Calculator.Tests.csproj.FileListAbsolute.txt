@@ -1,0 +1,16 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\nunit.engine.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\nunit.engine.api.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\nunit.engine.core.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\SG.Calculator.Tests.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\SG.Calculator.Tests.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\SG.Calculator.BLL.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\SG.Calculator.BLL.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\obj\Debug\SG.Calculator.Tests.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\obj\Debug\SG.Calculator.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\obj\Debug\SG.Calculator.Tests.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\obj\Debug\SG.Calculator.Tests.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\SG.Calculator.BLL\SG.Calculator.Tests\obj\Debug\SG.Calculator.Tests.pdb

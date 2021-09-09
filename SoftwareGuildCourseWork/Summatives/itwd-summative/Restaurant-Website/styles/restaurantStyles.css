@@ -1,0 +1,71 @@
+/* Name: Jonathan Winter */
+/* Date Created: 01/27/21 */
+/* Most Recent Revision: 02/03/21 */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');  /* Google font for header */
+
+body {
+	background-color: #6E8387;
+	font-family: calibri;
+	color: #F1EDEE;
+	/* max-width: 1080px; */
+	margin: 0 auto;
+	line-height: 1.2;
+}
+
+header, footer {
+	background-color: #678D58;
+	color: #FFF;
+	text-align: center;
+	padding: 20px 10px;
+}
+
+h1 {
+	font-family: Pacifico;
+}
+
+.jumbotron {
+	background-color: #678D58;
+}
+			
+.carousel{
+  margin-top: 20px;
+}
+.carousel-inner{
+  height: 60px;
+}
+.carousel-caption{
+  color: #fff;
+  top: 50%;
+}
+
+.bottom {
+	margin-top:10px;
+}
+
+nav {
+	border-top: medium #97EFE9 solid;
+	border-bottom: medium #97EFE9 solid;
+	vertical-align: middle;
+	padding: 10px 20px;
+}
+
+nav .btn {
+	background-color: #97EFE9;
+	color: #000000;
+	margin: 0px 10px;
+}
+
+nav .btn:visited {
+	background-color: #63372C;
+	color: #FED99B;
+}
+
+nav .btn:hover {
+	font-weight:bold;
+}
+
+nav .btn:active {
+	background-color: #678D58;
+	font-weight:normal;
+}

@@ -1,0 +1,28 @@
+﻿@model WebStorage.Models.Contact
+@{
+    ViewBag.Title = "WriteCookie";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Write Cookie</h2>
+        <p>Let's store a name and email in a cookie in your browser.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-4">
+    @using (Html.BeginForm())
+    {
+        <div class="form-group">
+            <label>Name</label>
+            @Html.TextBoxFor(c => c.Name, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            @Html.TextBoxFor(c => c.Email, new { @class = "form-control" })
+        </div>
+        <button type="submit" class="btn btn-primary">Store In Cookie</button>
+    }
+    </div>
+</div>
+

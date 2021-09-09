@@ -1,0 +1,13 @@
+C:\Users\Jonathan\source\repos\ALittleChaos\bin\Debug\netcoreapp3.1\ALittleChaos.exe
+C:\Users\Jonathan\source\repos\ALittleChaos\bin\Debug\netcoreapp3.1\ALittleChaos.deps.json
+C:\Users\Jonathan\source\repos\ALittleChaos\bin\Debug\netcoreapp3.1\ALittleChaos.runtimeconfig.json
+C:\Users\Jonathan\source\repos\ALittleChaos\bin\Debug\netcoreapp3.1\ALittleChaos.runtimeconfig.dev.json
+C:\Users\Jonathan\source\repos\ALittleChaos\bin\Debug\netcoreapp3.1\ALittleChaos.dll
+C:\Users\Jonathan\source\repos\ALittleChaos\bin\Debug\netcoreapp3.1\ALittleChaos.pdb
+C:\Users\Jonathan\source\repos\ALittleChaos\obj\Debug\netcoreapp3.1\ALittleChaos.csprojAssemblyReference.cache
+C:\Users\Jonathan\source\repos\ALittleChaos\obj\Debug\netcoreapp3.1\ALittleChaos.AssemblyInfoInputs.cache
+C:\Users\Jonathan\source\repos\ALittleChaos\obj\Debug\netcoreapp3.1\ALittleChaos.AssemblyInfo.cs
+C:\Users\Jonathan\source\repos\ALittleChaos\obj\Debug\netcoreapp3.1\ALittleChaos.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\ALittleChaos\obj\Debug\netcoreapp3.1\ALittleChaos.dll
+C:\Users\Jonathan\source\repos\ALittleChaos\obj\Debug\netcoreapp3.1\ALittleChaos.pdb
+C:\Users\Jonathan\source\repos\ALittleChaos\obj\Debug\netcoreapp3.1\ALittleChaos.genruntimeconfig.cache

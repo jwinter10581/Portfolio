@@ -1,0 +1,6 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Models\bin\Debug\DvdLibraryWebApi.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Models\bin\Debug\DvdLibraryWebApi.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Models\obj\Debug\DvdLibraryWebApi.Models.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Models\obj\Debug\DvdLibraryWebApi.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Models\obj\Debug\DvdLibraryWebApi.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Models\obj\Debug\DvdLibraryWebApi.Models.pdb

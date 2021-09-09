@@ -1,0 +1,20 @@
+﻿@model IEnumerable<int>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Pick Results</title>
+</head>
+<body>
+    <div> 
+        <p>You selected the categories with ids: @string.Join(",", Model)</p>
+    </div>
+</body>
+</html>
+

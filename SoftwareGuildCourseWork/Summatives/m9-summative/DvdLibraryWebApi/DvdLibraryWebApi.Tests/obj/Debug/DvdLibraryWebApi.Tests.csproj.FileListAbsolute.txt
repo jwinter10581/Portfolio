@@ -1,0 +1,14 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\bin\Debug\DvdLibraryWebApi.Tests.dll.config
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\bin\Debug\DvdLibraryWebApi.Tests.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\bin\Debug\DvdLibraryWebApi.Tests.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\bin\Debug\DvdLibraryWebApi.Data.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\bin\Debug\DvdLibraryWebApi.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\bin\Debug\DvdLibraryWebApi.Data.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\bin\Debug\DvdLibraryWebApi.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\obj\Debug\DvdLibraryWebApi.Tests.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\obj\Debug\DvdLibraryWebApi.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\obj\Debug\DvdLibraryWebApi.Tests.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\obj\Debug\DvdLibraryWebApi.Tests.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Summatives\m9-summative\DvdLibraryWebApi\DvdLibraryWebApi.Tests\obj\Debug\DvdLibraryWebApi.Tests.pdb

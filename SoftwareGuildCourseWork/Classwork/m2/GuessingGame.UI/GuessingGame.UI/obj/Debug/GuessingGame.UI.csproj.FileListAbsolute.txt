@@ -1,0 +1,10 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.UI\bin\Debug\GuessingGame.UI.exe.config
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.UI\bin\Debug\GuessingGame.UI.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.UI\bin\Debug\GuessingGame.UI.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.UI\bin\Debug\GuessingGame.BLL.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.UI\bin\Debug\GuessingGame.BLL.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.UI\obj\Debug\GuessingGame.UI.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.UI\obj\Debug\GuessingGame.UI.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.UI\obj\Debug\GuessingGame.UI.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.UI\obj\Debug\GuessingGame.UI.exe
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\GuessingGame.UI\GuessingGame.UI\obj\Debug\GuessingGame.UI.pdb

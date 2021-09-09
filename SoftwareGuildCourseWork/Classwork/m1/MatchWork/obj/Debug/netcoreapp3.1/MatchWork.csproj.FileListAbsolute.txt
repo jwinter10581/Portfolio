@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Documents\GitHub\MatchWork\bin\Debug\netcoreapp3.1\MatchWork.exe
+C:\Users\Jonathan\Documents\GitHub\MatchWork\bin\Debug\netcoreapp3.1\MatchWork.deps.json
+C:\Users\Jonathan\Documents\GitHub\MatchWork\bin\Debug\netcoreapp3.1\MatchWork.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\MatchWork\bin\Debug\netcoreapp3.1\MatchWork.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\MatchWork\bin\Debug\netcoreapp3.1\MatchWork.dll
+C:\Users\Jonathan\Documents\GitHub\MatchWork\bin\Debug\netcoreapp3.1\MatchWork.pdb
+C:\Users\Jonathan\Documents\GitHub\MatchWork\obj\Debug\netcoreapp3.1\MatchWork.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\MatchWork\obj\Debug\netcoreapp3.1\MatchWork.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\MatchWork\obj\Debug\netcoreapp3.1\MatchWork.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\MatchWork\obj\Debug\netcoreapp3.1\MatchWork.dll
+C:\Users\Jonathan\Documents\GitHub\MatchWork\obj\Debug\netcoreapp3.1\MatchWork.pdb
+C:\Users\Jonathan\Documents\GitHub\MatchWork\obj\Debug\netcoreapp3.1\MatchWork.genruntimeconfig.cache

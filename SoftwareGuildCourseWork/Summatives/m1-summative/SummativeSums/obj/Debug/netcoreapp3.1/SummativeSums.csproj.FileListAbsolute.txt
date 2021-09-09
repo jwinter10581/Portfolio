@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\bin\Debug\netcoreapp3.1\SummativeSums.exe
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\bin\Debug\netcoreapp3.1\SummativeSums.deps.json
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\bin\Debug\netcoreapp3.1\SummativeSums.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\bin\Debug\netcoreapp3.1\SummativeSums.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\bin\Debug\netcoreapp3.1\SummativeSums.dll
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\bin\Debug\netcoreapp3.1\SummativeSums.pdb
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.dll
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.pdb
+C:\Users\Jonathan\Documents\GitHub\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\bin\Debug\ShackUp.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\bin\Debug\ShackUp.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.pdb
+D:\Coding\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\bin\Debug\ShackUp.Models.dll
+D:\Coding\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\bin\Debug\ShackUp.Models.pdb
+D:\Coding\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.csprojAssemblyReference.cache
+D:\Coding\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.csproj.CoreCompileInputs.cache
+D:\Coding\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.dll
+D:\Coding\Classwork\m4-ddwa\ShackUp\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.pdb

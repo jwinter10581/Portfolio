@@ -1,0 +1,13 @@
+C:\Users\Jonathan\source\repos\TheOrderOfThings\bin\Debug\netcoreapp3.1\TheOrderOfThings.exe
+C:\Users\Jonathan\source\repos\TheOrderOfThings\bin\Debug\netcoreapp3.1\TheOrderOfThings.deps.json
+C:\Users\Jonathan\source\repos\TheOrderOfThings\bin\Debug\netcoreapp3.1\TheOrderOfThings.runtimeconfig.json
+C:\Users\Jonathan\source\repos\TheOrderOfThings\bin\Debug\netcoreapp3.1\TheOrderOfThings.runtimeconfig.dev.json
+C:\Users\Jonathan\source\repos\TheOrderOfThings\bin\Debug\netcoreapp3.1\TheOrderOfThings.dll
+C:\Users\Jonathan\source\repos\TheOrderOfThings\bin\Debug\netcoreapp3.1\TheOrderOfThings.pdb
+C:\Users\Jonathan\source\repos\TheOrderOfThings\obj\Debug\netcoreapp3.1\TheOrderOfThings.csprojAssemblyReference.cache
+C:\Users\Jonathan\source\repos\TheOrderOfThings\obj\Debug\netcoreapp3.1\TheOrderOfThings.AssemblyInfoInputs.cache
+C:\Users\Jonathan\source\repos\TheOrderOfThings\obj\Debug\netcoreapp3.1\TheOrderOfThings.AssemblyInfo.cs
+C:\Users\Jonathan\source\repos\TheOrderOfThings\obj\Debug\netcoreapp3.1\TheOrderOfThings.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\TheOrderOfThings\obj\Debug\netcoreapp3.1\TheOrderOfThings.dll
+C:\Users\Jonathan\source\repos\TheOrderOfThings\obj\Debug\netcoreapp3.1\TheOrderOfThings.pdb
+C:\Users\Jonathan\source\repos\TheOrderOfThings\obj\Debug\netcoreapp3.1\TheOrderOfThings.genruntimeconfig.cache

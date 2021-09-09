@@ -1,0 +1,13 @@
+﻿
+    @model ServerSideValidation.Models.AppointmentRequest
+
+    @{
+        ViewBag.Title = "Confirmation";
+    }
+
+    <h2>Confirmation</h2>
+
+    <p>Thank you @Model.ClientName for booking your appointment 
+       on @Model.Date.ToShortDateString().  
+        We look forward to serving you!</p>
+

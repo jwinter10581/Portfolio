@@ -1,0 +1,7 @@
+C:\Users\Jonathan\Documents\GitHub\AllTheMaths\bin\Debug\AllTheMaths.exe.config
+C:\Users\Jonathan\Documents\GitHub\AllTheMaths\bin\Debug\AllTheMaths.exe
+C:\Users\Jonathan\Documents\GitHub\AllTheMaths\bin\Debug\AllTheMaths.pdb
+C:\Users\Jonathan\Documents\GitHub\AllTheMaths\obj\Debug\AllTheMaths.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\AllTheMaths\obj\Debug\AllTheMaths.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\AllTheMaths\obj\Debug\AllTheMaths.exe
+C:\Users\Jonathan\Documents\GitHub\AllTheMaths\obj\Debug\AllTheMaths.pdb

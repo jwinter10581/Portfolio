@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Documents\GitHub\Minizork\bin\Debug\netcoreapp3.1\Minizork.exe
+C:\Users\Jonathan\Documents\GitHub\Minizork\bin\Debug\netcoreapp3.1\Minizork.deps.json
+C:\Users\Jonathan\Documents\GitHub\Minizork\bin\Debug\netcoreapp3.1\Minizork.runtimeconfig.json
+C:\Users\Jonathan\Documents\GitHub\Minizork\bin\Debug\netcoreapp3.1\Minizork.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\GitHub\Minizork\bin\Debug\netcoreapp3.1\Minizork.dll
+C:\Users\Jonathan\Documents\GitHub\Minizork\bin\Debug\netcoreapp3.1\Minizork.pdb
+C:\Users\Jonathan\Documents\GitHub\Minizork\obj\Debug\netcoreapp3.1\Minizork.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\Minizork\obj\Debug\netcoreapp3.1\Minizork.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\GitHub\Minizork\obj\Debug\netcoreapp3.1\Minizork.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\GitHub\Minizork\obj\Debug\netcoreapp3.1\Minizork.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\Minizork\obj\Debug\netcoreapp3.1\Minizork.dll
+C:\Users\Jonathan\Documents\GitHub\Minizork\obj\Debug\netcoreapp3.1\Minizork.pdb
+C:\Users\Jonathan\Documents\GitHub\Minizork\obj\Debug\netcoreapp3.1\Minizork.genruntimeconfig.cache

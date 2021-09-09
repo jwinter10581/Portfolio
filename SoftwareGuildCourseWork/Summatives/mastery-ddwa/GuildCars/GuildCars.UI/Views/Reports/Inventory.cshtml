@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewBag.Title = "Inventory";
+}
+
+<div class="container">
+    <div class="col-sm-12">
+        <h2>Inventory Report</h2>
+    </div>
+    <div class="container" id="newContainer">
+        <div class="col-sm-6">
+            <h4>New Vehicles</h4>
+            <table class="table table-striped" id="blackBorders">
+                <thead>
+                    <tr>
+                        <td><strong>Year</strong></td>
+                        <td><strong>Make</strong></td>
+                        <td><strong>Model</strong></td>
+                        <td><strong>Count</strong></td>
+                        <td><strong>Stock Value</strong></td>
+                    </tr>
+                </thead>
+                <tbody id="newVehicleTable">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container" id="usedContainer">
+        <div class="col-sm-6">
+            <h4>Used Vehicles</h4>
+            <table class="table table-striped" id="blackBorders">
+                <thead>
+                    <tr>
+                        <td><strong>Year</strong></td>
+                        <td><strong>Make</strong></td>
+                        <td><strong>Model</strong></td>
+                        <td><strong>Count</strong></td>
+                        <td><strong>Stock Value</strong></td>
+                    </tr>
+                </thead>
+                <tbody id="usedVehicleTable">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            newInventory();
+            usedInventory();
+        });
+
+        function newInventory() {
+            $.ajax({
+                type: 'GET',
+                url: 'https://localhost:44373/api/inventory/new',
+                success: function (results) {
+                    $('#newVehicleTable').empty();
+
+                    $.each(results, function (index, vehicle) {
+                        var html =
+                            '<tr>' +
+                            '<td>' + vehicle.year + '</td>' +
+                            '<td>' + vehicle.makeName + '</td>' +
+                            '<td>' + vehicle.modelName + '</td>' +
+                            '<td>' + vehicle.vehicleCount + '</td>' +
+                            '<td>$' + new Intl.NumberFormat().format(vehicle.stockValue) + '</td>' +
+                            '</tr>'
+                        $('#newVehicleTable').append(html.toString());
+                    });
+                },
+                error: function () {
+                    alert('Error retrieving new inventory, try again later.')
+                }
+            });
+        }
+
+        function usedInventory() {
+            $.ajax({
+                type: 'GET',
+                url: 'https://localhost:44373/api/inventory/used',
+                success: function (results) {
+                    $('#usedVehicleTable').empty();
+
+                    $.each(results, function (index, vehicle) {
+                        var html =
+                            '<tr>' +
+                            '<td>' + vehicle.year + '</td>' +
+                            '<td>' + vehicle.makeName + '</td>' +
+                            '<td>' + vehicle.modelName + '</td>' +
+                            '<td>' + vehicle.vehicleCount + '</td>' +
+                            '<td>$' + new Intl.NumberFormat().format(vehicle.stockValue) + '</td>' +
+                            '</tr>'
+                        $('#usedVehicleTable').append(html.toString());
+                    });
+                },
+                error: function () {
+                    alert('Error retrieving used inventory, try again later.')
+                }
+            });
+        }
+    </script>
+}

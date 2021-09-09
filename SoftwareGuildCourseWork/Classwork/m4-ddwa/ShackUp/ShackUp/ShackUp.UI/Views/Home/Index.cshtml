@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ShackUp.Models.Queries.ListingShortItem>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@*<div class="jumbotron container-fluid bg-light rounded-3">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>*@
+
+<div class="container">
+    <div class="col-sm-12">
+        <h2>Welcome to Shack Up</h2>
+        <p> Shack Up connects people who have available space in their shack with people who would like to sleep in it!  Shack renters enjoy roughing it.</p>
+    </div>
+</div>
+<div class="container">
+    <div class="row col-sm-12">
+        <h3>Recently Added Shacks</h3>
+        @foreach(var shack in Model)
+            {
+                <div class="col-sm-6 col-md-4">
+                    <p class="recentListing"><img src="@Url.Content("~/Images/" + shack.ImageFileName)" class="shackPicture"/></p>
+                    <p class="recentListing"><strong>@shack.City, @shack.StateId</strong></p>
+                    <p class="recentListing">@shack.Rate.ToString("c") / night</p>
+                    <p class="recentListing">@Html.ActionLink("View Details", "Details", "Listings", new { id = shack.ListingId }, null)</p>
+                </div>
+            }
+    </div>
+</div>

@@ -1,0 +1,7 @@
+﻿7 - Customer Survey
+
+On every receipt we give the customer a phone number to go fill out a survey and they press a number (1-10) to 
+describe their quality of experience (10 being the best). While we may want to do more with this survey later, 
+for now we just want to know the number of customers that scored us at an 8 or higher. 
+
+Given an array of integers, return the number of times an 8 or higher appears.

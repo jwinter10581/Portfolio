@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<!-- Name: Jonathan Winter -->
+<!-- Date Created: 12/21/20 -->
+<!-- Most Recent Revision: 01/25/21 -->
+
+<html lang="en">
+	<head>
+		<title>Contact Information</title>
+		
+		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		
+		<style>
+			label, fieldset{
+				font-size: 1.1em;
+			}
+			
+			input[type=text] {
+				border: 2px solid #F1EDEE;
+				width: 50%;
+				padding: 8px 8px;
+				margin: 12px 0;
+				box-sizing: border-box;
+				font-size: 1.1em;
+			}
+			
+			fieldset {
+				background-color: #686963;
+				width: 100%;
+				padding: 12px 20px;
+				margin: 12px 0px;
+				box-sizing: border-box;
+				border: 2px solid #8AA29E;
+			}
+			
+			select, textarea {
+				margin: 12px 0;
+				font-size: 1em;
+			}	
+			
+			input[type=submit] {
+				font-size: 1.2em;
+				background-color: #3D5467;
+				color: #F1EDEE;
+				padding: 4px 8px;
+			}
+			
+			input[type=submit]:hover {
+				background-color: #8AA29E;
+				color: #3D5467;
+			}
+			
+			textarea {
+				width: 100%;
+				height: 200px;
+				padding: 12px 20px;
+				margin: 12px 0;
+				box-sizing: border-box;
+				border: 2px solid #F1EDEE;
+				border-radius: 3px;
+				background-color: #fff;
+				resize: none;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Contact Me</h1>
+		</header>
+		
+		<nav class="border">
+			<p><a href="index.html">Home</a></p>
+			<div class="clear-float"></div>
+		</nav>
+		
+		<body>
+			<h2>Information Request</h2>
+				<form action="submit.html" method="POST">
+				
+					<label for="firstName">First Name:</label> <br/>
+					<input type="text" id="firstName" name="firstName"> <br/>
+					
+					<label for="lastName">Last Name:</label> <br/>
+					<input type="text" id="lastName" name="lastName"> <br/>
+					
+					<label for="phone">Phone Number:</label> <br/>
+					<input type="text" id="phone" name="phone"> <br/>
+				
+				<label for="contact">Best time to call:</label><br/>
+				<select id="contact" name="contact">
+					<option value="default" selected>--Select One--</option>
+					<option value="morning">Morning (8AM to 12 PM Central)</option>
+					<option value="afternoon">Afternoon (12 PM to 5PM Central)</option>
+					<option value="evening">Evening (5PM to 8PM Central)</option>
+				</select>
+				
+				<fieldset> <!-- Used to create a square around the check box block -->
+				<legend>I am interested in (check all that apply)</legend><br/>
+					
+					<input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
+					<label for="frontEnd">Front End Web Development</label><br/>
+					
+					<input type="checkbox" id="backEnd" name="interest" value="backEnd">
+					<label for="backEnd">Back End Web Development</label><br/>
+					
+					<input type="checkbox" id="database" name="interest" value="database">
+					<label for="database">Database Design</label><br/>
+				</fieldset>
+				
+				<fieldset>
+				<legend>I have filled in the client questionnaire form:</legend><br/>
+				
+					<input type="radio" id="choice1" name="questionnaire" value="yes">
+					<label for="choice1">Yes</label><br/>
+					
+					<input type="radio" id="choice2" name="questionnaire" value="no">
+					<label for="choice2">No</label><br/>
+				</fieldset>
+				
+				<label for="info">Additional Information:</label><br/>
+				<textarea id="info" name="info"></textarea><br/>
+				
+				<p><input type="submit" name="submit" value="Submit"></p>
+
+		</body>
+				
+		<footer>
+			<p>&copy; 2020 Jonathan Winter.  All rights reserved. </p>
+		</footer>
+	</body>
+</html>

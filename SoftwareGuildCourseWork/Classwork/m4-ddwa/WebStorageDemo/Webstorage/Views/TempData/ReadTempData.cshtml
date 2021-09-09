@@ -1,0 +1,16 @@
+﻿@model WebStorage.Models.Contact
+
+@{
+    ViewBag.Title = "ReadTempData";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Read TempData</h2>
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <p>@TempData["SuccessMessage"].ToString()</p>
+        }
+        <p>The name: @Model.Name and the Email: @Model.Email are the values that exist only when processing this HTTP Response which will be deleted when this page is rendered.</p>
+    </div>
+</div>

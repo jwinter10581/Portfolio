@@ -1,0 +1,12 @@
+V:\DDWA\M4\Identity_Movie_Catalog\Movie_Catalog.Models\bin\Debug\Movie_Catalog.Models.dll
+V:\DDWA\M4\Identity_Movie_Catalog\Movie_Catalog.Models\bin\Debug\Movie_Catalog.Models.pdb
+V:\DDWA\M4\Identity_Movie_Catalog\Movie_Catalog.Models\obj\Debug\Movie_Catalog.Models.csprojAssemblyReference.cache
+V:\DDWA\M4\Identity_Movie_Catalog\Movie_Catalog.Models\obj\Debug\Movie_Catalog.Models.csproj.CoreCompileInputs.cache
+V:\DDWA\M4\Identity_Movie_Catalog\Movie_Catalog.Models\obj\Debug\Movie_Catalog.Models.dll
+V:\DDWA\M4\Identity_Movie_Catalog\Movie_Catalog.Models\obj\Debug\Movie_Catalog.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\Identity_Movie_Catalog\Movie_Catalog.Models\bin\Debug\Movie_Catalog.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\Identity_Movie_Catalog\Movie_Catalog.Models\bin\Debug\Movie_Catalog.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\Identity_Movie_Catalog\Movie_Catalog.Models\obj\Debug\Movie_Catalog.Models.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\Identity_Movie_Catalog\Movie_Catalog.Models\obj\Debug\Movie_Catalog.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\Identity_Movie_Catalog\Movie_Catalog.Models\obj\Debug\Movie_Catalog.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m4-ddwa\Identity_Movie_Catalog\Movie_Catalog.Models\obj\Debug\Movie_Catalog.Models.pdb

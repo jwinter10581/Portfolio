@@ -1,0 +1,9 @@
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList.Data\bin\Debug\ContactList.Data.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList.Data\bin\Debug\ContactList.Data.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList.Data\bin\Debug\ContactList.Models.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList.Data\bin\Debug\ContactList.Models.pdb
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList.Data\obj\Debug\ContactList.Data.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList.Data\obj\Debug\ContactList.Data.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList.Data\obj\Debug\ContactList.Data.csproj.CopyComplete
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList.Data\obj\Debug\ContactList.Data.dll
+C:\Users\Jonathan\Documents\GitHub\online-net-2021-jwinter10581\Classwork\m2\ContactList\ContactList.Data\obj\Debug\ContactList.Data.pdb
