@@ -1,5 +1,5 @@
 import React from "react";
-import Setup from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
+import Setup from "./tutorial/6-useReducer/setup";
 
 function App() {
   return (
