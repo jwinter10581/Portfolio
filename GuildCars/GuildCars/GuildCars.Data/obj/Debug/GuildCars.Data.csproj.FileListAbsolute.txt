@@ -1,0 +1,16 @@
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\GuildCars.Data.dll.config
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\GuildCars.Data.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\GuildCars.Data.pdb
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\GuildCars.Models.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\Newtonsoft.Json.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\System.Net.Http.Formatting.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\System.Web.Http.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\GuildCars.Models.pdb
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\Newtonsoft.Json.xml
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\System.Net.Http.Formatting.xml
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\bin\Debug\System.Web.Http.xml
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\obj\Debug\GuildCars.Data.csproj.AssemblyReference.cache
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\obj\Debug\GuildCars.Data.csproj.CoreCompileInputs.cache
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\obj\Debug\GuildCars.Data.csproj.CopyComplete
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\obj\Debug\GuildCars.Data.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Data\obj\Debug\GuildCars.Data.pdb

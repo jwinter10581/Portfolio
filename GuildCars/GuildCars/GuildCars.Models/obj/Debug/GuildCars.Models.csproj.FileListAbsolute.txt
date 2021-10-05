@@ -1,0 +1,5 @@
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Models\bin\Debug\GuildCars.Models.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Models\bin\Debug\GuildCars.Models.pdb
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Models\obj\Debug\GuildCars.Models.csproj.CoreCompileInputs.cache
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Models\obj\Debug\GuildCars.Models.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Models\obj\Debug\GuildCars.Models.pdb

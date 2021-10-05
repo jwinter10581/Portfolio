@@ -1,0 +1,15 @@
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\bin\Debug\GuildCars.Tests.dll.config
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\bin\Debug\GuildCars.Tests.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\bin\Debug\GuildCars.Tests.pdb
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\bin\Debug\GuildCars.Data.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\bin\Debug\GuildCars.Models.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\bin\Debug\nunit.framework.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\bin\Debug\GuildCars.Data.pdb
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\bin\Debug\GuildCars.Data.dll.config
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\bin\Debug\GuildCars.Models.pdb
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\bin\Debug\nunit.framework.xml
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\obj\Debug\GuildCars.Tests.csproj.AssemblyReference.cache
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\obj\Debug\GuildCars.Tests.csproj.CoreCompileInputs.cache
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\obj\Debug\GuildCars.Tests.csproj.CopyComplete
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\obj\Debug\GuildCars.Tests.dll
+D:\Coding\Portfolio\GuildCars\GuildCars\GuildCars.Tests\obj\Debug\GuildCars.Tests.pdb
